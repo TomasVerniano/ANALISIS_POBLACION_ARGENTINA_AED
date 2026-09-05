@@ -1,0 +1,712 @@
+provincia_id,provincia_nombre,genero,anio_cambio,cantidad
+6,Buenos Aires,F,2011,5
+6,Buenos Aires,M,2011,4
+6,Buenos Aires,F,2012,504
+6,Buenos Aires,M,2012,97
+6,Buenos Aires,F,2013,344
+6,Buenos Aires,M,2013,47
+6,Buenos Aires,F,2014,153
+6,Buenos Aires,M,2014,41
+6,Buenos Aires,F,2015,204
+6,Buenos Aires,M,2015,64
+6,Buenos Aires,F,2016,160
+6,Buenos Aires,M,2016,66
+6,Buenos Aires,F,2017,155
+6,Buenos Aires,M,2017,91
+6,Buenos Aires,F,2018,172
+6,Buenos Aires,M,2018,163
+6,Buenos Aires,F,2019,210
+6,Buenos Aires,M,2019,318
+6,Buenos Aires,F,2020,95
+6,Buenos Aires,M,2020,165
+6,Buenos Aires,F,2021,343
+6,Buenos Aires,M,2021,527
+6,Buenos Aires,X,2021,89
+6,Buenos Aires,F,2022,432
+6,Buenos Aires,M,2022,668
+6,Buenos Aires,X,2022,264
+6,Buenos Aires,F,2023,435
+6,Buenos Aires,M,2023,859
+6,Buenos Aires,X,2023,310
+6,Buenos Aires,F,2024,22
+6,Buenos Aires,M,2024,36
+6,Buenos Aires,X,2024,79
+10,Catamarca,F,2012,18
+10,Catamarca,M,2012,1
+10,Catamarca,F,2013,8
+10,Catamarca,M,2013,3
+10,Catamarca,F,2014,3
+10,Catamarca,F,2015,6
+10,Catamarca,M,2015,1
+10,Catamarca,F,2016,9
+10,Catamarca,M,2016,2
+10,Catamarca,F,2017,9
+10,Catamarca,M,2017,3
+10,Catamarca,F,2018,5
+10,Catamarca,M,2018,1
+10,Catamarca,F,2019,6
+10,Catamarca,M,2019,3
+10,Catamarca,F,2020,8
+10,Catamarca,M,2020,3
+10,Catamarca,F,2021,13
+10,Catamarca,M,2021,6
+10,Catamarca,X,2021,1
+10,Catamarca,F,2022,17
+10,Catamarca,M,2022,8
+10,Catamarca,X,2022,4
+10,Catamarca,F,2023,15
+10,Catamarca,M,2023,20
+10,Catamarca,X,2023,6
+22,Chaco,F,2012,20
+22,Chaco,M,2012,3
+22,Chaco,F,2013,15
+22,Chaco,M,2013,2
+22,Chaco,F,2014,3
+22,Chaco,F,2015,10
+22,Chaco,M,2015,5
+22,Chaco,F,2016,14
+22,Chaco,F,2017,5
+22,Chaco,M,2017,2
+22,Chaco,F,2018,9
+22,Chaco,M,2018,5
+22,Chaco,F,2019,13
+22,Chaco,M,2019,10
+22,Chaco,F,2020,5
+22,Chaco,M,2020,3
+22,Chaco,F,2021,24
+22,Chaco,M,2021,12
+22,Chaco,X,2021,2
+22,Chaco,F,2022,23
+22,Chaco,M,2022,19
+22,Chaco,X,2022,3
+22,Chaco,F,2023,22
+22,Chaco,M,2023,17
+22,Chaco,X,2023,3
+22,Chaco,F,2024,1
+22,Chaco,X,2024,2
+26,Chubut,F,2011,2
+26,Chubut,F,2012,30
+26,Chubut,M,2012,5
+26,Chubut,F,2013,13
+26,Chubut,M,2013,3
+26,Chubut,F,2014,9
+26,Chubut,M,2014,6
+26,Chubut,F,2015,2
+26,Chubut,M,2015,4
+26,Chubut,F,2016,11
+26,Chubut,M,2016,3
+26,Chubut,F,2017,1
+26,Chubut,M,2017,3
+26,Chubut,F,2018,2
+26,Chubut,M,2018,10
+26,Chubut,F,2019,5
+26,Chubut,M,2019,19
+26,Chubut,F,2020,3
+26,Chubut,M,2020,4
+26,Chubut,F,2021,12
+26,Chubut,M,2021,28
+26,Chubut,X,2021,9
+26,Chubut,F,2022,15
+26,Chubut,M,2022,24
+26,Chubut,X,2022,21
+26,Chubut,F,2023,14
+26,Chubut,M,2023,31
+26,Chubut,X,2023,17
+26,Chubut,M,2024,2
+26,Chubut,X,2024,5
+NA,Ciudad Autónoma de Buenos Aires,F,2011,22
+NA,Ciudad Autónoma de Buenos Aires,M,2011,3
+NA,Ciudad Autónoma de Buenos Aires,F,2012,158
+NA,Ciudad Autónoma de Buenos Aires,M,2012,42
+NA,Ciudad Autónoma de Buenos Aires,F,2013,126
+NA,Ciudad Autónoma de Buenos Aires,M,2013,14
+NA,Ciudad Autónoma de Buenos Aires,F,2014,59
+NA,Ciudad Autónoma de Buenos Aires,M,2014,10
+NA,Ciudad Autónoma de Buenos Aires,F,2015,80
+NA,Ciudad Autónoma de Buenos Aires,M,2015,15
+NA,Ciudad Autónoma de Buenos Aires,F,2016,62
+NA,Ciudad Autónoma de Buenos Aires,M,2016,17
+NA,Ciudad Autónoma de Buenos Aires,F,2017,67
+NA,Ciudad Autónoma de Buenos Aires,M,2017,28
+NA,Ciudad Autónoma de Buenos Aires,F,2018,65
+NA,Ciudad Autónoma de Buenos Aires,M,2018,71
+NA,Ciudad Autónoma de Buenos Aires,F,2019,56
+NA,Ciudad Autónoma de Buenos Aires,M,2019,123
+NA,Ciudad Autónoma de Buenos Aires,F,2020,25
+NA,Ciudad Autónoma de Buenos Aires,M,2020,53
+NA,Ciudad Autónoma de Buenos Aires,F,2021,122
+NA,Ciudad Autónoma de Buenos Aires,M,2021,136
+NA,Ciudad Autónoma de Buenos Aires,X,2021,58
+NA,Ciudad Autónoma de Buenos Aires,F,2022,182
+NA,Ciudad Autónoma de Buenos Aires,M,2022,172
+NA,Ciudad Autónoma de Buenos Aires,X,2022,119
+NA,Ciudad Autónoma de Buenos Aires,F,2023,160
+NA,Ciudad Autónoma de Buenos Aires,M,2023,198
+NA,Ciudad Autónoma de Buenos Aires,X,2023,106
+NA,Ciudad Autónoma de Buenos Aires,F,2024,2
+NA,Ciudad Autónoma de Buenos Aires,M,2024,9
+NA,Ciudad Autónoma de Buenos Aires,X,2024,29
+14,Córdoba,F,2012,206
+14,Córdoba,M,2012,15
+14,Córdoba,F,2013,110
+14,Córdoba,M,2013,9
+14,Córdoba,F,2014,79
+14,Córdoba,M,2014,12
+14,Córdoba,F,2015,49
+14,Córdoba,M,2015,14
+14,Córdoba,F,2016,39
+14,Córdoba,M,2016,13
+14,Córdoba,F,2017,33
+14,Córdoba,M,2017,16
+14,Córdoba,F,2018,48
+14,Córdoba,M,2018,48
+14,Córdoba,F,2019,41
+14,Córdoba,M,2019,62
+14,Córdoba,F,2020,23
+14,Córdoba,M,2020,32
+14,Córdoba,F,2021,68
+14,Córdoba,M,2021,69
+14,Córdoba,X,2021,5
+14,Córdoba,F,2022,87
+14,Córdoba,M,2022,129
+14,Córdoba,X,2022,37
+14,Córdoba,F,2023,95
+14,Córdoba,M,2023,128
+14,Córdoba,X,2023,43
+14,Córdoba,F,2024,5
+14,Córdoba,M,2024,4
+14,Córdoba,X,2024,9
+18,Corrientes,F,2012,19
+18,Corrientes,M,2012,2
+18,Corrientes,F,2013,27
+18,Corrientes,F,2014,23
+18,Corrientes,F,2015,14
+18,Corrientes,M,2015,2
+18,Corrientes,F,2016,9
+18,Corrientes,M,2016,1
+18,Corrientes,F,2017,20
+18,Corrientes,M,2017,4
+18,Corrientes,F,2018,9
+18,Corrientes,M,2018,8
+18,Corrientes,F,2019,14
+18,Corrientes,M,2019,11
+18,Corrientes,F,2020,3
+18,Corrientes,M,2020,8
+18,Corrientes,F,2021,7
+18,Corrientes,M,2021,8
+18,Corrientes,F,2022,31
+18,Corrientes,M,2022,14
+18,Corrientes,X,2022,5
+18,Corrientes,F,2023,34
+18,Corrientes,M,2023,22
+18,Corrientes,X,2023,6
+18,Corrientes,F,2024,1
+30,Entre Ríos,F,2011,2
+30,Entre Ríos,M,2011,1
+30,Entre Ríos,F,2012,46
+30,Entre Ríos,M,2012,6
+30,Entre Ríos,F,2013,43
+30,Entre Ríos,M,2013,2
+30,Entre Ríos,F,2014,21
+30,Entre Ríos,M,2014,2
+30,Entre Ríos,F,2015,26
+30,Entre Ríos,M,2015,2
+30,Entre Ríos,F,2016,17
+30,Entre Ríos,M,2016,2
+30,Entre Ríos,F,2017,11
+30,Entre Ríos,M,2017,3
+30,Entre Ríos,F,2018,19
+30,Entre Ríos,M,2018,4
+30,Entre Ríos,F,2019,28
+30,Entre Ríos,M,2019,22
+30,Entre Ríos,F,2020,15
+30,Entre Ríos,M,2020,10
+30,Entre Ríos,F,2021,22
+30,Entre Ríos,M,2021,24
+30,Entre Ríos,X,2021,4
+30,Entre Ríos,F,2022,21
+30,Entre Ríos,M,2022,28
+30,Entre Ríos,X,2022,16
+30,Entre Ríos,F,2023,32
+30,Entre Ríos,M,2023,48
+30,Entre Ríos,X,2023,11
+30,Entre Ríos,F,2024,5
+30,Entre Ríos,M,2024,3
+30,Entre Ríos,X,2024,5
+34,Formosa,F,2012,13
+34,Formosa,M,2012,2
+34,Formosa,F,2013,10
+34,Formosa,M,2013,1
+34,Formosa,F,2014,7
+34,Formosa,M,2014,2
+34,Formosa,F,2015,10
+34,Formosa,F,2016,8
+34,Formosa,F,2017,9
+34,Formosa,M,2017,3
+34,Formosa,F,2018,10
+34,Formosa,M,2018,4
+34,Formosa,F,2019,5
+34,Formosa,M,2019,2
+34,Formosa,F,2020,9
+34,Formosa,M,2020,1
+34,Formosa,F,2021,13
+34,Formosa,M,2021,5
+34,Formosa,F,2022,11
+34,Formosa,M,2022,8
+34,Formosa,X,2022,1
+34,Formosa,F,2023,10
+34,Formosa,M,2023,6
+34,Formosa,X,2023,3
+34,Formosa,M,2024,1
+38,Jujuy,F,2012,24
+38,Jujuy,M,2012,3
+38,Jujuy,F,2013,25
+38,Jujuy,M,2013,4
+38,Jujuy,F,2014,14
+38,Jujuy,M,2014,2
+38,Jujuy,F,2015,21
+38,Jujuy,M,2015,4
+38,Jujuy,F,2016,8
+38,Jujuy,M,2016,4
+38,Jujuy,F,2017,17
+38,Jujuy,M,2017,4
+38,Jujuy,F,2018,12
+38,Jujuy,M,2018,6
+38,Jujuy,F,2019,18
+38,Jujuy,M,2019,15
+38,Jujuy,F,2020,12
+38,Jujuy,M,2020,9
+38,Jujuy,F,2021,38
+38,Jujuy,M,2021,21
+38,Jujuy,X,2021,4
+38,Jujuy,F,2022,23
+38,Jujuy,M,2022,28
+38,Jujuy,X,2022,4
+38,Jujuy,F,2023,19
+38,Jujuy,M,2023,16
+38,Jujuy,X,2023,6
+38,Jujuy,F,2024,1
+38,Jujuy,X,2024,2
+42,La Pampa,F,2012,26
+42,La Pampa,M,2012,2
+42,La Pampa,F,2013,6
+42,La Pampa,M,2013,1
+42,La Pampa,F,2014,5
+42,La Pampa,M,2014,1
+42,La Pampa,F,2015,9
+42,La Pampa,M,2015,1
+42,La Pampa,F,2016,1
+42,La Pampa,F,2017,5
+42,La Pampa,M,2017,1
+42,La Pampa,F,2018,4
+42,La Pampa,M,2018,3
+42,La Pampa,F,2019,8
+42,La Pampa,M,2019,6
+42,La Pampa,F,2020,4
+42,La Pampa,M,2020,6
+42,La Pampa,F,2021,11
+42,La Pampa,M,2021,11
+42,La Pampa,X,2021,3
+42,La Pampa,F,2022,4
+42,La Pampa,M,2022,15
+42,La Pampa,X,2022,2
+42,La Pampa,F,2023,5
+42,La Pampa,M,2023,17
+42,La Pampa,X,2023,3
+42,La Pampa,M,2024,1
+46,La Rioja,F,2012,25
+46,La Rioja,F,2013,23
+46,La Rioja,M,2013,2
+46,La Rioja,F,2014,5
+46,La Rioja,F,2015,10
+46,La Rioja,F,2016,13
+46,La Rioja,F,2017,4
+46,La Rioja,M,2017,1
+46,La Rioja,F,2018,5
+46,La Rioja,M,2018,2
+46,La Rioja,F,2019,12
+46,La Rioja,M,2019,1
+46,La Rioja,F,2020,6
+46,La Rioja,M,2020,3
+46,La Rioja,F,2021,21
+46,La Rioja,M,2021,15
+46,La Rioja,F,2022,21
+46,La Rioja,M,2022,6
+46,La Rioja,X,2022,3
+46,La Rioja,F,2023,10
+46,La Rioja,M,2023,8
+46,La Rioja,X,2023,5
+50,Mendoza,F,2011,3
+50,Mendoza,M,2011,1
+50,Mendoza,F,2012,47
+50,Mendoza,M,2012,8
+50,Mendoza,F,2013,45
+50,Mendoza,M,2013,4
+50,Mendoza,F,2014,23
+50,Mendoza,M,2014,9
+50,Mendoza,F,2015,24
+50,Mendoza,M,2015,7
+50,Mendoza,F,2016,15
+50,Mendoza,M,2016,9
+50,Mendoza,F,2017,19
+50,Mendoza,M,2017,6
+50,Mendoza,F,2018,14
+50,Mendoza,M,2018,11
+50,Mendoza,F,2019,21
+50,Mendoza,M,2019,25
+50,Mendoza,F,2020,11
+50,Mendoza,M,2020,18
+50,Mendoza,F,2021,26
+50,Mendoza,M,2021,41
+50,Mendoza,X,2021,8
+50,Mendoza,F,2022,42
+50,Mendoza,M,2022,33
+50,Mendoza,X,2022,30
+50,Mendoza,F,2023,29
+50,Mendoza,M,2023,67
+50,Mendoza,X,2023,16
+50,Mendoza,F,2024,1
+50,Mendoza,M,2024,1
+50,Mendoza,X,2024,7
+54,Misiones,F,2012,9
+54,Misiones,M,2012,1
+54,Misiones,F,2013,12
+54,Misiones,M,2013,1
+54,Misiones,F,2014,1
+54,Misiones,M,2014,2
+54,Misiones,F,2015,6
+54,Misiones,M,2015,5
+54,Misiones,F,2016,6
+54,Misiones,F,2017,3
+54,Misiones,M,2017,5
+54,Misiones,F,2018,6
+54,Misiones,M,2018,6
+54,Misiones,F,2019,7
+54,Misiones,M,2019,11
+54,Misiones,F,2020,7
+54,Misiones,M,2020,9
+54,Misiones,F,2021,9
+54,Misiones,M,2021,14
+54,Misiones,X,2021,5
+54,Misiones,F,2022,18
+54,Misiones,M,2022,24
+54,Misiones,X,2022,6
+54,Misiones,F,2023,24
+54,Misiones,M,2023,17
+54,Misiones,X,2023,8
+54,Misiones,M,2024,1
+54,Misiones,X,2024,2
+58,Neuquén,F,2012,44
+58,Neuquén,M,2012,2
+58,Neuquén,F,2013,14
+58,Neuquén,M,2013,1
+58,Neuquén,F,2014,3
+58,Neuquén,M,2014,2
+58,Neuquén,F,2015,5
+58,Neuquén,M,2015,4
+58,Neuquén,F,2016,8
+58,Neuquén,M,2016,8
+58,Neuquén,F,2017,2
+58,Neuquén,M,2017,3
+58,Neuquén,F,2018,7
+58,Neuquén,M,2018,14
+58,Neuquén,F,2019,8
+58,Neuquén,M,2019,27
+58,Neuquén,F,2020,5
+58,Neuquén,M,2020,12
+58,Neuquén,F,2021,13
+58,Neuquén,M,2021,23
+58,Neuquén,X,2021,12
+58,Neuquén,F,2022,13
+58,Neuquén,M,2022,36
+58,Neuquén,X,2022,18
+58,Neuquén,F,2023,18
+58,Neuquén,M,2023,53
+58,Neuquén,X,2023,28
+58,Neuquén,M,2024,1
+58,Neuquén,X,2024,6
+NA,Otro Pais,F,2012,1
+NA,Otro Pais,F,2013,21
+NA,Otro Pais,F,2014,25
+NA,Otro Pais,M,2014,2
+NA,Otro Pais,F,2015,19
+NA,Otro Pais,M,2015,2
+NA,Otro Pais,F,2016,18
+NA,Otro Pais,M,2016,2
+NA,Otro Pais,F,2017,10
+NA,Otro Pais,M,2017,2
+NA,Otro Pais,F,2018,5
+NA,Otro Pais,M,2018,3
+NA,Otro Pais,F,2019,11
+NA,Otro Pais,M,2019,4
+NA,Otro Pais,F,2020,2
+NA,Otro Pais,M,2020,1
+NA,Otro Pais,F,2021,3
+NA,Otro Pais,M,2021,2
+NA,Otro Pais,X,2021,1
+NA,Otro Pais,F,2022,6
+NA,Otro Pais,M,2022,4
+NA,Otro Pais,X,2022,2
+NA,Otro Pais,F,2023,16
+NA,Otro Pais,M,2023,15
+NA,Otro Pais,X,2023,3
+NA,Otro Pais,F,2024,1
+NA,Otro Pais,M,2024,2
+62,Río Negro,F,2012,18
+62,Río Negro,M,2012,1
+62,Río Negro,F,2013,12
+62,Río Negro,M,2013,1
+62,Río Negro,F,2014,3
+62,Río Negro,M,2014,4
+62,Río Negro,F,2015,8
+62,Río Negro,M,2015,3
+62,Río Negro,F,2016,7
+62,Río Negro,M,2016,6
+62,Río Negro,F,2017,9
+62,Río Negro,M,2017,3
+62,Río Negro,F,2018,7
+62,Río Negro,M,2018,19
+62,Río Negro,F,2019,6
+62,Río Negro,M,2019,17
+62,Río Negro,F,2020,7
+62,Río Negro,M,2020,16
+62,Río Negro,F,2021,10
+62,Río Negro,M,2021,35
+62,Río Negro,X,2021,1
+62,Río Negro,F,2022,19
+62,Río Negro,M,2022,35
+62,Río Negro,X,2022,17
+62,Río Negro,F,2023,14
+62,Río Negro,M,2023,27
+62,Río Negro,X,2023,12
+62,Río Negro,M,2024,1
+62,Río Negro,X,2024,5
+66,Salta,F,2012,76
+66,Salta,M,2012,12
+66,Salta,F,2013,76
+66,Salta,M,2013,12
+66,Salta,F,2014,52
+66,Salta,M,2014,5
+66,Salta,F,2015,54
+66,Salta,M,2015,7
+66,Salta,F,2016,51
+66,Salta,M,2016,8
+66,Salta,F,2017,35
+66,Salta,M,2017,6
+66,Salta,F,2018,35
+66,Salta,M,2018,12
+66,Salta,F,2019,23
+66,Salta,M,2019,26
+66,Salta,F,2020,5
+66,Salta,M,2020,10
+66,Salta,F,2021,30
+66,Salta,M,2021,23
+66,Salta,X,2021,3
+66,Salta,F,2022,42
+66,Salta,M,2022,30
+66,Salta,X,2022,11
+66,Salta,F,2023,33
+66,Salta,M,2023,37
+66,Salta,X,2023,13
+66,Salta,F,2024,1
+66,Salta,M,2024,1
+66,Salta,X,2024,1
+70,San Juan,F,2012,22
+70,San Juan,M,2012,4
+70,San Juan,F,2013,21
+70,San Juan,M,2013,4
+70,San Juan,F,2014,11
+70,San Juan,F,2015,22
+70,San Juan,M,2015,3
+70,San Juan,F,2016,9
+70,San Juan,M,2016,1
+70,San Juan,F,2017,8
+70,San Juan,M,2017,2
+70,San Juan,F,2018,7
+70,San Juan,M,2018,11
+70,San Juan,F,2019,17
+70,San Juan,M,2019,13
+70,San Juan,F,2020,19
+70,San Juan,M,2020,10
+70,San Juan,F,2021,15
+70,San Juan,M,2021,14
+70,San Juan,X,2021,4
+70,San Juan,F,2022,20
+70,San Juan,M,2022,19
+70,San Juan,X,2022,4
+70,San Juan,F,2023,15
+70,San Juan,M,2023,10
+70,San Juan,X,2023,5
+70,San Juan,F,2024,1
+70,San Juan,X,2024,1
+74,San Luis,F,2012,46
+74,San Luis,M,2012,3
+74,San Luis,F,2013,19
+74,San Luis,M,2013,1
+74,San Luis,F,2014,7
+74,San Luis,F,2015,5
+74,San Luis,M,2015,1
+74,San Luis,F,2016,9
+74,San Luis,M,2016,2
+74,San Luis,F,2017,8
+74,San Luis,M,2017,3
+74,San Luis,F,2018,8
+74,San Luis,M,2018,4
+74,San Luis,F,2019,7
+74,San Luis,M,2019,8
+74,San Luis,F,2020,5
+74,San Luis,M,2020,6
+74,San Luis,F,2021,16
+74,San Luis,M,2021,14
+74,San Luis,X,2021,1
+74,San Luis,F,2022,16
+74,San Luis,M,2022,18
+74,San Luis,X,2022,3
+74,San Luis,F,2023,17
+74,San Luis,M,2023,23
+74,San Luis,X,2023,9
+74,San Luis,F,2024,1
+74,San Luis,M,2024,1
+74,San Luis,X,2024,1
+78,Santa Cruz,F,2012,16
+78,Santa Cruz,M,2012,2
+78,Santa Cruz,F,2013,11
+78,Santa Cruz,M,2013,3
+78,Santa Cruz,F,2014,5
+78,Santa Cruz,M,2014,1
+78,Santa Cruz,F,2015,3
+78,Santa Cruz,F,2016,5
+78,Santa Cruz,M,2016,3
+78,Santa Cruz,F,2017,3
+78,Santa Cruz,M,2017,7
+78,Santa Cruz,F,2018,5
+78,Santa Cruz,M,2018,9
+78,Santa Cruz,F,2019,2
+78,Santa Cruz,M,2019,11
+78,Santa Cruz,F,2020,2
+78,Santa Cruz,M,2020,4
+78,Santa Cruz,F,2021,9
+78,Santa Cruz,M,2021,15
+78,Santa Cruz,X,2021,3
+78,Santa Cruz,F,2022,12
+78,Santa Cruz,M,2022,11
+78,Santa Cruz,X,2022,4
+78,Santa Cruz,F,2023,11
+78,Santa Cruz,M,2023,14
+78,Santa Cruz,X,2023,3
+78,Santa Cruz,M,2024,1
+78,Santa Cruz,X,2024,1
+82,Santa Fe,F,2011,2
+82,Santa Fe,F,2012,128
+82,Santa Fe,M,2012,13
+82,Santa Fe,F,2013,119
+82,Santa Fe,M,2013,11
+82,Santa Fe,F,2014,70
+82,Santa Fe,M,2014,10
+82,Santa Fe,F,2015,63
+82,Santa Fe,M,2015,16
+82,Santa Fe,F,2016,58
+82,Santa Fe,M,2016,15
+82,Santa Fe,F,2017,62
+82,Santa Fe,M,2017,17
+82,Santa Fe,F,2018,52
+82,Santa Fe,M,2018,42
+82,Santa Fe,F,2019,63
+82,Santa Fe,M,2019,77
+82,Santa Fe,F,2020,29
+82,Santa Fe,M,2020,27
+82,Santa Fe,F,2021,76
+82,Santa Fe,M,2021,100
+82,Santa Fe,X,2021,3
+82,Santa Fe,F,2022,90
+82,Santa Fe,M,2022,98
+82,Santa Fe,X,2022,39
+82,Santa Fe,F,2023,94
+82,Santa Fe,M,2023,125
+82,Santa Fe,X,2023,30
+82,Santa Fe,F,2024,4
+82,Santa Fe,M,2024,5
+82,Santa Fe,X,2024,6
+86,Santiago del Estero,F,2012,18
+86,Santiago del Estero,M,2012,4
+86,Santiago del Estero,F,2013,23
+86,Santiago del Estero,M,2013,6
+86,Santiago del Estero,F,2014,21
+86,Santiago del Estero,M,2014,1
+86,Santiago del Estero,F,2015,15
+86,Santiago del Estero,F,2016,11
+86,Santiago del Estero,M,2016,4
+86,Santiago del Estero,F,2017,14
+86,Santiago del Estero,M,2017,3
+86,Santiago del Estero,F,2018,19
+86,Santiago del Estero,M,2018,7
+86,Santiago del Estero,F,2019,10
+86,Santiago del Estero,M,2019,11
+86,Santiago del Estero,F,2020,4
+86,Santiago del Estero,M,2020,3
+86,Santiago del Estero,F,2021,10
+86,Santiago del Estero,M,2021,8
+86,Santiago del Estero,X,2021,1
+86,Santiago del Estero,F,2022,11
+86,Santiago del Estero,M,2022,12
+86,Santiago del Estero,X,2022,3
+86,Santiago del Estero,F,2023,16
+86,Santiago del Estero,M,2023,11
+86,Santiago del Estero,X,2023,5
+86,Santiago del Estero,F,2024,2
+94,Tierra del Fuego,F,2012,4
+94,Tierra del Fuego,M,2012,1
+94,Tierra del Fuego,F,2013,2
+94,Tierra del Fuego,F,2014,2
+94,Tierra del Fuego,M,2014,1
+94,Tierra del Fuego,F,2015,2
+94,Tierra del Fuego,F,2016,3
+94,Tierra del Fuego,M,2016,2
+94,Tierra del Fuego,F,2017,3
+94,Tierra del Fuego,M,2017,3
+94,Tierra del Fuego,F,2018,1
+94,Tierra del Fuego,M,2018,7
+94,Tierra del Fuego,M,2019,7
+94,Tierra del Fuego,F,2020,1
+94,Tierra del Fuego,M,2020,6
+94,Tierra del Fuego,F,2021,2
+94,Tierra del Fuego,M,2021,13
+94,Tierra del Fuego,X,2021,2
+94,Tierra del Fuego,F,2022,6
+94,Tierra del Fuego,M,2022,9
+94,Tierra del Fuego,X,2022,7
+94,Tierra del Fuego,F,2023,7
+94,Tierra del Fuego,M,2023,17
+94,Tierra del Fuego,X,2023,6
+94,Tierra del Fuego,M,2024,1
+94,Tierra del Fuego,X,2024,2
+90,Tucumán,F,2012,66
+90,Tucumán,M,2012,6
+90,Tucumán,F,2013,57
+90,Tucumán,M,2013,7
+90,Tucumán,F,2014,33
+90,Tucumán,M,2014,4
+90,Tucumán,F,2015,32
+90,Tucumán,M,2015,4
+90,Tucumán,F,2016,22
+90,Tucumán,M,2016,6
+90,Tucumán,F,2017,39
+90,Tucumán,M,2017,11
+90,Tucumán,F,2018,25
+90,Tucumán,M,2018,18
+90,Tucumán,F,2019,29
+90,Tucumán,M,2019,20
+90,Tucumán,F,2020,27
+90,Tucumán,M,2020,23
+90,Tucumán,F,2021,52
+90,Tucumán,M,2021,29
+90,Tucumán,X,2021,5
+90,Tucumán,F,2022,34
+90,Tucumán,M,2022,27
+90,Tucumán,X,2022,11
+90,Tucumán,F,2023,42
+90,Tucumán,M,2023,40
+90,Tucumán,X,2023,12
+90,Tucumán,F,2024,3
+90,Tucumán,M,2024,1
+90,Tucumán,X,2024,3
