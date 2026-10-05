@@ -1,0 +1,3198 @@
+provincia_id,nombre_provincia,sexo,edad_quinquenal,nacionalidad,pais_nacimiento,cantidad
+2,Ciudad Autónoma de Buenos Aires,F,0 a 4,Argentina,Argentina,57273
+2,Ciudad Autónoma de Buenos Aires,F,0 a 4,Argentina,Otro Pais,366
+2,Ciudad Autónoma de Buenos Aires,F,0 a 4,Extranjera,Otro Pais,903
+2,Ciudad Autónoma de Buenos Aires,F,10 a 14,Argentina,Argentina,87542
+2,Ciudad Autónoma de Buenos Aires,F,10 a 14,Argentina,Otro Pais,717
+2,Ciudad Autónoma de Buenos Aires,F,10 a 14,Extranjera,Otro Pais,6774
+2,Ciudad Autónoma de Buenos Aires,F,100 y +,Argentina,Argentina,836
+2,Ciudad Autónoma de Buenos Aires,F,100 y +,Argentina,Otro Pais,70
+2,Ciudad Autónoma de Buenos Aires,F,100 y +,Extranjera,Otro Pais,227
+2,Ciudad Autónoma de Buenos Aires,F,15 a 19,Argentina,Argentina,82556
+2,Ciudad Autónoma de Buenos Aires,F,15 a 19,Argentina,Otro Pais,947
+2,Ciudad Autónoma de Buenos Aires,F,15 a 19,Extranjera,Otro Pais,11928
+2,Ciudad Autónoma de Buenos Aires,F,20 a 24,Argentina,Argentina,82734
+2,Ciudad Autónoma de Buenos Aires,F,20 a 24,Argentina,Otro Pais,934
+2,Ciudad Autónoma de Buenos Aires,F,20 a 24,Extranjera,Otro Pais,23884
+2,Ciudad Autónoma de Buenos Aires,F,25 a 29,Argentina,Argentina,84900
+2,Ciudad Autónoma de Buenos Aires,F,25 a 29,Argentina,Otro Pais,1108
+2,Ciudad Autónoma de Buenos Aires,F,25 a 29,Extranjera,Otro Pais,31707
+2,Ciudad Autónoma de Buenos Aires,F,30 a 34,Argentina,Argentina,89095
+2,Ciudad Autónoma de Buenos Aires,F,30 a 34,Argentina,Otro Pais,1921
+2,Ciudad Autónoma de Buenos Aires,F,30 a 34,Extranjera,Otro Pais,43316
+2,Ciudad Autónoma de Buenos Aires,F,35 a 39,Argentina,Argentina,97371
+2,Ciudad Autónoma de Buenos Aires,F,35 a 39,Argentina,Otro Pais,2089
+2,Ciudad Autónoma de Buenos Aires,F,35 a 39,Extranjera,Otro Pais,41514
+2,Ciudad Autónoma de Buenos Aires,F,40 a 44,Argentina,Argentina,99123
+2,Ciudad Autónoma de Buenos Aires,F,40 a 44,Argentina,Otro Pais,1988
+2,Ciudad Autónoma de Buenos Aires,F,40 a 44,Extranjera,Otro Pais,32711
+2,Ciudad Autónoma de Buenos Aires,F,45 a 49,Argentina,Argentina,104489
+2,Ciudad Autónoma de Buenos Aires,F,45 a 49,Argentina,Otro Pais,1701
+2,Ciudad Autónoma de Buenos Aires,F,45 a 49,Extranjera,Otro Pais,24760
+2,Ciudad Autónoma de Buenos Aires,F,5 a 9,Argentina,Argentina,81349
+2,Ciudad Autónoma de Buenos Aires,F,5 a 9,Argentina,Otro Pais,566
+2,Ciudad Autónoma de Buenos Aires,F,5 a 9,Extranjera,Otro Pais,3972
+2,Ciudad Autónoma de Buenos Aires,F,50 a 54,Argentina,Argentina,91606
+2,Ciudad Autónoma de Buenos Aires,F,50 a 54,Argentina,Otro Pais,1645
+2,Ciudad Autónoma de Buenos Aires,F,50 a 54,Extranjera,Otro Pais,22514
+2,Ciudad Autónoma de Buenos Aires,F,55 a 59,Argentina,Argentina,81316
+2,Ciudad Autónoma de Buenos Aires,F,55 a 59,Argentina,Otro Pais,1731
+2,Ciudad Autónoma de Buenos Aires,F,55 a 59,Extranjera,Otro Pais,19956
+2,Ciudad Autónoma de Buenos Aires,F,60 a 64,Argentina,Argentina,81138
+2,Ciudad Autónoma de Buenos Aires,F,60 a 64,Argentina,Otro Pais,1654
+2,Ciudad Autónoma de Buenos Aires,F,60 a 64,Extranjera,Otro Pais,16336
+2,Ciudad Autónoma de Buenos Aires,F,65 a 69,Argentina,Argentina,78933
+2,Ciudad Autónoma de Buenos Aires,F,65 a 69,Argentina,Otro Pais,1512
+2,Ciudad Autónoma de Buenos Aires,F,65 a 69,Extranjera,Otro Pais,12777
+2,Ciudad Autónoma de Buenos Aires,F,70 a 74,Argentina,Argentina,72571
+2,Ciudad Autónoma de Buenos Aires,F,70 a 74,Argentina,Otro Pais,1519
+2,Ciudad Autónoma de Buenos Aires,F,70 a 74,Extranjera,Otro Pais,10233
+2,Ciudad Autónoma de Buenos Aires,F,75 a 79,Argentina,Argentina,60595
+2,Ciudad Autónoma de Buenos Aires,F,75 a 79,Argentina,Otro Pais,2007
+2,Ciudad Autónoma de Buenos Aires,F,75 a 79,Extranjera,Otro Pais,9213
+2,Ciudad Autónoma de Buenos Aires,F,80 a 84,Argentina,Argentina,46173
+2,Ciudad Autónoma de Buenos Aires,F,80 a 84,Argentina,Otro Pais,1153
+2,Ciudad Autónoma de Buenos Aires,F,80 a 84,Extranjera,Otro Pais,5903
+2,Ciudad Autónoma de Buenos Aires,F,85 a 89,Argentina,Argentina,29040
+2,Ciudad Autónoma de Buenos Aires,F,85 a 89,Argentina,Otro Pais,711
+2,Ciudad Autónoma de Buenos Aires,F,85 a 89,Extranjera,Otro Pais,3715
+2,Ciudad Autónoma de Buenos Aires,F,90 a 94,Argentina,Argentina,15639
+2,Ciudad Autónoma de Buenos Aires,F,90 a 94,Argentina,Otro Pais,403
+2,Ciudad Autónoma de Buenos Aires,F,90 a 94,Extranjera,Otro Pais,2247
+2,Ciudad Autónoma de Buenos Aires,F,95 a 99,Argentina,Argentina,5072
+2,Ciudad Autónoma de Buenos Aires,F,95 a 99,Argentina,Otro Pais,216
+2,Ciudad Autónoma de Buenos Aires,F,95 a 99,Extranjera,Otro Pais,902
+2,Ciudad Autónoma de Buenos Aires,M,0 a 4,Argentina,Argentina,59914
+2,Ciudad Autónoma de Buenos Aires,M,0 a 4,Argentina,Otro Pais,404
+2,Ciudad Autónoma de Buenos Aires,M,0 a 4,Extranjera,Otro Pais,897
+2,Ciudad Autónoma de Buenos Aires,M,10 a 14,Argentina,Argentina,91559
+2,Ciudad Autónoma de Buenos Aires,M,10 a 14,Argentina,Otro Pais,748
+2,Ciudad Autónoma de Buenos Aires,M,10 a 14,Extranjera,Otro Pais,6880
+2,Ciudad Autónoma de Buenos Aires,M,100 y +,Argentina,Argentina,202
+2,Ciudad Autónoma de Buenos Aires,M,100 y +,Argentina,Otro Pais,26
+2,Ciudad Autónoma de Buenos Aires,M,100 y +,Extranjera,Otro Pais,85
+2,Ciudad Autónoma de Buenos Aires,M,15 a 19,Argentina,Argentina,85149
+2,Ciudad Autónoma de Buenos Aires,M,15 a 19,Argentina,Otro Pais,970
+2,Ciudad Autónoma de Buenos Aires,M,15 a 19,Extranjera,Otro Pais,11078
+2,Ciudad Autónoma de Buenos Aires,M,20 a 24,Argentina,Argentina,83400
+2,Ciudad Autónoma de Buenos Aires,M,20 a 24,Argentina,Otro Pais,910
+2,Ciudad Autónoma de Buenos Aires,M,20 a 24,Extranjera,Otro Pais,19911
+2,Ciudad Autónoma de Buenos Aires,M,25 a 29,Argentina,Argentina,85111
+2,Ciudad Autónoma de Buenos Aires,M,25 a 29,Argentina,Otro Pais,1073
+2,Ciudad Autónoma de Buenos Aires,M,25 a 29,Extranjera,Otro Pais,27515
+2,Ciudad Autónoma de Buenos Aires,M,30 a 34,Argentina,Argentina,89287
+2,Ciudad Autónoma de Buenos Aires,M,30 a 34,Argentina,Otro Pais,1934
+2,Ciudad Autónoma de Buenos Aires,M,30 a 34,Extranjera,Otro Pais,40041
+2,Ciudad Autónoma de Buenos Aires,M,35 a 39,Argentina,Argentina,97349
+2,Ciudad Autónoma de Buenos Aires,M,35 a 39,Argentina,Otro Pais,2159
+2,Ciudad Autónoma de Buenos Aires,M,35 a 39,Extranjera,Otro Pais,40188
+2,Ciudad Autónoma de Buenos Aires,M,40 a 44,Argentina,Argentina,99420
+2,Ciudad Autónoma de Buenos Aires,M,40 a 44,Argentina,Otro Pais,1854
+2,Ciudad Autónoma de Buenos Aires,M,40 a 44,Extranjera,Otro Pais,31013
+2,Ciudad Autónoma de Buenos Aires,M,45 a 49,Argentina,Argentina,102068
+2,Ciudad Autónoma de Buenos Aires,M,45 a 49,Argentina,Otro Pais,1508
+2,Ciudad Autónoma de Buenos Aires,M,45 a 49,Extranjera,Otro Pais,21147
+2,Ciudad Autónoma de Buenos Aires,M,5 a 9,Argentina,Argentina,84543
+2,Ciudad Autónoma de Buenos Aires,M,5 a 9,Argentina,Otro Pais,636
+2,Ciudad Autónoma de Buenos Aires,M,5 a 9,Extranjera,Otro Pais,4139
+2,Ciudad Autónoma de Buenos Aires,M,50 a 54,Argentina,Argentina,89892
+2,Ciudad Autónoma de Buenos Aires,M,50 a 54,Argentina,Otro Pais,1256
+2,Ciudad Autónoma de Buenos Aires,M,50 a 54,Extranjera,Otro Pais,17851
+2,Ciudad Autónoma de Buenos Aires,M,55 a 59,Argentina,Argentina,77529
+2,Ciudad Autónoma de Buenos Aires,M,55 a 59,Argentina,Otro Pais,1304
+2,Ciudad Autónoma de Buenos Aires,M,55 a 59,Extranjera,Otro Pais,14264
+2,Ciudad Autónoma de Buenos Aires,M,60 a 64,Argentina,Argentina,74470
+2,Ciudad Autónoma de Buenos Aires,M,60 a 64,Argentina,Otro Pais,1122
+2,Ciudad Autónoma de Buenos Aires,M,60 a 64,Extranjera,Otro Pais,11320
+2,Ciudad Autónoma de Buenos Aires,M,65 a 69,Argentina,Argentina,66713
+2,Ciudad Autónoma de Buenos Aires,M,65 a 69,Argentina,Otro Pais,1059
+2,Ciudad Autónoma de Buenos Aires,M,65 a 69,Extranjera,Otro Pais,8302
+2,Ciudad Autónoma de Buenos Aires,M,70 a 74,Argentina,Argentina,54194
+2,Ciudad Autónoma de Buenos Aires,M,70 a 74,Argentina,Otro Pais,1017
+2,Ciudad Autónoma de Buenos Aires,M,70 a 74,Extranjera,Otro Pais,6711
+2,Ciudad Autónoma de Buenos Aires,M,75 a 79,Argentina,Argentina,39654
+2,Ciudad Autónoma de Buenos Aires,M,75 a 79,Argentina,Otro Pais,1262
+2,Ciudad Autónoma de Buenos Aires,M,75 a 79,Extranjera,Otro Pais,6017
+2,Ciudad Autónoma de Buenos Aires,M,80 a 84,Argentina,Argentina,25255
+2,Ciudad Autónoma de Buenos Aires,M,80 a 84,Argentina,Otro Pais,736
+2,Ciudad Autónoma de Buenos Aires,M,80 a 84,Extranjera,Otro Pais,3579
+2,Ciudad Autónoma de Buenos Aires,M,85 a 89,Argentina,Argentina,12960
+2,Ciudad Autónoma de Buenos Aires,M,85 a 89,Argentina,Otro Pais,452
+2,Ciudad Autónoma de Buenos Aires,M,85 a 89,Extranjera,Otro Pais,2043
+2,Ciudad Autónoma de Buenos Aires,M,90 a 94,Argentina,Argentina,5287
+2,Ciudad Autónoma de Buenos Aires,M,90 a 94,Argentina,Otro Pais,270
+2,Ciudad Autónoma de Buenos Aires,M,90 a 94,Extranjera,Otro Pais,1066
+2,Ciudad Autónoma de Buenos Aires,M,95 a 99,Argentina,Argentina,1331
+2,Ciudad Autónoma de Buenos Aires,M,95 a 99,Argentina,Otro Pais,114
+2,Ciudad Autónoma de Buenos Aires,M,95 a 99,Extranjera,Otro Pais,312
+2,Ciudad Autónoma de Buenos Aires,X,10 a 14,Argentina,Argentina,1
+2,Ciudad Autónoma de Buenos Aires,X,15 a 19,Argentina,Argentina,43
+2,Ciudad Autónoma de Buenos Aires,X,15 a 19,Argentina,Otro Pais,1
+2,Ciudad Autónoma de Buenos Aires,X,15 a 19,Extranjera,Otro Pais,3
+2,Ciudad Autónoma de Buenos Aires,X,20 a 24,Argentina,Argentina,67
+2,Ciudad Autónoma de Buenos Aires,X,20 a 24,Argentina,Otro Pais,1
+2,Ciudad Autónoma de Buenos Aires,X,20 a 24,Extranjera,Otro Pais,6
+2,Ciudad Autónoma de Buenos Aires,X,25 a 29,Argentina,Argentina,66
+2,Ciudad Autónoma de Buenos Aires,X,25 a 29,Extranjera,Otro Pais,7
+2,Ciudad Autónoma de Buenos Aires,X,30 a 34,Argentina,Argentina,58
+2,Ciudad Autónoma de Buenos Aires,X,30 a 34,Argentina,Otro Pais,1
+2,Ciudad Autónoma de Buenos Aires,X,30 a 34,Extranjera,Otro Pais,3
+2,Ciudad Autónoma de Buenos Aires,X,35 a 39,Argentina,Argentina,35
+2,Ciudad Autónoma de Buenos Aires,X,40 a 44,Argentina,Argentina,18
+2,Ciudad Autónoma de Buenos Aires,X,40 a 44,Extranjera,Otro Pais,1
+2,Ciudad Autónoma de Buenos Aires,X,45 a 49,Argentina,Argentina,9
+2,Ciudad Autónoma de Buenos Aires,X,45 a 49,Extranjera,Otro Pais,1
+2,Ciudad Autónoma de Buenos Aires,X,50 a 54,Argentina,Argentina,6
+2,Ciudad Autónoma de Buenos Aires,X,50 a 54,Extranjera,Otro Pais,1
+2,Ciudad Autónoma de Buenos Aires,X,55 a 59,Argentina,Argentina,5
+2,Ciudad Autónoma de Buenos Aires,X,60 a 64,Argentina,Argentina,1
+2,Ciudad Autónoma de Buenos Aires,X,70 a 74,Argentina,Argentina,1
+6,Buenos Aires,F,0 a 4,Argentina,Argentina,426864
+6,Buenos Aires,F,0 a 4,Argentina,Otro Pais,459
+6,Buenos Aires,F,0 a 4,Extranjera,Otro Pais,1591
+6,Buenos Aires,F,10 a 14,Argentina,Argentina,694147
+6,Buenos Aires,F,10 a 14,Argentina,Otro Pais,1162
+6,Buenos Aires,F,10 a 14,Extranjera,Otro Pais,11776
+6,Buenos Aires,F,100 y +,Argentina,Argentina,1687
+6,Buenos Aires,F,100 y +,Argentina,Otro Pais,35
+6,Buenos Aires,F,100 y +,Extranjera,Otro Pais,396
+6,Buenos Aires,F,15 a 19,Argentina,Argentina,657511
+6,Buenos Aires,F,15 a 19,Argentina,Otro Pais,1912
+6,Buenos Aires,F,15 a 19,Extranjera,Otro Pais,21832
+6,Buenos Aires,F,20 a 24,Argentina,Argentina,633578
+6,Buenos Aires,F,20 a 24,Argentina,Otro Pais,1528
+6,Buenos Aires,F,20 a 24,Extranjera,Otro Pais,36981
+6,Buenos Aires,F,25 a 29,Argentina,Argentina,629005
+6,Buenos Aires,F,25 a 29,Argentina,Otro Pais,1226
+6,Buenos Aires,F,25 a 29,Extranjera,Otro Pais,46451
+6,Buenos Aires,F,30 a 34,Argentina,Argentina,615439
+6,Buenos Aires,F,30 a 34,Argentina,Otro Pais,2031
+6,Buenos Aires,F,30 a 34,Extranjera,Otro Pais,63360
+6,Buenos Aires,F,35 a 39,Argentina,Argentina,579847
+6,Buenos Aires,F,35 a 39,Argentina,Otro Pais,2113
+6,Buenos Aires,F,35 a 39,Extranjera,Otro Pais,66622
+6,Buenos Aires,F,40 a 44,Argentina,Argentina,570037
+6,Buenos Aires,F,40 a 44,Argentina,Otro Pais,2634
+6,Buenos Aires,F,40 a 44,Extranjera,Otro Pais,59901
+6,Buenos Aires,F,45 a 49,Argentina,Argentina,554339
+6,Buenos Aires,F,45 a 49,Argentina,Otro Pais,2452
+6,Buenos Aires,F,45 a 49,Extranjera,Otro Pais,46467
+6,Buenos Aires,F,5 a 9,Argentina,Argentina,640692
+6,Buenos Aires,F,5 a 9,Argentina,Otro Pais,739
+6,Buenos Aires,F,5 a 9,Extranjera,Otro Pais,6758
+6,Buenos Aires,F,50 a 54,Argentina,Argentina,474608
+6,Buenos Aires,F,50 a 54,Argentina,Otro Pais,2886
+6,Buenos Aires,F,50 a 54,Extranjera,Otro Pais,43171
+6,Buenos Aires,F,55 a 59,Argentina,Argentina,402977
+6,Buenos Aires,F,55 a 59,Argentina,Otro Pais,3012
+6,Buenos Aires,F,55 a 59,Extranjera,Otro Pais,38284
+6,Buenos Aires,F,60 a 64,Argentina,Argentina,375406
+6,Buenos Aires,F,60 a 64,Argentina,Otro Pais,2783
+6,Buenos Aires,F,60 a 64,Extranjera,Otro Pais,32071
+6,Buenos Aires,F,65 a 69,Argentina,Argentina,337166
+6,Buenos Aires,F,65 a 69,Argentina,Otro Pais,2791
+6,Buenos Aires,F,65 a 69,Extranjera,Otro Pais,27673
+6,Buenos Aires,F,70 a 74,Argentina,Argentina,287977
+6,Buenos Aires,F,70 a 74,Argentina,Otro Pais,2893
+6,Buenos Aires,F,70 a 74,Extranjera,Otro Pais,26055
+6,Buenos Aires,F,75 a 79,Argentina,Argentina,217120
+6,Buenos Aires,F,75 a 79,Argentina,Otro Pais,3900
+6,Buenos Aires,F,75 a 79,Extranjera,Otro Pais,28705
+6,Buenos Aires,F,80 a 84,Argentina,Argentina,148412
+6,Buenos Aires,F,80 a 84,Argentina,Otro Pais,2028
+6,Buenos Aires,F,80 a 84,Extranjera,Otro Pais,18365
+6,Buenos Aires,F,85 a 89,Argentina,Argentina,86863
+6,Buenos Aires,F,85 a 89,Argentina,Otro Pais,987
+6,Buenos Aires,F,85 a 89,Extranjera,Otro Pais,11163
+6,Buenos Aires,F,90 a 94,Argentina,Argentina,39558
+6,Buenos Aires,F,90 a 94,Argentina,Otro Pais,469
+6,Buenos Aires,F,90 a 94,Extranjera,Otro Pais,5284
+6,Buenos Aires,F,95 a 99,Argentina,Argentina,10510
+6,Buenos Aires,F,95 a 99,Argentina,Otro Pais,165
+6,Buenos Aires,F,95 a 99,Extranjera,Otro Pais,1744
+6,Buenos Aires,M,0 a 4,Argentina,Argentina,444634
+6,Buenos Aires,M,0 a 4,Argentina,Otro Pais,507
+6,Buenos Aires,M,0 a 4,Extranjera,Otro Pais,1674
+6,Buenos Aires,M,10 a 14,Argentina,Argentina,722208
+6,Buenos Aires,M,10 a 14,Argentina,Otro Pais,1209
+6,Buenos Aires,M,10 a 14,Extranjera,Otro Pais,12299
+6,Buenos Aires,M,100 y +,Argentina,Argentina,438
+6,Buenos Aires,M,100 y +,Argentina,Otro Pais,22
+6,Buenos Aires,M,100 y +,Extranjera,Otro Pais,134
+6,Buenos Aires,M,15 a 19,Argentina,Argentina,685840
+6,Buenos Aires,M,15 a 19,Argentina,Otro Pais,2000
+6,Buenos Aires,M,15 a 19,Extranjera,Otro Pais,22354
+6,Buenos Aires,M,20 a 24,Argentina,Argentina,660454
+6,Buenos Aires,M,20 a 24,Argentina,Otro Pais,1552
+6,Buenos Aires,M,20 a 24,Extranjera,Otro Pais,38167
+6,Buenos Aires,M,25 a 29,Argentina,Argentina,652381
+6,Buenos Aires,M,25 a 29,Argentina,Otro Pais,1320
+6,Buenos Aires,M,25 a 29,Extranjera,Otro Pais,48905
+6,Buenos Aires,M,30 a 34,Argentina,Argentina,631915
+6,Buenos Aires,M,30 a 34,Argentina,Otro Pais,1860
+6,Buenos Aires,M,30 a 34,Extranjera,Otro Pais,66002
+6,Buenos Aires,M,35 a 39,Argentina,Argentina,591757
+6,Buenos Aires,M,35 a 39,Argentina,Otro Pais,1856
+6,Buenos Aires,M,35 a 39,Extranjera,Otro Pais,69077
+6,Buenos Aires,M,40 a 44,Argentina,Argentina,574205
+6,Buenos Aires,M,40 a 44,Argentina,Otro Pais,2095
+6,Buenos Aires,M,40 a 44,Extranjera,Otro Pais,59896
+6,Buenos Aires,M,45 a 49,Argentina,Argentina,550644
+6,Buenos Aires,M,45 a 49,Argentina,Otro Pais,1742
+6,Buenos Aires,M,45 a 49,Extranjera,Otro Pais,41608
+6,Buenos Aires,M,5 a 9,Argentina,Argentina,667818
+6,Buenos Aires,M,5 a 9,Argentina,Otro Pais,797
+6,Buenos Aires,M,5 a 9,Extranjera,Otro Pais,7009
+6,Buenos Aires,M,50 a 54,Argentina,Argentina,460614
+6,Buenos Aires,M,50 a 54,Argentina,Otro Pais,1884
+6,Buenos Aires,M,50 a 54,Extranjera,Otro Pais,37261
+6,Buenos Aires,M,55 a 59,Argentina,Argentina,380146
+6,Buenos Aires,M,55 a 59,Argentina,Otro Pais,2178
+6,Buenos Aires,M,55 a 59,Extranjera,Otro Pais,31129
+6,Buenos Aires,M,60 a 64,Argentina,Argentina,342412
+6,Buenos Aires,M,60 a 64,Argentina,Otro Pais,1960
+6,Buenos Aires,M,60 a 64,Extranjera,Otro Pais,25048
+6,Buenos Aires,M,65 a 69,Argentina,Argentina,291188
+6,Buenos Aires,M,65 a 69,Argentina,Otro Pais,2087
+6,Buenos Aires,M,65 a 69,Extranjera,Otro Pais,20126
+6,Buenos Aires,M,70 a 74,Argentina,Argentina,227536
+6,Buenos Aires,M,70 a 74,Argentina,Otro Pais,2073
+6,Buenos Aires,M,70 a 74,Extranjera,Otro Pais,19326
+6,Buenos Aires,M,75 a 79,Argentina,Argentina,151079
+6,Buenos Aires,M,75 a 79,Argentina,Otro Pais,2829
+6,Buenos Aires,M,75 a 79,Extranjera,Otro Pais,20745
+6,Buenos Aires,M,80 a 84,Argentina,Argentina,85489
+6,Buenos Aires,M,80 a 84,Argentina,Otro Pais,1610
+6,Buenos Aires,M,80 a 84,Extranjera,Otro Pais,11999
+6,Buenos Aires,M,85 a 89,Argentina,Argentina,39727
+6,Buenos Aires,M,85 a 89,Argentina,Otro Pais,848
+6,Buenos Aires,M,85 a 89,Extranjera,Otro Pais,5994
+6,Buenos Aires,M,90 a 94,Argentina,Argentina,13852
+6,Buenos Aires,M,90 a 94,Argentina,Otro Pais,387
+6,Buenos Aires,M,90 a 94,Extranjera,Otro Pais,2552
+6,Buenos Aires,M,95 a 99,Argentina,Argentina,2972
+6,Buenos Aires,M,95 a 99,Argentina,Otro Pais,125
+6,Buenos Aires,M,95 a 99,Extranjera,Otro Pais,661
+6,Buenos Aires,X,10 a 14,Argentina,Argentina,12
+6,Buenos Aires,X,15 a 19,Argentina,Argentina,109
+6,Buenos Aires,X,15 a 19,Extranjera,Otro Pais,2
+6,Buenos Aires,X,20 a 24,Argentina,Argentina,231
+6,Buenos Aires,X,20 a 24,Extranjera,Otro Pais,2
+6,Buenos Aires,X,25 a 29,Argentina,Argentina,135
+6,Buenos Aires,X,25 a 29,Extranjera,Otro Pais,3
+6,Buenos Aires,X,30 a 34,Argentina,Argentina,116
+6,Buenos Aires,X,30 a 34,Extranjera,Otro Pais,3
+6,Buenos Aires,X,35 a 39,Argentina,Argentina,63
+6,Buenos Aires,X,35 a 39,Extranjera,Otro Pais,3
+6,Buenos Aires,X,40 a 44,Argentina,Argentina,40
+6,Buenos Aires,X,40 a 44,Argentina,Otro Pais,1
+6,Buenos Aires,X,40 a 44,Extranjera,Otro Pais,1
+6,Buenos Aires,X,45 a 49,Argentina,Argentina,23
+6,Buenos Aires,X,5 a 9,Argentina,Argentina,1
+6,Buenos Aires,X,50 a 54,Argentina,Argentina,19
+6,Buenos Aires,X,55 a 59,Argentina,Argentina,4
+6,Buenos Aires,X,60 a 64,Argentina,Argentina,7
+6,Buenos Aires,X,65 a 69,Argentina,Argentina,2
+6,Buenos Aires,X,70 a 74,Argentina,Argentina,1
+10,Catamarca,F,0 a 4,Argentina,Argentina,11144
+10,Catamarca,F,0 a 4,Extranjera,Otro Pais,3
+10,Catamarca,F,10 a 14,Argentina,Argentina,16909
+10,Catamarca,F,10 a 14,Argentina,Otro Pais,7
+10,Catamarca,F,10 a 14,Extranjera,Otro Pais,33
+10,Catamarca,F,100 y +,Argentina,Argentina,57
+10,Catamarca,F,15 a 19,Argentina,Argentina,17354
+10,Catamarca,F,15 a 19,Argentina,Otro Pais,7
+10,Catamarca,F,15 a 19,Extranjera,Otro Pais,31
+10,Catamarca,F,20 a 24,Argentina,Argentina,18841
+10,Catamarca,F,20 a 24,Argentina,Otro Pais,6
+10,Catamarca,F,20 a 24,Extranjera,Otro Pais,35
+10,Catamarca,F,25 a 29,Argentina,Argentina,19171
+10,Catamarca,F,25 a 29,Argentina,Otro Pais,2
+10,Catamarca,F,25 a 29,Extranjera,Otro Pais,57
+10,Catamarca,F,30 a 34,Argentina,Argentina,17956
+10,Catamarca,F,30 a 34,Argentina,Otro Pais,6
+10,Catamarca,F,30 a 34,Extranjera,Otro Pais,85
+10,Catamarca,F,35 a 39,Argentina,Argentina,16086
+10,Catamarca,F,35 a 39,Argentina,Otro Pais,9
+10,Catamarca,F,35 a 39,Extranjera,Otro Pais,107
+10,Catamarca,F,40 a 44,Argentina,Argentina,15338
+10,Catamarca,F,40 a 44,Argentina,Otro Pais,9
+10,Catamarca,F,40 a 44,Extranjera,Otro Pais,84
+10,Catamarca,F,45 a 49,Argentina,Argentina,14807
+10,Catamarca,F,45 a 49,Argentina,Otro Pais,12
+10,Catamarca,F,45 a 49,Extranjera,Otro Pais,93
+10,Catamarca,F,5 a 9,Argentina,Argentina,16552
+10,Catamarca,F,5 a 9,Argentina,Otro Pais,4
+10,Catamarca,F,5 a 9,Extranjera,Otro Pais,15
+10,Catamarca,F,50 a 54,Argentina,Argentina,11638
+10,Catamarca,F,50 a 54,Argentina,Otro Pais,10
+10,Catamarca,F,50 a 54,Extranjera,Otro Pais,65
+10,Catamarca,F,55 a 59,Argentina,Argentina,9800
+10,Catamarca,F,55 a 59,Argentina,Otro Pais,13
+10,Catamarca,F,55 a 59,Extranjera,Otro Pais,58
+10,Catamarca,F,60 a 64,Argentina,Argentina,8612
+10,Catamarca,F,60 a 64,Argentina,Otro Pais,9
+10,Catamarca,F,60 a 64,Extranjera,Otro Pais,55
+10,Catamarca,F,65 a 69,Argentina,Argentina,7716
+10,Catamarca,F,65 a 69,Argentina,Otro Pais,12
+10,Catamarca,F,65 a 69,Extranjera,Otro Pais,55
+10,Catamarca,F,70 a 74,Argentina,Argentina,6455
+10,Catamarca,F,70 a 74,Argentina,Otro Pais,18
+10,Catamarca,F,70 a 74,Extranjera,Otro Pais,36
+10,Catamarca,F,75 a 79,Argentina,Argentina,4379
+10,Catamarca,F,75 a 79,Argentina,Otro Pais,8
+10,Catamarca,F,75 a 79,Extranjera,Otro Pais,35
+10,Catamarca,F,80 a 84,Argentina,Argentina,3003
+10,Catamarca,F,80 a 84,Argentina,Otro Pais,7
+10,Catamarca,F,80 a 84,Extranjera,Otro Pais,20
+10,Catamarca,F,85 a 89,Argentina,Argentina,1689
+10,Catamarca,F,85 a 89,Argentina,Otro Pais,4
+10,Catamarca,F,85 a 89,Extranjera,Otro Pais,5
+10,Catamarca,F,90 a 94,Argentina,Argentina,829
+10,Catamarca,F,90 a 94,Argentina,Otro Pais,1
+10,Catamarca,F,90 a 94,Extranjera,Otro Pais,2
+10,Catamarca,F,95 a 99,Argentina,Argentina,272
+10,Catamarca,M,0 a 4,Argentina,Argentina,11802
+10,Catamarca,M,0 a 4,Argentina,Otro Pais,2
+10,Catamarca,M,0 a 4,Extranjera,Otro Pais,4
+10,Catamarca,M,10 a 14,Argentina,Argentina,17304
+10,Catamarca,M,10 a 14,Argentina,Otro Pais,9
+10,Catamarca,M,10 a 14,Extranjera,Otro Pais,26
+10,Catamarca,M,100 y +,Argentina,Argentina,27
+10,Catamarca,M,15 a 19,Argentina,Argentina,17998
+10,Catamarca,M,15 a 19,Argentina,Otro Pais,10
+10,Catamarca,M,15 a 19,Extranjera,Otro Pais,43
+10,Catamarca,M,20 a 24,Argentina,Argentina,19288
+10,Catamarca,M,20 a 24,Argentina,Otro Pais,8
+10,Catamarca,M,20 a 24,Extranjera,Otro Pais,43
+10,Catamarca,M,25 a 29,Argentina,Argentina,19611
+10,Catamarca,M,25 a 29,Argentina,Otro Pais,9
+10,Catamarca,M,25 a 29,Extranjera,Otro Pais,53
+10,Catamarca,M,30 a 34,Argentina,Argentina,18111
+10,Catamarca,M,30 a 34,Argentina,Otro Pais,7
+10,Catamarca,M,30 a 34,Extranjera,Otro Pais,103
+10,Catamarca,M,35 a 39,Argentina,Argentina,16146
+10,Catamarca,M,35 a 39,Argentina,Otro Pais,12
+10,Catamarca,M,35 a 39,Extranjera,Otro Pais,105
+10,Catamarca,M,40 a 44,Argentina,Argentina,15461
+10,Catamarca,M,40 a 44,Argentina,Otro Pais,6
+10,Catamarca,M,40 a 44,Extranjera,Otro Pais,119
+10,Catamarca,M,45 a 49,Argentina,Argentina,14905
+10,Catamarca,M,45 a 49,Argentina,Otro Pais,9
+10,Catamarca,M,45 a 49,Extranjera,Otro Pais,87
+10,Catamarca,M,5 a 9,Argentina,Argentina,16977
+10,Catamarca,M,5 a 9,Argentina,Otro Pais,5
+10,Catamarca,M,5 a 9,Extranjera,Otro Pais,18
+10,Catamarca,M,50 a 54,Argentina,Argentina,11703
+10,Catamarca,M,50 a 54,Argentina,Otro Pais,14
+10,Catamarca,M,50 a 54,Extranjera,Otro Pais,80
+10,Catamarca,M,55 a 59,Argentina,Argentina,9767
+10,Catamarca,M,55 a 59,Argentina,Otro Pais,14
+10,Catamarca,M,55 a 59,Extranjera,Otro Pais,76
+10,Catamarca,M,60 a 64,Argentina,Argentina,8565
+10,Catamarca,M,60 a 64,Argentina,Otro Pais,11
+10,Catamarca,M,60 a 64,Extranjera,Otro Pais,42
+10,Catamarca,M,65 a 69,Argentina,Argentina,7391
+10,Catamarca,M,65 a 69,Argentina,Otro Pais,8
+10,Catamarca,M,65 a 69,Extranjera,Otro Pais,50
+10,Catamarca,M,70 a 74,Argentina,Argentina,5874
+10,Catamarca,M,70 a 74,Argentina,Otro Pais,24
+10,Catamarca,M,70 a 74,Extranjera,Otro Pais,45
+10,Catamarca,M,75 a 79,Argentina,Argentina,3716
+10,Catamarca,M,75 a 79,Argentina,Otro Pais,10
+10,Catamarca,M,75 a 79,Extranjera,Otro Pais,35
+10,Catamarca,M,80 a 84,Argentina,Argentina,2085
+10,Catamarca,M,80 a 84,Argentina,Otro Pais,5
+10,Catamarca,M,80 a 84,Extranjera,Otro Pais,17
+10,Catamarca,M,85 a 89,Argentina,Argentina,985
+10,Catamarca,M,85 a 89,Argentina,Otro Pais,5
+10,Catamarca,M,85 a 89,Extranjera,Otro Pais,10
+10,Catamarca,M,90 a 94,Argentina,Argentina,365
+10,Catamarca,M,90 a 94,Argentina,Otro Pais,1
+10,Catamarca,M,90 a 94,Extranjera,Otro Pais,3
+10,Catamarca,M,95 a 99,Argentina,Argentina,97
+10,Catamarca,M,95 a 99,Argentina,Otro Pais,1
+10,Catamarca,M,95 a 99,Extranjera,Otro Pais,1
+10,Catamarca,X,15 a 19,Argentina,Argentina,1
+10,Catamarca,X,20 a 24,Argentina,Argentina,2
+10,Catamarca,X,25 a 29,Argentina,Argentina,2
+10,Catamarca,X,30 a 34,Argentina,Argentina,4
+10,Catamarca,X,35 a 39,Argentina,Argentina,2
+10,Catamarca,X,40 a 44,Argentina,Argentina,1
+14,Córdoba,F,0 a 4,Argentina,Argentina,99582
+14,Córdoba,F,0 a 4,Argentina,Otro Pais,135
+14,Córdoba,F,0 a 4,Extranjera,Otro Pais,99
+14,Córdoba,F,10 a 14,Argentina,Argentina,142963
+14,Córdoba,F,10 a 14,Argentina,Otro Pais,370
+14,Córdoba,F,10 a 14,Extranjera,Otro Pais,1077
+14,Córdoba,F,100 y +,Argentina,Argentina,315
+14,Córdoba,F,100 y +,Argentina,Otro Pais,4
+14,Córdoba,F,100 y +,Extranjera,Otro Pais,27
+14,Córdoba,F,15 a 19,Argentina,Argentina,140889
+14,Córdoba,F,15 a 19,Argentina,Otro Pais,541
+14,Córdoba,F,15 a 19,Extranjera,Otro Pais,1630
+14,Córdoba,F,20 a 24,Argentina,Argentina,143455
+14,Córdoba,F,20 a 24,Argentina,Otro Pais,375
+14,Córdoba,F,20 a 24,Extranjera,Otro Pais,2311
+14,Córdoba,F,25 a 29,Argentina,Argentina,146193
+14,Córdoba,F,25 a 29,Argentina,Otro Pais,263
+14,Córdoba,F,25 a 29,Extranjera,Otro Pais,2938
+14,Córdoba,F,30 a 34,Argentina,Argentina,144731
+14,Córdoba,F,30 a 34,Argentina,Otro Pais,336
+14,Córdoba,F,30 a 34,Extranjera,Otro Pais,3812
+14,Córdoba,F,35 a 39,Argentina,Argentina,136485
+14,Córdoba,F,35 a 39,Argentina,Otro Pais,266
+14,Córdoba,F,35 a 39,Extranjera,Otro Pais,4216
+14,Córdoba,F,40 a 44,Argentina,Argentina,138703
+14,Córdoba,F,40 a 44,Argentina,Otro Pais,335
+14,Córdoba,F,40 a 44,Extranjera,Otro Pais,3623
+14,Córdoba,F,45 a 49,Argentina,Argentina,129796
+14,Córdoba,F,45 a 49,Argentina,Otro Pais,325
+14,Córdoba,F,45 a 49,Extranjera,Otro Pais,2916
+14,Córdoba,F,5 a 9,Argentina,Argentina,137743
+14,Córdoba,F,5 a 9,Argentina,Otro Pais,200
+14,Córdoba,F,5 a 9,Extranjera,Otro Pais,537
+14,Córdoba,F,50 a 54,Argentina,Argentina,108528
+14,Córdoba,F,50 a 54,Argentina,Otro Pais,307
+14,Córdoba,F,50 a 54,Extranjera,Otro Pais,2498
+14,Córdoba,F,55 a 59,Argentina,Argentina,95104
+14,Córdoba,F,55 a 59,Argentina,Otro Pais,344
+14,Córdoba,F,55 a 59,Extranjera,Otro Pais,2066
+14,Córdoba,F,60 a 64,Argentina,Argentina,91940
+14,Córdoba,F,60 a 64,Argentina,Otro Pais,293
+14,Córdoba,F,60 a 64,Extranjera,Otro Pais,1674
+14,Córdoba,F,65 a 69,Argentina,Argentina,81206
+14,Córdoba,F,65 a 69,Argentina,Otro Pais,292
+14,Córdoba,F,65 a 69,Extranjera,Otro Pais,1235
+14,Córdoba,F,70 a 74,Argentina,Argentina,72292
+14,Córdoba,F,70 a 74,Argentina,Otro Pais,281
+14,Córdoba,F,70 a 74,Extranjera,Otro Pais,974
+14,Córdoba,F,75 a 79,Argentina,Argentina,56507
+14,Córdoba,F,75 a 79,Argentina,Otro Pais,333
+14,Córdoba,F,75 a 79,Extranjera,Otro Pais,1006
+14,Córdoba,F,80 a 84,Argentina,Argentina,38539
+14,Córdoba,F,80 a 84,Argentina,Otro Pais,224
+14,Córdoba,F,80 a 84,Extranjera,Otro Pais,683
+14,Córdoba,F,85 a 89,Argentina,Argentina,22266
+14,Córdoba,F,85 a 89,Argentina,Otro Pais,106
+14,Córdoba,F,85 a 89,Extranjera,Otro Pais,439
+14,Córdoba,F,90 a 94,Argentina,Argentina,9753
+14,Córdoba,F,90 a 94,Argentina,Otro Pais,48
+14,Córdoba,F,90 a 94,Extranjera,Otro Pais,187
+14,Córdoba,F,95 a 99,Argentina,Argentina,2202
+14,Córdoba,F,95 a 99,Argentina,Otro Pais,15
+14,Córdoba,F,95 a 99,Extranjera,Otro Pais,67
+14,Córdoba,M,0 a 4,Argentina,Argentina,102813
+14,Córdoba,M,0 a 4,Argentina,Otro Pais,132
+14,Córdoba,M,0 a 4,Extranjera,Otro Pais,119
+14,Córdoba,M,10 a 14,Argentina,Argentina,148833
+14,Córdoba,M,10 a 14,Argentina,Otro Pais,357
+14,Córdoba,M,10 a 14,Extranjera,Otro Pais,1137
+14,Córdoba,M,100 y +,Argentina,Argentina,112
+14,Córdoba,M,100 y +,Argentina,Otro Pais,2
+14,Córdoba,M,100 y +,Extranjera,Otro Pais,7
+14,Córdoba,M,15 a 19,Argentina,Argentina,146047
+14,Córdoba,M,15 a 19,Argentina,Otro Pais,585
+14,Córdoba,M,15 a 19,Extranjera,Otro Pais,1821
+14,Córdoba,M,20 a 24,Argentina,Argentina,148371
+14,Córdoba,M,20 a 24,Argentina,Otro Pais,411
+14,Córdoba,M,20 a 24,Extranjera,Otro Pais,2386
+14,Córdoba,M,25 a 29,Argentina,Argentina,148988
+14,Córdoba,M,25 a 29,Argentina,Otro Pais,278
+14,Córdoba,M,25 a 29,Extranjera,Otro Pais,3128
+14,Córdoba,M,30 a 34,Argentina,Argentina,146223
+14,Córdoba,M,30 a 34,Argentina,Otro Pais,365
+14,Córdoba,M,30 a 34,Extranjera,Otro Pais,4452
+14,Córdoba,M,35 a 39,Argentina,Argentina,137012
+14,Córdoba,M,35 a 39,Argentina,Otro Pais,244
+14,Córdoba,M,35 a 39,Extranjera,Otro Pais,4638
+14,Córdoba,M,40 a 44,Argentina,Argentina,138393
+14,Córdoba,M,40 a 44,Argentina,Otro Pais,352
+14,Córdoba,M,40 a 44,Extranjera,Otro Pais,3868
+14,Córdoba,M,45 a 49,Argentina,Argentina,129035
+14,Córdoba,M,45 a 49,Argentina,Otro Pais,287
+14,Córdoba,M,45 a 49,Extranjera,Otro Pais,2848
+14,Córdoba,M,5 a 9,Argentina,Argentina,143037
+14,Córdoba,M,5 a 9,Argentina,Otro Pais,221
+14,Córdoba,M,5 a 9,Extranjera,Otro Pais,598
+14,Córdoba,M,50 a 54,Argentina,Argentina,107311
+14,Córdoba,M,50 a 54,Argentina,Otro Pais,280
+14,Córdoba,M,50 a 54,Extranjera,Otro Pais,2367
+14,Córdoba,M,55 a 59,Argentina,Argentina,91350
+14,Córdoba,M,55 a 59,Argentina,Otro Pais,279
+14,Córdoba,M,55 a 59,Extranjera,Otro Pais,1782
+14,Córdoba,M,60 a 64,Argentina,Argentina,84968
+14,Córdoba,M,60 a 64,Argentina,Otro Pais,215
+14,Córdoba,M,60 a 64,Extranjera,Otro Pais,1377
+14,Córdoba,M,65 a 69,Argentina,Argentina,71233
+14,Córdoba,M,65 a 69,Argentina,Otro Pais,228
+14,Córdoba,M,65 a 69,Extranjera,Otro Pais,939
+14,Córdoba,M,70 a 74,Argentina,Argentina,57974
+14,Córdoba,M,70 a 74,Argentina,Otro Pais,252
+14,Córdoba,M,70 a 74,Extranjera,Otro Pais,927
+14,Córdoba,M,75 a 79,Argentina,Argentina,40350
+14,Córdoba,M,75 a 79,Argentina,Otro Pais,250
+14,Córdoba,M,75 a 79,Extranjera,Otro Pais,865
+14,Córdoba,M,80 a 84,Argentina,Argentina,22538
+14,Córdoba,M,80 a 84,Argentina,Otro Pais,164
+14,Córdoba,M,80 a 84,Extranjera,Otro Pais,551
+14,Córdoba,M,85 a 89,Argentina,Argentina,10496
+14,Córdoba,M,85 a 89,Argentina,Otro Pais,95
+14,Córdoba,M,85 a 89,Extranjera,Otro Pais,286
+14,Córdoba,M,90 a 94,Argentina,Argentina,3474
+14,Córdoba,M,90 a 94,Argentina,Otro Pais,43
+14,Córdoba,M,90 a 94,Extranjera,Otro Pais,107
+14,Córdoba,M,95 a 99,Argentina,Argentina,701
+14,Córdoba,M,95 a 99,Argentina,Otro Pais,10
+14,Córdoba,M,95 a 99,Extranjera,Otro Pais,16
+14,Córdoba,X,15 a 19,Argentina,Argentina,11
+14,Córdoba,X,20 a 24,Argentina,Argentina,17
+14,Córdoba,X,25 a 29,Argentina,Argentina,25
+14,Córdoba,X,30 a 34,Argentina,Argentina,22
+14,Córdoba,X,35 a 39,Argentina,Argentina,15
+14,Córdoba,X,40 a 44,Argentina,Argentina,2
+14,Córdoba,X,45 a 49,Argentina,Argentina,5
+14,Córdoba,X,50 a 54,Argentina,Argentina,1
+14,Córdoba,X,55 a 59,Argentina,Argentina,2
+18,Corrientes,F,0 a 4,Argentina,Argentina,35986
+18,Corrientes,F,0 a 4,Argentina,Otro Pais,40
+18,Corrientes,F,0 a 4,Extranjera,Otro Pais,16
+18,Corrientes,F,10 a 14,Argentina,Argentina,48349
+18,Corrientes,F,10 a 14,Argentina,Otro Pais,69
+18,Corrientes,F,10 a 14,Extranjera,Otro Pais,132
+18,Corrientes,F,100 y +,Argentina,Argentina,154
+18,Corrientes,F,100 y +,Extranjera,Otro Pais,6
+18,Corrientes,F,15 a 19,Argentina,Argentina,47476
+18,Corrientes,F,15 a 19,Argentina,Otro Pais,66
+18,Corrientes,F,15 a 19,Extranjera,Otro Pais,246
+18,Corrientes,F,20 a 24,Argentina,Argentina,50250
+18,Corrientes,F,20 a 24,Argentina,Otro Pais,48
+18,Corrientes,F,20 a 24,Extranjera,Otro Pais,742
+18,Corrientes,F,25 a 29,Argentina,Argentina,50073
+18,Corrientes,F,25 a 29,Argentina,Otro Pais,33
+18,Corrientes,F,25 a 29,Extranjera,Otro Pais,638
+18,Corrientes,F,30 a 34,Argentina,Argentina,48355
+18,Corrientes,F,30 a 34,Argentina,Otro Pais,41
+18,Corrientes,F,30 a 34,Extranjera,Otro Pais,571
+18,Corrientes,F,35 a 39,Argentina,Argentina,42193
+18,Corrientes,F,35 a 39,Argentina,Otro Pais,31
+18,Corrientes,F,35 a 39,Extranjera,Otro Pais,540
+18,Corrientes,F,40 a 44,Argentina,Argentina,39717
+18,Corrientes,F,40 a 44,Argentina,Otro Pais,40
+18,Corrientes,F,40 a 44,Extranjera,Otro Pais,515
+18,Corrientes,F,45 a 49,Argentina,Argentina,36043
+18,Corrientes,F,45 a 49,Argentina,Otro Pais,19
+18,Corrientes,F,45 a 49,Extranjera,Otro Pais,405
+18,Corrientes,F,5 a 9,Argentina,Argentina,47913
+18,Corrientes,F,5 a 9,Argentina,Otro Pais,98
+18,Corrientes,F,5 a 9,Extranjera,Otro Pais,75
+18,Corrientes,F,50 a 54,Argentina,Argentina,29643
+18,Corrientes,F,50 a 54,Argentina,Otro Pais,42
+18,Corrientes,F,50 a 54,Extranjera,Otro Pais,407
+18,Corrientes,F,55 a 59,Argentina,Argentina,27205
+18,Corrientes,F,55 a 59,Argentina,Otro Pais,43
+18,Corrientes,F,55 a 59,Extranjera,Otro Pais,363
+18,Corrientes,F,60 a 64,Argentina,Argentina,24882
+18,Corrientes,F,60 a 64,Argentina,Otro Pais,75
+18,Corrientes,F,60 a 64,Extranjera,Otro Pais,310
+18,Corrientes,F,65 a 69,Argentina,Argentina,21759
+18,Corrientes,F,65 a 69,Argentina,Otro Pais,71
+18,Corrientes,F,65 a 69,Extranjera,Otro Pais,332
+18,Corrientes,F,70 a 74,Argentina,Argentina,16916
+18,Corrientes,F,70 a 74,Argentina,Otro Pais,83
+18,Corrientes,F,70 a 74,Extranjera,Otro Pais,257
+18,Corrientes,F,75 a 79,Argentina,Argentina,11741
+18,Corrientes,F,75 a 79,Argentina,Otro Pais,90
+18,Corrientes,F,75 a 79,Extranjera,Otro Pais,229
+18,Corrientes,F,80 a 84,Argentina,Argentina,7505
+18,Corrientes,F,80 a 84,Argentina,Otro Pais,70
+18,Corrientes,F,80 a 84,Extranjera,Otro Pais,168
+18,Corrientes,F,85 a 89,Argentina,Argentina,4430
+18,Corrientes,F,85 a 89,Argentina,Otro Pais,52
+18,Corrientes,F,85 a 89,Extranjera,Otro Pais,79
+18,Corrientes,F,90 a 94,Argentina,Argentina,1937
+18,Corrientes,F,90 a 94,Argentina,Otro Pais,16
+18,Corrientes,F,90 a 94,Extranjera,Otro Pais,40
+18,Corrientes,F,95 a 99,Argentina,Argentina,585
+18,Corrientes,F,95 a 99,Argentina,Otro Pais,8
+18,Corrientes,F,95 a 99,Extranjera,Otro Pais,16
+18,Corrientes,M,0 a 4,Argentina,Argentina,37549
+18,Corrientes,M,0 a 4,Argentina,Otro Pais,48
+18,Corrientes,M,0 a 4,Extranjera,Otro Pais,11
+18,Corrientes,M,10 a 14,Argentina,Argentina,50821
+18,Corrientes,M,10 a 14,Argentina,Otro Pais,92
+18,Corrientes,M,10 a 14,Extranjera,Otro Pais,117
+18,Corrientes,M,100 y +,Argentina,Argentina,78
+18,Corrientes,M,100 y +,Argentina,Otro Pais,1
+18,Corrientes,M,100 y +,Extranjera,Otro Pais,4
+18,Corrientes,M,15 a 19,Argentina,Argentina,49437
+18,Corrientes,M,15 a 19,Argentina,Otro Pais,64
+18,Corrientes,M,15 a 19,Extranjera,Otro Pais,197
+18,Corrientes,M,20 a 24,Argentina,Argentina,52251
+18,Corrientes,M,20 a 24,Argentina,Otro Pais,64
+18,Corrientes,M,20 a 24,Extranjera,Otro Pais,502
+18,Corrientes,M,25 a 29,Argentina,Argentina,51698
+18,Corrientes,M,25 a 29,Argentina,Otro Pais,49
+18,Corrientes,M,25 a 29,Extranjera,Otro Pais,610
+18,Corrientes,M,30 a 34,Argentina,Argentina,49074
+18,Corrientes,M,30 a 34,Argentina,Otro Pais,26
+18,Corrientes,M,30 a 34,Extranjera,Otro Pais,612
+18,Corrientes,M,35 a 39,Argentina,Argentina,43358
+18,Corrientes,M,35 a 39,Argentina,Otro Pais,19
+18,Corrientes,M,35 a 39,Extranjera,Otro Pais,584
+18,Corrientes,M,40 a 44,Argentina,Argentina,41196
+18,Corrientes,M,40 a 44,Argentina,Otro Pais,31
+18,Corrientes,M,40 a 44,Extranjera,Otro Pais,499
+18,Corrientes,M,45 a 49,Argentina,Argentina,36756
+18,Corrientes,M,45 a 49,Argentina,Otro Pais,26
+18,Corrientes,M,45 a 49,Extranjera,Otro Pais,470
+18,Corrientes,M,5 a 9,Argentina,Argentina,49439
+18,Corrientes,M,5 a 9,Argentina,Otro Pais,104
+18,Corrientes,M,5 a 9,Extranjera,Otro Pais,60
+18,Corrientes,M,50 a 54,Argentina,Argentina,30226
+18,Corrientes,M,50 a 54,Argentina,Otro Pais,39
+18,Corrientes,M,50 a 54,Extranjera,Otro Pais,423
+18,Corrientes,M,55 a 59,Argentina,Argentina,27083
+18,Corrientes,M,55 a 59,Argentina,Otro Pais,55
+18,Corrientes,M,55 a 59,Extranjera,Otro Pais,410
+18,Corrientes,M,60 a 64,Argentina,Argentina,24530
+18,Corrientes,M,60 a 64,Argentina,Otro Pais,47
+18,Corrientes,M,60 a 64,Extranjera,Otro Pais,331
+18,Corrientes,M,65 a 69,Argentina,Argentina,21241
+18,Corrientes,M,65 a 69,Argentina,Otro Pais,70
+18,Corrientes,M,65 a 69,Extranjera,Otro Pais,316
+18,Corrientes,M,70 a 74,Argentina,Argentina,15930
+18,Corrientes,M,70 a 74,Argentina,Otro Pais,79
+18,Corrientes,M,70 a 74,Extranjera,Otro Pais,348
+18,Corrientes,M,75 a 79,Argentina,Argentina,9319
+18,Corrientes,M,75 a 79,Argentina,Otro Pais,66
+18,Corrientes,M,75 a 79,Extranjera,Otro Pais,277
+18,Corrientes,M,80 a 84,Argentina,Argentina,4878
+18,Corrientes,M,80 a 84,Argentina,Otro Pais,55
+18,Corrientes,M,80 a 84,Extranjera,Otro Pais,160
+18,Corrientes,M,85 a 89,Argentina,Argentina,2265
+18,Corrientes,M,85 a 89,Argentina,Otro Pais,28
+18,Corrientes,M,85 a 89,Extranjera,Otro Pais,59
+18,Corrientes,M,90 a 94,Argentina,Argentina,852
+18,Corrientes,M,90 a 94,Argentina,Otro Pais,4
+18,Corrientes,M,90 a 94,Extranjera,Otro Pais,36
+18,Corrientes,M,95 a 99,Argentina,Argentina,229
+18,Corrientes,M,95 a 99,Argentina,Otro Pais,2
+18,Corrientes,M,95 a 99,Extranjera,Otro Pais,23
+18,Corrientes,X,15 a 19,Argentina,Argentina,3
+18,Corrientes,X,20 a 24,Argentina,Argentina,5
+18,Corrientes,X,30 a 34,Argentina,Argentina,1
+18,Corrientes,X,40 a 44,Argentina,Argentina,1
+18,Corrientes,X,50 a 54,Argentina,Argentina,1
+18,Corrientes,X,55 a 59,Argentina,Argentina,2
+22,Chaco,F,0 a 4,Argentina,Argentina,37768
+22,Chaco,F,0 a 4,Argentina,Otro Pais,11
+22,Chaco,F,0 a 4,Extranjera,Otro Pais,18
+22,Chaco,F,10 a 14,Argentina,Argentina,57035
+22,Chaco,F,10 a 14,Argentina,Otro Pais,16
+22,Chaco,F,10 a 14,Extranjera,Otro Pais,77
+22,Chaco,F,100 y +,Argentina,Argentina,142
+22,Chaco,F,100 y +,Argentina,Otro Pais,2
+22,Chaco,F,100 y +,Extranjera,Otro Pais,11
+22,Chaco,F,15 a 19,Argentina,Argentina,52888
+22,Chaco,F,15 a 19,Argentina,Otro Pais,44
+22,Chaco,F,15 a 19,Extranjera,Otro Pais,98
+22,Chaco,F,20 a 24,Argentina,Argentina,55437
+22,Chaco,F,20 a 24,Argentina,Otro Pais,34
+22,Chaco,F,20 a 24,Extranjera,Otro Pais,200
+22,Chaco,F,25 a 29,Argentina,Argentina,58263
+22,Chaco,F,25 a 29,Argentina,Otro Pais,23
+22,Chaco,F,25 a 29,Extranjera,Otro Pais,184
+22,Chaco,F,30 a 34,Argentina,Argentina,54982
+22,Chaco,F,30 a 34,Argentina,Otro Pais,28
+22,Chaco,F,30 a 34,Extranjera,Otro Pais,248
+22,Chaco,F,35 a 39,Argentina,Argentina,47349
+22,Chaco,F,35 a 39,Argentina,Otro Pais,11
+22,Chaco,F,35 a 39,Extranjera,Otro Pais,295
+22,Chaco,F,40 a 44,Argentina,Argentina,45252
+22,Chaco,F,40 a 44,Argentina,Otro Pais,21
+22,Chaco,F,40 a 44,Extranjera,Otro Pais,276
+22,Chaco,F,45 a 49,Argentina,Argentina,38857
+22,Chaco,F,45 a 49,Argentina,Otro Pais,13
+22,Chaco,F,45 a 49,Extranjera,Otro Pais,210
+22,Chaco,F,5 a 9,Argentina,Argentina,57574
+22,Chaco,F,5 a 9,Argentina,Otro Pais,17
+22,Chaco,F,5 a 9,Extranjera,Otro Pais,30
+22,Chaco,F,50 a 54,Argentina,Argentina,31311
+22,Chaco,F,50 a 54,Argentina,Otro Pais,23
+22,Chaco,F,50 a 54,Extranjera,Otro Pais,211
+22,Chaco,F,55 a 59,Argentina,Argentina,28555
+22,Chaco,F,55 a 59,Argentina,Otro Pais,25
+22,Chaco,F,55 a 59,Extranjera,Otro Pais,234
+22,Chaco,F,60 a 64,Argentina,Argentina,25583
+22,Chaco,F,60 a 64,Argentina,Otro Pais,34
+22,Chaco,F,60 a 64,Extranjera,Otro Pais,222
+22,Chaco,F,65 a 69,Argentina,Argentina,22068
+22,Chaco,F,65 a 69,Argentina,Otro Pais,70
+22,Chaco,F,65 a 69,Extranjera,Otro Pais,226
+22,Chaco,F,70 a 74,Argentina,Argentina,16786
+22,Chaco,F,70 a 74,Argentina,Otro Pais,56
+22,Chaco,F,70 a 74,Extranjera,Otro Pais,220
+22,Chaco,F,75 a 79,Argentina,Argentina,11034
+22,Chaco,F,75 a 79,Argentina,Otro Pais,84
+22,Chaco,F,75 a 79,Extranjera,Otro Pais,179
+22,Chaco,F,80 a 84,Argentina,Argentina,7604
+22,Chaco,F,80 a 84,Argentina,Otro Pais,59
+22,Chaco,F,80 a 84,Extranjera,Otro Pais,171
+22,Chaco,F,85 a 89,Argentina,Argentina,4394
+22,Chaco,F,85 a 89,Argentina,Otro Pais,48
+22,Chaco,F,85 a 89,Extranjera,Otro Pais,92
+22,Chaco,F,90 a 94,Argentina,Argentina,1823
+22,Chaco,F,90 a 94,Argentina,Otro Pais,18
+22,Chaco,F,90 a 94,Extranjera,Otro Pais,69
+22,Chaco,F,95 a 99,Argentina,Argentina,565
+22,Chaco,F,95 a 99,Argentina,Otro Pais,15
+22,Chaco,F,95 a 99,Extranjera,Otro Pais,30
+22,Chaco,M,0 a 4,Argentina,Argentina,39350
+22,Chaco,M,0 a 4,Argentina,Otro Pais,4
+22,Chaco,M,0 a 4,Extranjera,Otro Pais,8
+22,Chaco,M,10 a 14,Argentina,Argentina,58679
+22,Chaco,M,10 a 14,Argentina,Otro Pais,19
+22,Chaco,M,10 a 14,Extranjera,Otro Pais,83
+22,Chaco,M,100 y +,Argentina,Argentina,57
+22,Chaco,M,100 y +,Argentina,Otro Pais,1
+22,Chaco,M,100 y +,Extranjera,Otro Pais,7
+22,Chaco,M,15 a 19,Argentina,Argentina,54479
+22,Chaco,M,15 a 19,Argentina,Otro Pais,31
+22,Chaco,M,15 a 19,Extranjera,Otro Pais,162
+22,Chaco,M,20 a 24,Argentina,Argentina,57193
+22,Chaco,M,20 a 24,Argentina,Otro Pais,28
+22,Chaco,M,20 a 24,Extranjera,Otro Pais,218
+22,Chaco,M,25 a 29,Argentina,Argentina,59559
+22,Chaco,M,25 a 29,Argentina,Otro Pais,17
+22,Chaco,M,25 a 29,Extranjera,Otro Pais,212
+22,Chaco,M,30 a 34,Argentina,Argentina,55271
+22,Chaco,M,30 a 34,Argentina,Otro Pais,21
+22,Chaco,M,30 a 34,Extranjera,Otro Pais,442
+22,Chaco,M,35 a 39,Argentina,Argentina,47543
+22,Chaco,M,35 a 39,Argentina,Otro Pais,21
+22,Chaco,M,35 a 39,Extranjera,Otro Pais,366
+22,Chaco,M,40 a 44,Argentina,Argentina,45183
+22,Chaco,M,40 a 44,Argentina,Otro Pais,24
+22,Chaco,M,40 a 44,Extranjera,Otro Pais,290
+22,Chaco,M,45 a 49,Argentina,Argentina,40094
+22,Chaco,M,45 a 49,Argentina,Otro Pais,17
+22,Chaco,M,45 a 49,Extranjera,Otro Pais,216
+22,Chaco,M,5 a 9,Argentina,Argentina,58694
+22,Chaco,M,5 a 9,Argentina,Otro Pais,11
+22,Chaco,M,5 a 9,Extranjera,Otro Pais,34
+22,Chaco,M,50 a 54,Argentina,Argentina,31812
+22,Chaco,M,50 a 54,Argentina,Otro Pais,24
+22,Chaco,M,50 a 54,Extranjera,Otro Pais,199
+22,Chaco,M,55 a 59,Argentina,Argentina,28063
+22,Chaco,M,55 a 59,Argentina,Otro Pais,29
+22,Chaco,M,55 a 59,Extranjera,Otro Pais,181
+22,Chaco,M,60 a 64,Argentina,Argentina,25429
+22,Chaco,M,60 a 64,Argentina,Otro Pais,32
+22,Chaco,M,60 a 64,Extranjera,Otro Pais,176
+22,Chaco,M,65 a 69,Argentina,Argentina,21656
+22,Chaco,M,65 a 69,Argentina,Otro Pais,43
+22,Chaco,M,65 a 69,Extranjera,Otro Pais,195
+22,Chaco,M,70 a 74,Argentina,Argentina,15637
+22,Chaco,M,70 a 74,Argentina,Otro Pais,58
+22,Chaco,M,70 a 74,Extranjera,Otro Pais,218
+22,Chaco,M,75 a 79,Argentina,Argentina,9188
+22,Chaco,M,75 a 79,Argentina,Otro Pais,57
+22,Chaco,M,75 a 79,Extranjera,Otro Pais,183
+22,Chaco,M,80 a 84,Argentina,Argentina,5048
+22,Chaco,M,80 a 84,Argentina,Otro Pais,34
+22,Chaco,M,80 a 84,Extranjera,Otro Pais,129
+22,Chaco,M,85 a 89,Argentina,Argentina,2453
+22,Chaco,M,85 a 89,Argentina,Otro Pais,25
+22,Chaco,M,85 a 89,Extranjera,Otro Pais,71
+22,Chaco,M,90 a 94,Argentina,Argentina,911
+22,Chaco,M,90 a 94,Argentina,Otro Pais,11
+22,Chaco,M,90 a 94,Extranjera,Otro Pais,52
+22,Chaco,M,95 a 99,Argentina,Argentina,238
+22,Chaco,M,95 a 99,Argentina,Otro Pais,3
+22,Chaco,M,95 a 99,Extranjera,Otro Pais,17
+22,Chaco,X,15 a 19,Argentina,Argentina,3
+22,Chaco,X,20 a 24,Argentina,Argentina,4
+22,Chaco,X,25 a 29,Argentina,Argentina,1
+22,Chaco,X,30 a 34,Argentina,Argentina,3
+22,Chaco,X,35 a 39,Argentina,Argentina,2
+26,Chubut,F,0 a 4,Argentina,Argentina,14435
+26,Chubut,F,0 a 4,Argentina,Otro Pais,18
+26,Chubut,F,0 a 4,Extranjera,Otro Pais,33
+26,Chubut,F,10 a 14,Argentina,Argentina,24341
+26,Chubut,F,10 a 14,Argentina,Otro Pais,34
+26,Chubut,F,10 a 14,Extranjera,Otro Pais,329
+26,Chubut,F,100 y +,Argentina,Argentina,84
+26,Chubut,F,100 y +,Argentina,Otro Pais,11
+26,Chubut,F,100 y +,Extranjera,Otro Pais,37
+26,Chubut,F,15 a 19,Argentina,Argentina,23264
+26,Chubut,F,15 a 19,Argentina,Otro Pais,59
+26,Chubut,F,15 a 19,Extranjera,Otro Pais,587
+26,Chubut,F,20 a 24,Argentina,Argentina,22212
+26,Chubut,F,20 a 24,Argentina,Otro Pais,79
+26,Chubut,F,20 a 24,Extranjera,Otro Pais,790
+26,Chubut,F,25 a 29,Argentina,Argentina,23185
+26,Chubut,F,25 a 29,Argentina,Otro Pais,58
+26,Chubut,F,25 a 29,Extranjera,Otro Pais,920
+26,Chubut,F,30 a 34,Argentina,Argentina,23729
+26,Chubut,F,30 a 34,Argentina,Otro Pais,107
+26,Chubut,F,30 a 34,Extranjera,Otro Pais,1195
+26,Chubut,F,35 a 39,Argentina,Argentina,23180
+26,Chubut,F,35 a 39,Argentina,Otro Pais,155
+26,Chubut,F,35 a 39,Extranjera,Otro Pais,1347
+26,Chubut,F,40 a 44,Argentina,Argentina,22515
+26,Chubut,F,40 a 44,Argentina,Otro Pais,254
+26,Chubut,F,40 a 44,Extranjera,Otro Pais,1245
+26,Chubut,F,45 a 49,Argentina,Argentina,21030
+26,Chubut,F,45 a 49,Argentina,Otro Pais,235
+26,Chubut,F,45 a 49,Extranjera,Otro Pais,1009
+26,Chubut,F,5 a 9,Argentina,Argentina,22393
+26,Chubut,F,5 a 9,Argentina,Otro Pais,22
+26,Chubut,F,5 a 9,Extranjera,Otro Pais,189
+26,Chubut,F,50 a 54,Argentina,Argentina,16237
+26,Chubut,F,50 a 54,Argentina,Otro Pais,349
+26,Chubut,F,50 a 54,Extranjera,Otro Pais,952
+26,Chubut,F,55 a 59,Argentina,Argentina,13545
+26,Chubut,F,55 a 59,Argentina,Otro Pais,397
+26,Chubut,F,55 a 59,Extranjera,Otro Pais,981
+26,Chubut,F,60 a 64,Argentina,Argentina,12269
+26,Chubut,F,60 a 64,Argentina,Otro Pais,477
+26,Chubut,F,60 a 64,Extranjera,Otro Pais,978
+26,Chubut,F,65 a 69,Argentina,Argentina,10251
+26,Chubut,F,65 a 69,Argentina,Otro Pais,667
+26,Chubut,F,65 a 69,Extranjera,Otro Pais,880
+26,Chubut,F,70 a 74,Argentina,Argentina,8145
+26,Chubut,F,70 a 74,Argentina,Otro Pais,662
+26,Chubut,F,70 a 74,Extranjera,Otro Pais,763
+26,Chubut,F,75 a 79,Argentina,Argentina,5405
+26,Chubut,F,75 a 79,Argentina,Otro Pais,603
+26,Chubut,F,75 a 79,Extranjera,Otro Pais,641
+26,Chubut,F,80 a 84,Argentina,Argentina,3699
+26,Chubut,F,80 a 84,Argentina,Otro Pais,483
+26,Chubut,F,80 a 84,Extranjera,Otro Pais,486
+26,Chubut,F,85 a 89,Argentina,Argentina,2170
+26,Chubut,F,85 a 89,Argentina,Otro Pais,270
+26,Chubut,F,85 a 89,Extranjera,Otro Pais,341
+26,Chubut,F,90 a 94,Argentina,Argentina,1102
+26,Chubut,F,90 a 94,Argentina,Otro Pais,103
+26,Chubut,F,90 a 94,Extranjera,Otro Pais,197
+26,Chubut,F,95 a 99,Argentina,Argentina,378
+26,Chubut,F,95 a 99,Argentina,Otro Pais,42
+26,Chubut,F,95 a 99,Extranjera,Otro Pais,69
+26,Chubut,M,0 a 4,Argentina,Argentina,14962
+26,Chubut,M,0 a 4,Argentina,Otro Pais,10
+26,Chubut,M,0 a 4,Extranjera,Otro Pais,40
+26,Chubut,M,10 a 14,Argentina,Argentina,25169
+26,Chubut,M,10 a 14,Argentina,Otro Pais,47
+26,Chubut,M,10 a 14,Extranjera,Otro Pais,359
+26,Chubut,M,100 y +,Argentina,Argentina,27
+26,Chubut,M,100 y +,Argentina,Otro Pais,10
+26,Chubut,M,100 y +,Extranjera,Otro Pais,9
+26,Chubut,M,15 a 19,Argentina,Argentina,23966
+26,Chubut,M,15 a 19,Argentina,Otro Pais,59
+26,Chubut,M,15 a 19,Extranjera,Otro Pais,576
+26,Chubut,M,20 a 24,Argentina,Argentina,23007
+26,Chubut,M,20 a 24,Argentina,Otro Pais,63
+26,Chubut,M,20 a 24,Extranjera,Otro Pais,777
+26,Chubut,M,25 a 29,Argentina,Argentina,24289
+26,Chubut,M,25 a 29,Argentina,Otro Pais,54
+26,Chubut,M,25 a 29,Extranjera,Otro Pais,951
+26,Chubut,M,30 a 34,Argentina,Argentina,24435
+26,Chubut,M,30 a 34,Argentina,Otro Pais,96
+26,Chubut,M,30 a 34,Extranjera,Otro Pais,1374
+26,Chubut,M,35 a 39,Argentina,Argentina,23923
+26,Chubut,M,35 a 39,Argentina,Otro Pais,137
+26,Chubut,M,35 a 39,Extranjera,Otro Pais,1464
+26,Chubut,M,40 a 44,Argentina,Argentina,23305
+26,Chubut,M,40 a 44,Argentina,Otro Pais,172
+26,Chubut,M,40 a 44,Extranjera,Otro Pais,1334
+26,Chubut,M,45 a 49,Argentina,Argentina,21664
+26,Chubut,M,45 a 49,Argentina,Otro Pais,163
+26,Chubut,M,45 a 49,Extranjera,Otro Pais,1079
+26,Chubut,M,5 a 9,Argentina,Argentina,23073
+26,Chubut,M,5 a 9,Argentina,Otro Pais,31
+26,Chubut,M,5 a 9,Extranjera,Otro Pais,159
+26,Chubut,M,50 a 54,Argentina,Argentina,16528
+26,Chubut,M,50 a 54,Argentina,Otro Pais,215
+26,Chubut,M,50 a 54,Extranjera,Otro Pais,987
+26,Chubut,M,55 a 59,Argentina,Argentina,13275
+26,Chubut,M,55 a 59,Argentina,Otro Pais,298
+26,Chubut,M,55 a 59,Extranjera,Otro Pais,936
+26,Chubut,M,60 a 64,Argentina,Argentina,12253
+26,Chubut,M,60 a 64,Argentina,Otro Pais,318
+26,Chubut,M,60 a 64,Extranjera,Otro Pais,906
+26,Chubut,M,65 a 69,Argentina,Argentina,9899
+26,Chubut,M,65 a 69,Argentina,Otro Pais,476
+26,Chubut,M,65 a 69,Extranjera,Otro Pais,769
+26,Chubut,M,70 a 74,Argentina,Argentina,7148
+26,Chubut,M,70 a 74,Argentina,Otro Pais,529
+26,Chubut,M,70 a 74,Extranjera,Otro Pais,721
+26,Chubut,M,75 a 79,Argentina,Argentina,4548
+26,Chubut,M,75 a 79,Argentina,Otro Pais,460
+26,Chubut,M,75 a 79,Extranjera,Otro Pais,551
+26,Chubut,M,80 a 84,Argentina,Argentina,2597
+26,Chubut,M,80 a 84,Argentina,Otro Pais,335
+26,Chubut,M,80 a 84,Extranjera,Otro Pais,350
+26,Chubut,M,85 a 89,Argentina,Argentina,1230
+26,Chubut,M,85 a 89,Argentina,Otro Pais,218
+26,Chubut,M,85 a 89,Extranjera,Otro Pais,210
+26,Chubut,M,90 a 94,Argentina,Argentina,444
+26,Chubut,M,90 a 94,Argentina,Otro Pais,78
+26,Chubut,M,90 a 94,Extranjera,Otro Pais,90
+26,Chubut,M,95 a 99,Argentina,Argentina,141
+26,Chubut,M,95 a 99,Argentina,Otro Pais,30
+26,Chubut,M,95 a 99,Extranjera,Otro Pais,29
+26,Chubut,X,10 a 14,Argentina,Argentina,1
+26,Chubut,X,15 a 19,Argentina,Argentina,8
+26,Chubut,X,20 a 24,Argentina,Argentina,15
+26,Chubut,X,25 a 29,Argentina,Argentina,12
+26,Chubut,X,30 a 34,Argentina,Argentina,9
+26,Chubut,X,35 a 39,Argentina,Argentina,5
+26,Chubut,X,45 a 49,Argentina,Argentina,1
+26,Chubut,X,50 a 54,Argentina,Argentina,2
+26,Chubut,X,65 a 69,Argentina,Argentina,1
+30,Entre Ríos,F,0 a 4,Argentina,Argentina,36848
+30,Entre Ríos,F,0 a 4,Argentina,Otro Pais,28
+30,Entre Ríos,F,0 a 4,Extranjera,Otro Pais,21
+30,Entre Ríos,F,10 a 14,Argentina,Argentina,54945
+30,Entre Ríos,F,10 a 14,Argentina,Otro Pais,64
+30,Entre Ríos,F,10 a 14,Extranjera,Otro Pais,150
+30,Entre Ríos,F,100 y +,Argentina,Argentina,157
+30,Entre Ríos,F,100 y +,Extranjera,Otro Pais,18
+30,Entre Ríos,F,15 a 19,Argentina,Argentina,53484
+30,Entre Ríos,F,15 a 19,Argentina,Otro Pais,87
+30,Entre Ríos,F,15 a 19,Extranjera,Otro Pais,348
+30,Entre Ríos,F,20 a 24,Argentina,Argentina,56587
+30,Entre Ríos,F,20 a 24,Argentina,Otro Pais,84
+30,Entre Ríos,F,20 a 24,Extranjera,Otro Pais,676
+30,Entre Ríos,F,25 a 29,Argentina,Argentina,56084
+30,Entre Ríos,F,25 a 29,Argentina,Otro Pais,66
+30,Entre Ríos,F,25 a 29,Extranjera,Otro Pais,656
+30,Entre Ríos,F,30 a 34,Argentina,Argentina,55402
+30,Entre Ríos,F,30 a 34,Argentina,Otro Pais,63
+30,Entre Ríos,F,30 a 34,Extranjera,Otro Pais,648
+30,Entre Ríos,F,35 a 39,Argentina,Argentina,51299
+30,Entre Ríos,F,35 a 39,Argentina,Otro Pais,71
+30,Entre Ríos,F,35 a 39,Extranjera,Otro Pais,589
+30,Entre Ríos,F,40 a 44,Argentina,Argentina,50333
+30,Entre Ríos,F,40 a 44,Argentina,Otro Pais,99
+30,Entre Ríos,F,40 a 44,Extranjera,Otro Pais,552
+30,Entre Ríos,F,45 a 49,Argentina,Argentina,46829
+30,Entre Ríos,F,45 a 49,Argentina,Otro Pais,94
+30,Entre Ríos,F,45 a 49,Extranjera,Otro Pais,491
+30,Entre Ríos,F,5 a 9,Argentina,Argentina,53199
+30,Entre Ríos,F,5 a 9,Argentina,Otro Pais,32
+30,Entre Ríos,F,5 a 9,Extranjera,Otro Pais,92
+30,Entre Ríos,F,50 a 54,Argentina,Argentina,39342
+30,Entre Ríos,F,50 a 54,Argentina,Otro Pais,124
+30,Entre Ríos,F,50 a 54,Extranjera,Otro Pais,506
+30,Entre Ríos,F,55 a 59,Argentina,Argentina,34758
+30,Entre Ríos,F,55 a 59,Argentina,Otro Pais,123
+30,Entre Ríos,F,55 a 59,Extranjera,Otro Pais,388
+30,Entre Ríos,F,60 a 64,Argentina,Argentina,32970
+30,Entre Ríos,F,60 a 64,Argentina,Otro Pais,94
+30,Entre Ríos,F,60 a 64,Extranjera,Otro Pais,394
+30,Entre Ríos,F,65 a 69,Argentina,Argentina,29888
+30,Entre Ríos,F,65 a 69,Argentina,Otro Pais,115
+30,Entre Ríos,F,65 a 69,Extranjera,Otro Pais,343
+30,Entre Ríos,F,70 a 74,Argentina,Argentina,24946
+30,Entre Ríos,F,70 a 74,Argentina,Otro Pais,97
+30,Entre Ríos,F,70 a 74,Extranjera,Otro Pais,315
+30,Entre Ríos,F,75 a 79,Argentina,Argentina,18841
+30,Entre Ríos,F,75 a 79,Argentina,Otro Pais,117
+30,Entre Ríos,F,75 a 79,Extranjera,Otro Pais,259
+30,Entre Ríos,F,80 a 84,Argentina,Argentina,13453
+30,Entre Ríos,F,80 a 84,Argentina,Otro Pais,68
+30,Entre Ríos,F,80 a 84,Extranjera,Otro Pais,199
+30,Entre Ríos,F,85 a 89,Argentina,Argentina,8080
+30,Entre Ríos,F,85 a 89,Argentina,Otro Pais,37
+30,Entre Ríos,F,85 a 89,Extranjera,Otro Pais,97
+30,Entre Ríos,F,90 a 94,Argentina,Argentina,3592
+30,Entre Ríos,F,90 a 94,Argentina,Otro Pais,17
+30,Entre Ríos,F,90 a 94,Extranjera,Otro Pais,67
+30,Entre Ríos,F,95 a 99,Argentina,Argentina,939
+30,Entre Ríos,F,95 a 99,Argentina,Otro Pais,8
+30,Entre Ríos,F,95 a 99,Extranjera,Otro Pais,29
+30,Entre Ríos,M,0 a 4,Argentina,Argentina,38480
+30,Entre Ríos,M,0 a 4,Argentina,Otro Pais,33
+30,Entre Ríos,M,0 a 4,Extranjera,Otro Pais,20
+30,Entre Ríos,M,10 a 14,Argentina,Argentina,57917
+30,Entre Ríos,M,10 a 14,Argentina,Otro Pais,69
+30,Entre Ríos,M,10 a 14,Extranjera,Otro Pais,183
+30,Entre Ríos,M,100 y +,Argentina,Argentina,27
+30,Entre Ríos,M,100 y +,Extranjera,Otro Pais,6
+30,Entre Ríos,M,15 a 19,Argentina,Argentina,55392
+30,Entre Ríos,M,15 a 19,Argentina,Otro Pais,110
+30,Entre Ríos,M,15 a 19,Extranjera,Otro Pais,341
+30,Entre Ríos,M,20 a 24,Argentina,Argentina,58148
+30,Entre Ríos,M,20 a 24,Argentina,Otro Pais,89
+30,Entre Ríos,M,20 a 24,Extranjera,Otro Pais,577
+30,Entre Ríos,M,25 a 29,Argentina,Argentina,58024
+30,Entre Ríos,M,25 a 29,Argentina,Otro Pais,58
+30,Entre Ríos,M,25 a 29,Extranjera,Otro Pais,620
+30,Entre Ríos,M,30 a 34,Argentina,Argentina,56128
+30,Entre Ríos,M,30 a 34,Argentina,Otro Pais,62
+30,Entre Ríos,M,30 a 34,Extranjera,Otro Pais,763
+30,Entre Ríos,M,35 a 39,Argentina,Argentina,51194
+30,Entre Ríos,M,35 a 39,Argentina,Otro Pais,91
+30,Entre Ríos,M,35 a 39,Extranjera,Otro Pais,724
+30,Entre Ríos,M,40 a 44,Argentina,Argentina,50744
+30,Entre Ríos,M,40 a 44,Argentina,Otro Pais,124
+30,Entre Ríos,M,40 a 44,Extranjera,Otro Pais,661
+30,Entre Ríos,M,45 a 49,Argentina,Argentina,47256
+30,Entre Ríos,M,45 a 49,Argentina,Otro Pais,108
+30,Entre Ríos,M,45 a 49,Extranjera,Otro Pais,543
+30,Entre Ríos,M,5 a 9,Argentina,Argentina,55474
+30,Entre Ríos,M,5 a 9,Argentina,Otro Pais,44
+30,Entre Ríos,M,5 a 9,Extranjera,Otro Pais,119
+30,Entre Ríos,M,50 a 54,Argentina,Argentina,39434
+30,Entre Ríos,M,50 a 54,Argentina,Otro Pais,111
+30,Entre Ríos,M,50 a 54,Extranjera,Otro Pais,561
+30,Entre Ríos,M,55 a 59,Argentina,Argentina,34233
+30,Entre Ríos,M,55 a 59,Argentina,Otro Pais,105
+30,Entre Ríos,M,55 a 59,Extranjera,Otro Pais,476
+30,Entre Ríos,M,60 a 64,Argentina,Argentina,31075
+30,Entre Ríos,M,60 a 64,Argentina,Otro Pais,101
+30,Entre Ríos,M,60 a 64,Extranjera,Otro Pais,418
+30,Entre Ríos,M,65 a 69,Argentina,Argentina,26365
+30,Entre Ríos,M,65 a 69,Argentina,Otro Pais,76
+30,Entre Ríos,M,65 a 69,Extranjera,Otro Pais,391
+30,Entre Ríos,M,70 a 74,Argentina,Argentina,21224
+30,Entre Ríos,M,70 a 74,Argentina,Otro Pais,75
+30,Entre Ríos,M,70 a 74,Extranjera,Otro Pais,364
+30,Entre Ríos,M,75 a 79,Argentina,Argentina,13822
+30,Entre Ríos,M,75 a 79,Argentina,Otro Pais,79
+30,Entre Ríos,M,75 a 79,Extranjera,Otro Pais,337
+30,Entre Ríos,M,80 a 84,Argentina,Argentina,7933
+30,Entre Ríos,M,80 a 84,Argentina,Otro Pais,60
+30,Entre Ríos,M,80 a 84,Extranjera,Otro Pais,179
+30,Entre Ríos,M,85 a 89,Argentina,Argentina,3673
+30,Entre Ríos,M,85 a 89,Argentina,Otro Pais,22
+30,Entre Ríos,M,85 a 89,Extranjera,Otro Pais,97
+30,Entre Ríos,M,90 a 94,Argentina,Argentina,1245
+30,Entre Ríos,M,90 a 94,Argentina,Otro Pais,15
+30,Entre Ríos,M,90 a 94,Extranjera,Otro Pais,51
+30,Entre Ríos,M,95 a 99,Argentina,Argentina,266
+30,Entre Ríos,M,95 a 99,Argentina,Otro Pais,5
+30,Entre Ríos,M,95 a 99,Extranjera,Otro Pais,15
+30,Entre Ríos,X,15 a 19,Argentina,Argentina,6
+30,Entre Ríos,X,20 a 24,Argentina,Argentina,9
+30,Entre Ríos,X,25 a 29,Argentina,Argentina,7
+30,Entre Ríos,X,25 a 29,Extranjera,Otro Pais,1
+30,Entre Ríos,X,30 a 34,Argentina,Argentina,7
+30,Entre Ríos,X,35 a 39,Argentina,Argentina,3
+30,Entre Ríos,X,40 a 44,Argentina,Argentina,1
+30,Entre Ríos,X,45 a 49,Argentina,Argentina,2
+30,Entre Ríos,X,50 a 54,Argentina,Argentina,1
+30,Entre Ríos,X,55 a 59,Argentina,Argentina,1
+30,Entre Ríos,X,60 a 64,Argentina,Argentina,1
+34,Formosa,F,0 a 4,Argentina,Argentina,19605
+34,Formosa,F,0 a 4,Argentina,Otro Pais,10
+34,Formosa,F,0 a 4,Extranjera,Otro Pais,5
+34,Formosa,F,10 a 14,Argentina,Argentina,27478
+34,Formosa,F,10 a 14,Argentina,Otro Pais,24
+34,Formosa,F,10 a 14,Extranjera,Otro Pais,82
+34,Formosa,F,100 y +,Argentina,Argentina,66
+34,Formosa,F,100 y +,Argentina,Otro Pais,1
+34,Formosa,F,100 y +,Extranjera,Otro Pais,54
+34,Formosa,F,15 a 19,Argentina,Argentina,26450
+34,Formosa,F,15 a 19,Argentina,Otro Pais,40
+34,Formosa,F,15 a 19,Extranjera,Otro Pais,105
+34,Formosa,F,20 a 24,Argentina,Argentina,26742
+34,Formosa,F,20 a 24,Argentina,Otro Pais,29
+34,Formosa,F,20 a 24,Extranjera,Otro Pais,172
+34,Formosa,F,25 a 29,Argentina,Argentina,26777
+34,Formosa,F,25 a 29,Argentina,Otro Pais,46
+34,Formosa,F,25 a 29,Extranjera,Otro Pais,353
+34,Formosa,F,30 a 34,Argentina,Argentina,24417
+34,Formosa,F,30 a 34,Argentina,Otro Pais,51
+34,Formosa,F,30 a 34,Extranjera,Otro Pais,632
+34,Formosa,F,35 a 39,Argentina,Argentina,20949
+34,Formosa,F,35 a 39,Argentina,Otro Pais,58
+34,Formosa,F,35 a 39,Extranjera,Otro Pais,812
+34,Formosa,F,40 a 44,Argentina,Argentina,19456
+34,Formosa,F,40 a 44,Argentina,Otro Pais,66
+34,Formosa,F,40 a 44,Extranjera,Otro Pais,914
+34,Formosa,F,45 a 49,Argentina,Argentina,17838
+34,Formosa,F,45 a 49,Argentina,Otro Pais,58
+34,Formosa,F,45 a 49,Extranjera,Otro Pais,799
+34,Formosa,F,5 a 9,Argentina,Argentina,27119
+34,Formosa,F,5 a 9,Argentina,Otro Pais,26
+34,Formosa,F,5 a 9,Extranjera,Otro Pais,42
+34,Formosa,F,50 a 54,Argentina,Argentina,14443
+34,Formosa,F,50 a 54,Argentina,Otro Pais,106
+34,Formosa,F,50 a 54,Extranjera,Otro Pais,898
+34,Formosa,F,55 a 59,Argentina,Argentina,13220
+34,Formosa,F,55 a 59,Argentina,Otro Pais,143
+34,Formosa,F,55 a 59,Extranjera,Otro Pais,1047
+34,Formosa,F,60 a 64,Argentina,Argentina,11442
+34,Formosa,F,60 a 64,Argentina,Otro Pais,185
+34,Formosa,F,60 a 64,Extranjera,Otro Pais,1017
+34,Formosa,F,65 a 69,Argentina,Argentina,10042
+34,Formosa,F,65 a 69,Argentina,Otro Pais,228
+34,Formosa,F,65 a 69,Extranjera,Otro Pais,1101
+34,Formosa,F,70 a 74,Argentina,Argentina,7353
+34,Formosa,F,70 a 74,Argentina,Otro Pais,282
+34,Formosa,F,70 a 74,Extranjera,Otro Pais,1327
+34,Formosa,F,75 a 79,Argentina,Argentina,4453
+34,Formosa,F,75 a 79,Argentina,Otro Pais,238
+34,Formosa,F,75 a 79,Extranjera,Otro Pais,1350
+34,Formosa,F,80 a 84,Argentina,Argentina,2733
+34,Formosa,F,80 a 84,Argentina,Otro Pais,272
+34,Formosa,F,80 a 84,Extranjera,Otro Pais,1089
+34,Formosa,F,85 a 89,Argentina,Argentina,1544
+34,Formosa,F,85 a 89,Argentina,Otro Pais,199
+34,Formosa,F,85 a 89,Extranjera,Otro Pais,683
+34,Formosa,F,90 a 94,Argentina,Argentina,637
+34,Formosa,F,90 a 94,Argentina,Otro Pais,86
+34,Formosa,F,90 a 94,Extranjera,Otro Pais,346
+34,Formosa,F,95 a 99,Argentina,Argentina,188
+34,Formosa,F,95 a 99,Argentina,Otro Pais,37
+34,Formosa,F,95 a 99,Extranjera,Otro Pais,147
+34,Formosa,M,0 a 4,Argentina,Argentina,20217
+34,Formosa,M,0 a 4,Argentina,Otro Pais,7
+34,Formosa,M,0 a 4,Extranjera,Otro Pais,6
+34,Formosa,M,10 a 14,Argentina,Argentina,28495
+34,Formosa,M,10 a 14,Argentina,Otro Pais,24
+34,Formosa,M,10 a 14,Extranjera,Otro Pais,81
+34,Formosa,M,100 y +,Argentina,Argentina,39
+34,Formosa,M,100 y +,Argentina,Otro Pais,3
+34,Formosa,M,100 y +,Extranjera,Otro Pais,38
+34,Formosa,M,15 a 19,Argentina,Argentina,27667
+34,Formosa,M,15 a 19,Argentina,Otro Pais,30
+34,Formosa,M,15 a 19,Extranjera,Otro Pais,104
+34,Formosa,M,20 a 24,Argentina,Argentina,27000
+34,Formosa,M,20 a 24,Argentina,Otro Pais,33
+34,Formosa,M,20 a 24,Extranjera,Otro Pais,167
+34,Formosa,M,25 a 29,Argentina,Argentina,27089
+34,Formosa,M,25 a 29,Argentina,Otro Pais,43
+34,Formosa,M,25 a 29,Extranjera,Otro Pais,274
+34,Formosa,M,30 a 34,Argentina,Argentina,24296
+34,Formosa,M,30 a 34,Argentina,Otro Pais,46
+34,Formosa,M,30 a 34,Extranjera,Otro Pais,417
+34,Formosa,M,35 a 39,Argentina,Argentina,20659
+34,Formosa,M,35 a 39,Argentina,Otro Pais,43
+34,Formosa,M,35 a 39,Extranjera,Otro Pais,549
+34,Formosa,M,40 a 44,Argentina,Argentina,19179
+34,Formosa,M,40 a 44,Argentina,Otro Pais,53
+34,Formosa,M,40 a 44,Extranjera,Otro Pais,625
+34,Formosa,M,45 a 49,Argentina,Argentina,17519
+34,Formosa,M,45 a 49,Argentina,Otro Pais,39
+34,Formosa,M,45 a 49,Extranjera,Otro Pais,490
+34,Formosa,M,5 a 9,Argentina,Argentina,28167
+34,Formosa,M,5 a 9,Argentina,Otro Pais,24
+34,Formosa,M,5 a 9,Extranjera,Otro Pais,44
+34,Formosa,M,50 a 54,Argentina,Argentina,14463
+34,Formosa,M,50 a 54,Argentina,Otro Pais,52
+34,Formosa,M,50 a 54,Extranjera,Otro Pais,625
+34,Formosa,M,55 a 59,Argentina,Argentina,13244
+34,Formosa,M,55 a 59,Argentina,Otro Pais,79
+34,Formosa,M,55 a 59,Extranjera,Otro Pais,662
+34,Formosa,M,60 a 64,Argentina,Argentina,11694
+34,Formosa,M,60 a 64,Argentina,Otro Pais,105
+34,Formosa,M,60 a 64,Extranjera,Otro Pais,751
+34,Formosa,M,65 a 69,Argentina,Argentina,10144
+34,Formosa,M,65 a 69,Argentina,Otro Pais,113
+34,Formosa,M,65 a 69,Extranjera,Otro Pais,802
+34,Formosa,M,70 a 74,Argentina,Argentina,7026
+34,Formosa,M,70 a 74,Argentina,Otro Pais,182
+34,Formosa,M,70 a 74,Extranjera,Otro Pais,1202
+34,Formosa,M,75 a 79,Argentina,Argentina,4038
+34,Formosa,M,75 a 79,Argentina,Otro Pais,153
+34,Formosa,M,75 a 79,Extranjera,Otro Pais,1395
+34,Formosa,M,80 a 84,Argentina,Argentina,2173
+34,Formosa,M,80 a 84,Argentina,Otro Pais,149
+34,Formosa,M,80 a 84,Extranjera,Otro Pais,1079
+34,Formosa,M,85 a 89,Argentina,Argentina,1066
+34,Formosa,M,85 a 89,Argentina,Otro Pais,75
+34,Formosa,M,85 a 89,Extranjera,Otro Pais,629
+34,Formosa,M,90 a 94,Argentina,Argentina,354
+34,Formosa,M,90 a 94,Argentina,Otro Pais,30
+34,Formosa,M,90 a 94,Extranjera,Otro Pais,269
+34,Formosa,M,95 a 99,Argentina,Argentina,128
+34,Formosa,M,95 a 99,Argentina,Otro Pais,8
+34,Formosa,M,95 a 99,Extranjera,Otro Pais,109
+34,Formosa,X,20 a 24,Argentina,Argentina,2
+34,Formosa,X,25 a 29,Argentina,Argentina,1
+34,Formosa,X,45 a 49,Argentina,Argentina,1
+38,Jujuy,F,0 a 4,Argentina,Argentina,17986
+38,Jujuy,F,0 a 4,Argentina,Otro Pais,18
+38,Jujuy,F,0 a 4,Extranjera,Otro Pais,32
+38,Jujuy,F,10 a 14,Argentina,Argentina,31675
+38,Jujuy,F,10 a 14,Argentina,Otro Pais,34
+38,Jujuy,F,10 a 14,Extranjera,Otro Pais,304
+38,Jujuy,F,100 y +,Argentina,Argentina,29
+38,Jujuy,F,100 y +,Argentina,Otro Pais,1
+38,Jujuy,F,100 y +,Extranjera,Otro Pais,10
+38,Jujuy,F,15 a 19,Argentina,Argentina,30834
+38,Jujuy,F,15 a 19,Argentina,Otro Pais,48
+38,Jujuy,F,15 a 19,Extranjera,Otro Pais,407
+38,Jujuy,F,20 a 24,Argentina,Argentina,30605
+38,Jujuy,F,20 a 24,Argentina,Otro Pais,52
+38,Jujuy,F,20 a 24,Extranjera,Otro Pais,561
+38,Jujuy,F,25 a 29,Argentina,Argentina,31092
+38,Jujuy,F,25 a 29,Argentina,Otro Pais,34
+38,Jujuy,F,25 a 29,Extranjera,Otro Pais,830
+38,Jujuy,F,30 a 34,Argentina,Argentina,29095
+38,Jujuy,F,30 a 34,Argentina,Otro Pais,56
+38,Jujuy,F,30 a 34,Extranjera,Otro Pais,1075
+38,Jujuy,F,35 a 39,Argentina,Argentina,26491
+38,Jujuy,F,35 a 39,Argentina,Otro Pais,52
+38,Jujuy,F,35 a 39,Extranjera,Otro Pais,1169
+38,Jujuy,F,40 a 44,Argentina,Argentina,26324
+38,Jujuy,F,40 a 44,Argentina,Otro Pais,103
+38,Jujuy,F,40 a 44,Extranjera,Otro Pais,1322
+38,Jujuy,F,45 a 49,Argentina,Argentina,24619
+38,Jujuy,F,45 a 49,Argentina,Otro Pais,132
+38,Jujuy,F,45 a 49,Extranjera,Otro Pais,1246
+38,Jujuy,F,5 a 9,Argentina,Argentina,29055
+38,Jujuy,F,5 a 9,Argentina,Otro Pais,23
+38,Jujuy,F,5 a 9,Extranjera,Otro Pais,126
+38,Jujuy,F,50 a 54,Argentina,Argentina,19280
+38,Jujuy,F,50 a 54,Argentina,Otro Pais,135
+38,Jujuy,F,50 a 54,Extranjera,Otro Pais,1246
+38,Jujuy,F,55 a 59,Argentina,Argentina,15988
+38,Jujuy,F,55 a 59,Argentina,Otro Pais,170
+38,Jujuy,F,55 a 59,Extranjera,Otro Pais,1235
+38,Jujuy,F,60 a 64,Argentina,Argentina,14096
+38,Jujuy,F,60 a 64,Argentina,Otro Pais,239
+38,Jujuy,F,60 a 64,Extranjera,Otro Pais,1208
+38,Jujuy,F,65 a 69,Argentina,Argentina,12356
+38,Jujuy,F,65 a 69,Argentina,Otro Pais,202
+38,Jujuy,F,65 a 69,Extranjera,Otro Pais,1158
+38,Jujuy,F,70 a 74,Argentina,Argentina,9823
+38,Jujuy,F,70 a 74,Argentina,Otro Pais,211
+38,Jujuy,F,70 a 74,Extranjera,Otro Pais,1079
+38,Jujuy,F,75 a 79,Argentina,Argentina,6585
+38,Jujuy,F,75 a 79,Argentina,Otro Pais,231
+38,Jujuy,F,75 a 79,Extranjera,Otro Pais,974
+38,Jujuy,F,80 a 84,Argentina,Argentina,4185
+38,Jujuy,F,80 a 84,Argentina,Otro Pais,167
+38,Jujuy,F,80 a 84,Extranjera,Otro Pais,734
+38,Jujuy,F,85 a 89,Argentina,Argentina,2305
+38,Jujuy,F,85 a 89,Argentina,Otro Pais,62
+38,Jujuy,F,85 a 89,Extranjera,Otro Pais,368
+38,Jujuy,F,90 a 94,Argentina,Argentina,949
+38,Jujuy,F,90 a 94,Argentina,Otro Pais,29
+38,Jujuy,F,90 a 94,Extranjera,Otro Pais,196
+38,Jujuy,F,95 a 99,Argentina,Argentina,217
+38,Jujuy,F,95 a 99,Argentina,Otro Pais,9
+38,Jujuy,F,95 a 99,Extranjera,Otro Pais,41
+38,Jujuy,M,0 a 4,Argentina,Argentina,18619
+38,Jujuy,M,0 a 4,Argentina,Otro Pais,15
+38,Jujuy,M,0 a 4,Extranjera,Otro Pais,45
+38,Jujuy,M,10 a 14,Argentina,Argentina,32580
+38,Jujuy,M,10 a 14,Argentina,Otro Pais,37
+38,Jujuy,M,10 a 14,Extranjera,Otro Pais,286
+38,Jujuy,M,100 y +,Argentina,Argentina,6
+38,Jujuy,M,100 y +,Argentina,Otro Pais,1
+38,Jujuy,M,100 y +,Extranjera,Otro Pais,3
+38,Jujuy,M,15 a 19,Argentina,Argentina,31634
+38,Jujuy,M,15 a 19,Argentina,Otro Pais,48
+38,Jujuy,M,15 a 19,Extranjera,Otro Pais,380
+38,Jujuy,M,20 a 24,Argentina,Argentina,31695
+38,Jujuy,M,20 a 24,Argentina,Otro Pais,45
+38,Jujuy,M,20 a 24,Extranjera,Otro Pais,552
+38,Jujuy,M,25 a 29,Argentina,Argentina,31305
+38,Jujuy,M,25 a 29,Argentina,Otro Pais,45
+38,Jujuy,M,25 a 29,Extranjera,Otro Pais,743
+38,Jujuy,M,30 a 34,Argentina,Argentina,28915
+38,Jujuy,M,30 a 34,Argentina,Otro Pais,36
+38,Jujuy,M,30 a 34,Extranjera,Otro Pais,954
+38,Jujuy,M,35 a 39,Argentina,Argentina,26379
+38,Jujuy,M,35 a 39,Argentina,Otro Pais,34
+38,Jujuy,M,35 a 39,Extranjera,Otro Pais,1052
+38,Jujuy,M,40 a 44,Argentina,Argentina,26173
+38,Jujuy,M,40 a 44,Argentina,Otro Pais,70
+38,Jujuy,M,40 a 44,Extranjera,Otro Pais,1174
+38,Jujuy,M,45 a 49,Argentina,Argentina,24597
+38,Jujuy,M,45 a 49,Argentina,Otro Pais,76
+38,Jujuy,M,45 a 49,Extranjera,Otro Pais,1107
+38,Jujuy,M,5 a 9,Argentina,Argentina,29996
+38,Jujuy,M,5 a 9,Argentina,Otro Pais,27
+38,Jujuy,M,5 a 9,Extranjera,Otro Pais,151
+38,Jujuy,M,50 a 54,Argentina,Argentina,19081
+38,Jujuy,M,50 a 54,Argentina,Otro Pais,67
+38,Jujuy,M,50 a 54,Extranjera,Otro Pais,1014
+38,Jujuy,M,55 a 59,Argentina,Argentina,14892
+38,Jujuy,M,55 a 59,Argentina,Otro Pais,98
+38,Jujuy,M,55 a 59,Extranjera,Otro Pais,966
+38,Jujuy,M,60 a 64,Argentina,Argentina,12829
+38,Jujuy,M,60 a 64,Argentina,Otro Pais,129
+38,Jujuy,M,60 a 64,Extranjera,Otro Pais,1005
+38,Jujuy,M,65 a 69,Argentina,Argentina,11006
+38,Jujuy,M,65 a 69,Argentina,Otro Pais,161
+38,Jujuy,M,65 a 69,Extranjera,Otro Pais,885
+38,Jujuy,M,70 a 74,Argentina,Argentina,8139
+38,Jujuy,M,70 a 74,Argentina,Otro Pais,214
+38,Jujuy,M,70 a 74,Extranjera,Otro Pais,930
+38,Jujuy,M,75 a 79,Argentina,Argentina,4982
+38,Jujuy,M,75 a 79,Argentina,Otro Pais,182
+38,Jujuy,M,75 a 79,Extranjera,Otro Pais,908
+38,Jujuy,M,80 a 84,Argentina,Argentina,2890
+38,Jujuy,M,80 a 84,Argentina,Otro Pais,149
+38,Jujuy,M,80 a 84,Extranjera,Otro Pais,594
+38,Jujuy,M,85 a 89,Argentina,Argentina,1256
+38,Jujuy,M,85 a 89,Argentina,Otro Pais,49
+38,Jujuy,M,85 a 89,Extranjera,Otro Pais,300
+38,Jujuy,M,90 a 94,Argentina,Argentina,405
+38,Jujuy,M,90 a 94,Argentina,Otro Pais,26
+38,Jujuy,M,90 a 94,Extranjera,Otro Pais,125
+38,Jujuy,M,95 a 99,Argentina,Argentina,83
+38,Jujuy,M,95 a 99,Argentina,Otro Pais,7
+38,Jujuy,M,95 a 99,Extranjera,Otro Pais,38
+38,Jujuy,X,10 a 14,Argentina,Argentina,1
+38,Jujuy,X,15 a 19,Argentina,Argentina,3
+38,Jujuy,X,20 a 24,Argentina,Argentina,1
+38,Jujuy,X,20 a 24,Extranjera,Otro Pais,1
+38,Jujuy,X,25 a 29,Argentina,Argentina,1
+38,Jujuy,X,30 a 34,Argentina,Argentina,3
+38,Jujuy,X,35 a 39,Argentina,Argentina,3
+38,Jujuy,X,40 a 44,Argentina,Argentina,3
+42,La Pampa,F,0 a 4,Argentina,Argentina,8696
+42,La Pampa,F,0 a 4,Argentina,Otro Pais,11
+42,La Pampa,F,0 a 4,Extranjera,Otro Pais,8
+42,La Pampa,F,10 a 14,Argentina,Argentina,14181
+42,La Pampa,F,10 a 14,Argentina,Otro Pais,12
+42,La Pampa,F,10 a 14,Extranjera,Otro Pais,42
+42,La Pampa,F,100 y +,Argentina,Argentina,35
+42,La Pampa,F,100 y +,Extranjera,Otro Pais,2
+42,La Pampa,F,15 a 19,Argentina,Argentina,13814
+42,La Pampa,F,15 a 19,Argentina,Otro Pais,33
+42,La Pampa,F,15 a 19,Extranjera,Otro Pais,69
+42,La Pampa,F,20 a 24,Argentina,Argentina,13657
+42,La Pampa,F,20 a 24,Argentina,Otro Pais,23
+42,La Pampa,F,20 a 24,Extranjera,Otro Pais,124
+42,La Pampa,F,25 a 29,Argentina,Argentina,13803
+42,La Pampa,F,25 a 29,Argentina,Otro Pais,12
+42,La Pampa,F,25 a 29,Extranjera,Otro Pais,123
+42,La Pampa,F,30 a 34,Argentina,Argentina,14657
+42,La Pampa,F,30 a 34,Argentina,Otro Pais,20
+42,La Pampa,F,30 a 34,Extranjera,Otro Pais,177
+42,La Pampa,F,35 a 39,Argentina,Argentina,13854
+42,La Pampa,F,35 a 39,Argentina,Otro Pais,27
+42,La Pampa,F,35 a 39,Extranjera,Otro Pais,206
+42,La Pampa,F,40 a 44,Argentina,Argentina,13201
+42,La Pampa,F,40 a 44,Argentina,Otro Pais,34
+42,La Pampa,F,40 a 44,Extranjera,Otro Pais,234
+42,La Pampa,F,45 a 49,Argentina,Argentina,12306
+42,La Pampa,F,45 a 49,Argentina,Otro Pais,31
+42,La Pampa,F,45 a 49,Extranjera,Otro Pais,161
+42,La Pampa,F,5 a 9,Argentina,Argentina,13019
+42,La Pampa,F,5 a 9,Argentina,Otro Pais,8
+42,La Pampa,F,5 a 9,Extranjera,Otro Pais,29
+42,La Pampa,F,50 a 54,Argentina,Argentina,10626
+42,La Pampa,F,50 a 54,Argentina,Otro Pais,32
+42,La Pampa,F,50 a 54,Extranjera,Otro Pais,136
+42,La Pampa,F,55 a 59,Argentina,Argentina,9533
+42,La Pampa,F,55 a 59,Argentina,Otro Pais,35
+42,La Pampa,F,55 a 59,Extranjera,Otro Pais,131
+42,La Pampa,F,60 a 64,Argentina,Argentina,9136
+42,La Pampa,F,60 a 64,Argentina,Otro Pais,37
+42,La Pampa,F,60 a 64,Extranjera,Otro Pais,105
+42,La Pampa,F,65 a 69,Argentina,Argentina,7845
+42,La Pampa,F,65 a 69,Argentina,Otro Pais,37
+42,La Pampa,F,65 a 69,Extranjera,Otro Pais,102
+42,La Pampa,F,70 a 74,Argentina,Argentina,6844
+42,La Pampa,F,70 a 74,Argentina,Otro Pais,39
+42,La Pampa,F,70 a 74,Extranjera,Otro Pais,89
+42,La Pampa,F,75 a 79,Argentina,Argentina,5614
+42,La Pampa,F,75 a 79,Argentina,Otro Pais,35
+42,La Pampa,F,75 a 79,Extranjera,Otro Pais,71
+42,La Pampa,F,80 a 84,Argentina,Argentina,3897
+42,La Pampa,F,80 a 84,Argentina,Otro Pais,25
+42,La Pampa,F,80 a 84,Extranjera,Otro Pais,36
+42,La Pampa,F,85 a 89,Argentina,Argentina,2368
+42,La Pampa,F,85 a 89,Argentina,Otro Pais,12
+42,La Pampa,F,85 a 89,Extranjera,Otro Pais,34
+42,La Pampa,F,90 a 94,Argentina,Argentina,987
+42,La Pampa,F,90 a 94,Argentina,Otro Pais,3
+42,La Pampa,F,90 a 94,Extranjera,Otro Pais,10
+42,La Pampa,F,95 a 99,Argentina,Argentina,269
+42,La Pampa,F,95 a 99,Argentina,Otro Pais,3
+42,La Pampa,F,95 a 99,Extranjera,Otro Pais,9
+42,La Pampa,M,0 a 4,Argentina,Argentina,9130
+42,La Pampa,M,0 a 4,Argentina,Otro Pais,8
+42,La Pampa,M,0 a 4,Extranjera,Otro Pais,5
+42,La Pampa,M,10 a 14,Argentina,Argentina,14690
+42,La Pampa,M,10 a 14,Argentina,Otro Pais,23
+42,La Pampa,M,10 a 14,Extranjera,Otro Pais,45
+42,La Pampa,M,100 y +,Argentina,Argentina,15
+42,La Pampa,M,100 y +,Extranjera,Otro Pais,1
+42,La Pampa,M,15 a 19,Argentina,Argentina,14353
+42,La Pampa,M,15 a 19,Argentina,Otro Pais,36
+42,La Pampa,M,15 a 19,Extranjera,Otro Pais,80
+42,La Pampa,M,20 a 24,Argentina,Argentina,14150
+42,La Pampa,M,20 a 24,Argentina,Otro Pais,17
+42,La Pampa,M,20 a 24,Extranjera,Otro Pais,117
+42,La Pampa,M,25 a 29,Argentina,Argentina,14519
+42,La Pampa,M,25 a 29,Argentina,Otro Pais,15
+42,La Pampa,M,25 a 29,Extranjera,Otro Pais,140
+42,La Pampa,M,30 a 34,Argentina,Argentina,14960
+42,La Pampa,M,30 a 34,Argentina,Otro Pais,21
+42,La Pampa,M,30 a 34,Extranjera,Otro Pais,198
+42,La Pampa,M,35 a 39,Argentina,Argentina,13959
+42,La Pampa,M,35 a 39,Argentina,Otro Pais,12
+42,La Pampa,M,35 a 39,Extranjera,Otro Pais,230
+42,La Pampa,M,40 a 44,Argentina,Argentina,13542
+42,La Pampa,M,40 a 44,Argentina,Otro Pais,18
+42,La Pampa,M,40 a 44,Extranjera,Otro Pais,224
+42,La Pampa,M,45 a 49,Argentina,Argentina,12552
+42,La Pampa,M,45 a 49,Argentina,Otro Pais,26
+42,La Pampa,M,45 a 49,Extranjera,Otro Pais,166
+42,La Pampa,M,5 a 9,Argentina,Argentina,13557
+42,La Pampa,M,5 a 9,Argentina,Otro Pais,15
+42,La Pampa,M,5 a 9,Extranjera,Otro Pais,28
+42,La Pampa,M,50 a 54,Argentina,Argentina,10585
+42,La Pampa,M,50 a 54,Argentina,Otro Pais,27
+42,La Pampa,M,50 a 54,Extranjera,Otro Pais,134
+42,La Pampa,M,55 a 59,Argentina,Argentina,9456
+42,La Pampa,M,55 a 59,Argentina,Otro Pais,23
+42,La Pampa,M,55 a 59,Extranjera,Otro Pais,106
+42,La Pampa,M,60 a 64,Argentina,Argentina,8871
+42,La Pampa,M,60 a 64,Argentina,Otro Pais,29
+42,La Pampa,M,60 a 64,Extranjera,Otro Pais,104
+42,La Pampa,M,65 a 69,Argentina,Argentina,7481
+42,La Pampa,M,65 a 69,Argentina,Otro Pais,43
+42,La Pampa,M,65 a 69,Extranjera,Otro Pais,104
+42,La Pampa,M,70 a 74,Argentina,Argentina,6172
+42,La Pampa,M,70 a 74,Argentina,Otro Pais,40
+42,La Pampa,M,70 a 74,Extranjera,Otro Pais,94
+42,La Pampa,M,75 a 79,Argentina,Argentina,4423
+42,La Pampa,M,75 a 79,Argentina,Otro Pais,38
+42,La Pampa,M,75 a 79,Extranjera,Otro Pais,52
+42,La Pampa,M,80 a 84,Argentina,Argentina,2685
+42,La Pampa,M,80 a 84,Argentina,Otro Pais,30
+42,La Pampa,M,80 a 84,Extranjera,Otro Pais,52
+42,La Pampa,M,85 a 89,Argentina,Argentina,1209
+42,La Pampa,M,85 a 89,Argentina,Otro Pais,19
+42,La Pampa,M,85 a 89,Extranjera,Otro Pais,27
+42,La Pampa,M,90 a 94,Argentina,Argentina,423
+42,La Pampa,M,90 a 94,Argentina,Otro Pais,3
+42,La Pampa,M,90 a 94,Extranjera,Otro Pais,17
+42,La Pampa,M,95 a 99,Argentina,Argentina,96
+42,La Pampa,M,95 a 99,Extranjera,Otro Pais,6
+42,La Pampa,X,15 a 19,Argentina,Argentina,1
+42,La Pampa,X,20 a 24,Argentina,Argentina,2
+42,La Pampa,X,25 a 29,Argentina,Argentina,2
+42,La Pampa,X,45 a 49,Argentina,Argentina,1
+42,La Pampa,X,50 a 54,Argentina,Argentina,1
+46,La Rioja,F,0 a 4,Argentina,Argentina,10496
+46,La Rioja,F,0 a 4,Argentina,Otro Pais,1
+46,La Rioja,F,0 a 4,Extranjera,Otro Pais,25
+46,La Rioja,F,10 a 14,Argentina,Argentina,15579
+46,La Rioja,F,10 a 14,Argentina,Otro Pais,11
+46,La Rioja,F,10 a 14,Extranjera,Otro Pais,127
+46,La Rioja,F,100 y +,Argentina,Argentina,52
+46,La Rioja,F,100 y +,Extranjera,Otro Pais,1
+46,La Rioja,F,15 a 19,Argentina,Argentina,15976
+46,La Rioja,F,15 a 19,Argentina,Otro Pais,8
+46,La Rioja,F,15 a 19,Extranjera,Otro Pais,184
+46,La Rioja,F,20 a 24,Argentina,Argentina,16584
+46,La Rioja,F,20 a 24,Argentina,Otro Pais,13
+46,La Rioja,F,20 a 24,Extranjera,Otro Pais,505
+46,La Rioja,F,25 a 29,Argentina,Argentina,17251
+46,La Rioja,F,25 a 29,Argentina,Otro Pais,10
+46,La Rioja,F,25 a 29,Extranjera,Otro Pais,518
+46,La Rioja,F,30 a 34,Argentina,Argentina,16841
+46,La Rioja,F,30 a 34,Argentina,Otro Pais,8
+46,La Rioja,F,30 a 34,Extranjera,Otro Pais,485
+46,La Rioja,F,35 a 39,Argentina,Argentina,14251
+46,La Rioja,F,35 a 39,Argentina,Otro Pais,12
+46,La Rioja,F,35 a 39,Extranjera,Otro Pais,422
+46,La Rioja,F,40 a 44,Argentina,Argentina,14058
+46,La Rioja,F,40 a 44,Argentina,Otro Pais,10
+46,La Rioja,F,40 a 44,Extranjera,Otro Pais,318
+46,La Rioja,F,45 a 49,Argentina,Argentina,13434
+46,La Rioja,F,45 a 49,Argentina,Otro Pais,18
+46,La Rioja,F,45 a 49,Extranjera,Otro Pais,260
+46,La Rioja,F,5 a 9,Argentina,Argentina,14647
+46,La Rioja,F,5 a 9,Argentina,Otro Pais,4
+46,La Rioja,F,5 a 9,Extranjera,Otro Pais,77
+46,La Rioja,F,50 a 54,Argentina,Argentina,10224
+46,La Rioja,F,50 a 54,Argentina,Otro Pais,20
+46,La Rioja,F,50 a 54,Extranjera,Otro Pais,207
+46,La Rioja,F,55 a 59,Argentina,Argentina,8710
+46,La Rioja,F,55 a 59,Argentina,Otro Pais,26
+46,La Rioja,F,55 a 59,Extranjera,Otro Pais,168
+46,La Rioja,F,60 a 64,Argentina,Argentina,7987
+46,La Rioja,F,60 a 64,Argentina,Otro Pais,12
+46,La Rioja,F,60 a 64,Extranjera,Otro Pais,125
+46,La Rioja,F,65 a 69,Argentina,Argentina,6603
+46,La Rioja,F,65 a 69,Argentina,Otro Pais,17
+46,La Rioja,F,65 a 69,Extranjera,Otro Pais,86
+46,La Rioja,F,70 a 74,Argentina,Argentina,5449
+46,La Rioja,F,70 a 74,Argentina,Otro Pais,15
+46,La Rioja,F,70 a 74,Extranjera,Otro Pais,66
+46,La Rioja,F,75 a 79,Argentina,Argentina,3761
+46,La Rioja,F,75 a 79,Argentina,Otro Pais,27
+46,La Rioja,F,75 a 79,Extranjera,Otro Pais,53
+46,La Rioja,F,80 a 84,Argentina,Argentina,2374
+46,La Rioja,F,80 a 84,Argentina,Otro Pais,15
+46,La Rioja,F,80 a 84,Extranjera,Otro Pais,25
+46,La Rioja,F,85 a 89,Argentina,Argentina,1324
+46,La Rioja,F,85 a 89,Argentina,Otro Pais,10
+46,La Rioja,F,85 a 89,Extranjera,Otro Pais,17
+46,La Rioja,F,90 a 94,Argentina,Argentina,566
+46,La Rioja,F,90 a 94,Argentina,Otro Pais,1
+46,La Rioja,F,90 a 94,Extranjera,Otro Pais,8
+46,La Rioja,F,95 a 99,Argentina,Argentina,163
+46,La Rioja,F,95 a 99,Extranjera,Otro Pais,2
+46,La Rioja,M,0 a 4,Argentina,Argentina,10957
+46,La Rioja,M,0 a 4,Argentina,Otro Pais,4
+46,La Rioja,M,0 a 4,Extranjera,Otro Pais,10
+46,La Rioja,M,10 a 14,Argentina,Argentina,16181
+46,La Rioja,M,10 a 14,Argentina,Otro Pais,2
+46,La Rioja,M,10 a 14,Extranjera,Otro Pais,130
+46,La Rioja,M,100 y +,Argentina,Argentina,12
+46,La Rioja,M,15 a 19,Argentina,Argentina,16382
+46,La Rioja,M,15 a 19,Argentina,Otro Pais,8
+46,La Rioja,M,15 a 19,Extranjera,Otro Pais,197
+46,La Rioja,M,20 a 24,Argentina,Argentina,16553
+46,La Rioja,M,20 a 24,Argentina,Otro Pais,5
+46,La Rioja,M,20 a 24,Extranjera,Otro Pais,385
+46,La Rioja,M,25 a 29,Argentina,Argentina,17503
+46,La Rioja,M,25 a 29,Argentina,Otro Pais,9
+46,La Rioja,M,25 a 29,Extranjera,Otro Pais,586
+46,La Rioja,M,30 a 34,Argentina,Argentina,17155
+46,La Rioja,M,30 a 34,Argentina,Otro Pais,14
+46,La Rioja,M,30 a 34,Extranjera,Otro Pais,618
+46,La Rioja,M,35 a 39,Argentina,Argentina,14314
+46,La Rioja,M,35 a 39,Argentina,Otro Pais,12
+46,La Rioja,M,35 a 39,Extranjera,Otro Pais,533
+46,La Rioja,M,40 a 44,Argentina,Argentina,14055
+46,La Rioja,M,40 a 44,Argentina,Otro Pais,18
+46,La Rioja,M,40 a 44,Extranjera,Otro Pais,358
+46,La Rioja,M,45 a 49,Argentina,Argentina,13503
+46,La Rioja,M,45 a 49,Argentina,Otro Pais,18
+46,La Rioja,M,45 a 49,Extranjera,Otro Pais,285
+46,La Rioja,M,5 a 9,Argentina,Argentina,15180
+46,La Rioja,M,5 a 9,Argentina,Otro Pais,3
+46,La Rioja,M,5 a 9,Extranjera,Otro Pais,80
+46,La Rioja,M,50 a 54,Argentina,Argentina,10287
+46,La Rioja,M,50 a 54,Argentina,Otro Pais,19
+46,La Rioja,M,50 a 54,Extranjera,Otro Pais,252
+46,La Rioja,M,55 a 59,Argentina,Argentina,8914
+46,La Rioja,M,55 a 59,Argentina,Otro Pais,21
+46,La Rioja,M,55 a 59,Extranjera,Otro Pais,220
+46,La Rioja,M,60 a 64,Argentina,Argentina,7803
+46,La Rioja,M,60 a 64,Argentina,Otro Pais,15
+46,La Rioja,M,60 a 64,Extranjera,Otro Pais,150
+46,La Rioja,M,65 a 69,Argentina,Argentina,6460
+46,La Rioja,M,65 a 69,Argentina,Otro Pais,26
+46,La Rioja,M,65 a 69,Extranjera,Otro Pais,102
+46,La Rioja,M,70 a 74,Argentina,Argentina,4941
+46,La Rioja,M,70 a 74,Argentina,Otro Pais,19
+46,La Rioja,M,70 a 74,Extranjera,Otro Pais,83
+46,La Rioja,M,75 a 79,Argentina,Argentina,3036
+46,La Rioja,M,75 a 79,Argentina,Otro Pais,20
+46,La Rioja,M,75 a 79,Extranjera,Otro Pais,49
+46,La Rioja,M,80 a 84,Argentina,Argentina,1612
+46,La Rioja,M,80 a 84,Argentina,Otro Pais,13
+46,La Rioja,M,80 a 84,Extranjera,Otro Pais,27
+46,La Rioja,M,85 a 89,Argentina,Argentina,739
+46,La Rioja,M,85 a 89,Argentina,Otro Pais,6
+46,La Rioja,M,85 a 89,Extranjera,Otro Pais,13
+46,La Rioja,M,90 a 94,Argentina,Argentina,325
+46,La Rioja,M,90 a 94,Argentina,Otro Pais,2
+46,La Rioja,M,90 a 94,Extranjera,Otro Pais,3
+46,La Rioja,M,95 a 99,Argentina,Argentina,74
+46,La Rioja,M,95 a 99,Extranjera,Otro Pais,1
+46,La Rioja,X,20 a 24,Argentina,Argentina,1
+46,La Rioja,X,25 a 29,Argentina,Argentina,2
+46,La Rioja,X,30 a 34,Argentina,Argentina,2
+46,La Rioja,X,35 a 39,Argentina,Argentina,1
+46,La Rioja,X,60 a 64,Argentina,Argentina,1
+50,Mendoza,F,0 a 4,Argentina,Argentina,51917
+50,Mendoza,F,0 a 4,Argentina,Otro Pais,112
+50,Mendoza,F,0 a 4,Extranjera,Otro Pais,92
+50,Mendoza,F,10 a 14,Argentina,Argentina,80296
+50,Mendoza,F,10 a 14,Argentina,Otro Pais,274
+50,Mendoza,F,10 a 14,Extranjera,Otro Pais,843
+50,Mendoza,F,100 y +,Argentina,Argentina,184
+50,Mendoza,F,100 y +,Argentina,Otro Pais,3
+50,Mendoza,F,100 y +,Extranjera,Otro Pais,25
+50,Mendoza,F,15 a 19,Argentina,Argentina,77012
+50,Mendoza,F,15 a 19,Argentina,Otro Pais,479
+50,Mendoza,F,15 a 19,Extranjera,Otro Pais,1344
+50,Mendoza,F,20 a 24,Argentina,Argentina,68508
+50,Mendoza,F,20 a 24,Argentina,Otro Pais,390
+50,Mendoza,F,20 a 24,Extranjera,Otro Pais,1914
+50,Mendoza,F,25 a 29,Argentina,Argentina,72937
+50,Mendoza,F,25 a 29,Argentina,Otro Pais,135
+50,Mendoza,F,25 a 29,Extranjera,Otro Pais,2348
+50,Mendoza,F,30 a 34,Argentina,Argentina,73585
+50,Mendoza,F,30 a 34,Argentina,Otro Pais,175
+50,Mendoza,F,30 a 34,Extranjera,Otro Pais,2967
+50,Mendoza,F,35 a 39,Argentina,Argentina,69856
+50,Mendoza,F,35 a 39,Argentina,Otro Pais,156
+50,Mendoza,F,35 a 39,Extranjera,Otro Pais,3117
+50,Mendoza,F,40 a 44,Argentina,Argentina,66137
+50,Mendoza,F,40 a 44,Argentina,Otro Pais,175
+50,Mendoza,F,40 a 44,Extranjera,Otro Pais,3076
+50,Mendoza,F,45 a 49,Argentina,Argentina,63143
+50,Mendoza,F,45 a 49,Argentina,Otro Pais,191
+50,Mendoza,F,45 a 49,Extranjera,Otro Pais,2800
+50,Mendoza,F,5 a 9,Argentina,Argentina,76106
+50,Mendoza,F,5 a 9,Argentina,Otro Pais,148
+50,Mendoza,F,5 a 9,Extranjera,Otro Pais,403
+50,Mendoza,F,50 a 54,Argentina,Argentina,53078
+50,Mendoza,F,50 a 54,Argentina,Otro Pais,216
+50,Mendoza,F,50 a 54,Extranjera,Otro Pais,3059
+50,Mendoza,F,55 a 59,Argentina,Argentina,44145
+50,Mendoza,F,55 a 59,Argentina,Otro Pais,259
+50,Mendoza,F,55 a 59,Extranjera,Otro Pais,2863
+50,Mendoza,F,60 a 64,Argentina,Argentina,42278
+50,Mendoza,F,60 a 64,Argentina,Otro Pais,213
+50,Mendoza,F,60 a 64,Extranjera,Otro Pais,2609
+50,Mendoza,F,65 a 69,Argentina,Argentina,38729
+50,Mendoza,F,65 a 69,Argentina,Otro Pais,245
+50,Mendoza,F,65 a 69,Extranjera,Otro Pais,2259
+50,Mendoza,F,70 a 74,Argentina,Argentina,34191
+50,Mendoza,F,70 a 74,Argentina,Otro Pais,260
+50,Mendoza,F,70 a 74,Extranjera,Otro Pais,2122
+50,Mendoza,F,75 a 79,Argentina,Argentina,25486
+50,Mendoza,F,75 a 79,Argentina,Otro Pais,329
+50,Mendoza,F,75 a 79,Extranjera,Otro Pais,1894
+50,Mendoza,F,80 a 84,Argentina,Argentina,17252
+50,Mendoza,F,80 a 84,Argentina,Otro Pais,221
+50,Mendoza,F,80 a 84,Extranjera,Otro Pais,1231
+50,Mendoza,F,85 a 89,Argentina,Argentina,9398
+50,Mendoza,F,85 a 89,Argentina,Otro Pais,107
+50,Mendoza,F,85 a 89,Extranjera,Otro Pais,629
+50,Mendoza,F,90 a 94,Argentina,Argentina,4128
+50,Mendoza,F,90 a 94,Argentina,Otro Pais,43
+50,Mendoza,F,90 a 94,Extranjera,Otro Pais,287
+50,Mendoza,F,95 a 99,Argentina,Argentina,1026
+50,Mendoza,F,95 a 99,Argentina,Otro Pais,11
+50,Mendoza,F,95 a 99,Extranjera,Otro Pais,85
+50,Mendoza,M,0 a 4,Argentina,Argentina,53781
+50,Mendoza,M,0 a 4,Argentina,Otro Pais,113
+50,Mendoza,M,0 a 4,Extranjera,Otro Pais,93
+50,Mendoza,M,10 a 14,Argentina,Argentina,83298
+50,Mendoza,M,10 a 14,Argentina,Otro Pais,281
+50,Mendoza,M,10 a 14,Extranjera,Otro Pais,917
+50,Mendoza,M,100 y +,Argentina,Argentina,63
+50,Mendoza,M,100 y +,Argentina,Otro Pais,1
+50,Mendoza,M,100 y +,Extranjera,Otro Pais,11
+50,Mendoza,M,15 a 19,Argentina,Argentina,80094
+50,Mendoza,M,15 a 19,Argentina,Otro Pais,506
+50,Mendoza,M,15 a 19,Extranjera,Otro Pais,1459
+50,Mendoza,M,20 a 24,Argentina,Argentina,69950
+50,Mendoza,M,20 a 24,Argentina,Otro Pais,330
+50,Mendoza,M,20 a 24,Extranjera,Otro Pais,2133
+50,Mendoza,M,25 a 29,Argentina,Argentina,73626
+50,Mendoza,M,25 a 29,Argentina,Otro Pais,153
+50,Mendoza,M,25 a 29,Extranjera,Otro Pais,2264
+50,Mendoza,M,30 a 34,Argentina,Argentina,73663
+50,Mendoza,M,30 a 34,Argentina,Otro Pais,191
+50,Mendoza,M,30 a 34,Extranjera,Otro Pais,3330
+50,Mendoza,M,35 a 39,Argentina,Argentina,69370
+50,Mendoza,M,35 a 39,Argentina,Otro Pais,120
+50,Mendoza,M,35 a 39,Extranjera,Otro Pais,3220
+50,Mendoza,M,40 a 44,Argentina,Argentina,65346
+50,Mendoza,M,40 a 44,Argentina,Otro Pais,185
+50,Mendoza,M,40 a 44,Extranjera,Otro Pais,3084
+50,Mendoza,M,45 a 49,Argentina,Argentina,61142
+50,Mendoza,M,45 a 49,Argentina,Otro Pais,161
+50,Mendoza,M,45 a 49,Extranjera,Otro Pais,2511
+50,Mendoza,M,5 a 9,Argentina,Argentina,78832
+50,Mendoza,M,5 a 9,Argentina,Otro Pais,195
+50,Mendoza,M,5 a 9,Extranjera,Otro Pais,467
+50,Mendoza,M,50 a 54,Argentina,Argentina,50160
+50,Mendoza,M,50 a 54,Argentina,Otro Pais,195
+50,Mendoza,M,50 a 54,Extranjera,Otro Pais,2651
+50,Mendoza,M,55 a 59,Argentina,Argentina,40892
+50,Mendoza,M,55 a 59,Argentina,Otro Pais,176
+50,Mendoza,M,55 a 59,Extranjera,Otro Pais,2308
+50,Mendoza,M,60 a 64,Argentina,Argentina,37853
+50,Mendoza,M,60 a 64,Argentina,Otro Pais,159
+50,Mendoza,M,60 a 64,Extranjera,Otro Pais,1986
+50,Mendoza,M,65 a 69,Argentina,Argentina,34098
+50,Mendoza,M,65 a 69,Argentina,Otro Pais,199
+50,Mendoza,M,65 a 69,Extranjera,Otro Pais,1586
+50,Mendoza,M,70 a 74,Argentina,Argentina,27180
+50,Mendoza,M,70 a 74,Argentina,Otro Pais,226
+50,Mendoza,M,70 a 74,Extranjera,Otro Pais,1678
+50,Mendoza,M,75 a 79,Argentina,Argentina,18548
+50,Mendoza,M,75 a 79,Argentina,Otro Pais,287
+50,Mendoza,M,75 a 79,Extranjera,Otro Pais,1499
+50,Mendoza,M,80 a 84,Argentina,Argentina,10781
+50,Mendoza,M,80 a 84,Argentina,Otro Pais,175
+50,Mendoza,M,80 a 84,Extranjera,Otro Pais,903
+50,Mendoza,M,85 a 89,Argentina,Argentina,4926
+50,Mendoza,M,85 a 89,Argentina,Otro Pais,108
+50,Mendoza,M,85 a 89,Extranjera,Otro Pais,437
+50,Mendoza,M,90 a 94,Argentina,Argentina,1788
+50,Mendoza,M,90 a 94,Argentina,Otro Pais,34
+50,Mendoza,M,90 a 94,Extranjera,Otro Pais,178
+50,Mendoza,M,95 a 99,Argentina,Argentina,393
+50,Mendoza,M,95 a 99,Argentina,Otro Pais,16
+50,Mendoza,M,95 a 99,Extranjera,Otro Pais,42
+50,Mendoza,X,10 a 14,Argentina,Argentina,2
+50,Mendoza,X,15 a 19,Argentina,Argentina,8
+50,Mendoza,X,20 a 24,Argentina,Argentina,8
+50,Mendoza,X,25 a 29,Argentina,Argentina,12
+50,Mendoza,X,25 a 29,Argentina,Otro Pais,1
+50,Mendoza,X,30 a 34,Argentina,Argentina,13
+50,Mendoza,X,30 a 34,Extranjera,Otro Pais,3
+50,Mendoza,X,35 a 39,Argentina,Argentina,8
+50,Mendoza,X,40 a 44,Argentina,Argentina,2
+50,Mendoza,X,45 a 49,Argentina,Argentina,5
+50,Mendoza,X,50 a 54,Argentina,Argentina,1
+50,Mendoza,X,55 a 59,Argentina,Argentina,2
+54,Misiones,F,0 a 4,Argentina,Argentina,46722
+54,Misiones,F,0 a 4,Argentina,Otro Pais,60
+54,Misiones,F,0 a 4,Extranjera,Otro Pais,49
+54,Misiones,F,10 a 14,Argentina,Argentina,62150
+54,Misiones,F,10 a 14,Argentina,Otro Pais,107
+54,Misiones,F,10 a 14,Extranjera,Otro Pais,273
+54,Misiones,F,100 y +,Argentina,Argentina,57
+54,Misiones,F,100 y +,Argentina,Otro Pais,5
+54,Misiones,F,100 y +,Extranjera,Otro Pais,34
+54,Misiones,F,15 a 19,Argentina,Argentina,56286
+54,Misiones,F,15 a 19,Argentina,Otro Pais,132
+54,Misiones,F,15 a 19,Extranjera,Otro Pais,446
+54,Misiones,F,20 a 24,Argentina,Argentina,57805
+54,Misiones,F,20 a 24,Argentina,Otro Pais,138
+54,Misiones,F,20 a 24,Extranjera,Otro Pais,805
+54,Misiones,F,25 a 29,Argentina,Argentina,57518
+54,Misiones,F,25 a 29,Argentina,Otro Pais,112
+54,Misiones,F,25 a 29,Extranjera,Otro Pais,1187
+54,Misiones,F,30 a 34,Argentina,Argentina,53241
+54,Misiones,F,30 a 34,Argentina,Otro Pais,141
+54,Misiones,F,30 a 34,Extranjera,Otro Pais,1960
+54,Misiones,F,35 a 39,Argentina,Argentina,46283
+54,Misiones,F,35 a 39,Argentina,Otro Pais,102
+54,Misiones,F,35 a 39,Extranjera,Otro Pais,2109
+54,Misiones,F,40 a 44,Argentina,Argentina,42032
+54,Misiones,F,40 a 44,Argentina,Otro Pais,138
+54,Misiones,F,40 a 44,Extranjera,Otro Pais,2135
+54,Misiones,F,45 a 49,Argentina,Argentina,37480
+54,Misiones,F,45 a 49,Argentina,Otro Pais,125
+54,Misiones,F,45 a 49,Extranjera,Otro Pais,1810
+54,Misiones,F,5 a 9,Argentina,Argentina,59999
+54,Misiones,F,5 a 9,Argentina,Otro Pais,148
+54,Misiones,F,5 a 9,Extranjera,Otro Pais,140
+54,Misiones,F,50 a 54,Argentina,Argentina,30747
+54,Misiones,F,50 a 54,Argentina,Otro Pais,169
+54,Misiones,F,50 a 54,Extranjera,Otro Pais,1842
+54,Misiones,F,55 a 59,Argentina,Argentina,27113
+54,Misiones,F,55 a 59,Argentina,Otro Pais,222
+54,Misiones,F,55 a 59,Extranjera,Otro Pais,1764
+54,Misiones,F,60 a 64,Argentina,Argentina,24784
+54,Misiones,F,60 a 64,Argentina,Otro Pais,316
+54,Misiones,F,60 a 64,Extranjera,Otro Pais,1929
+54,Misiones,F,65 a 69,Argentina,Argentina,20356
+54,Misiones,F,65 a 69,Argentina,Otro Pais,466
+54,Misiones,F,65 a 69,Extranjera,Otro Pais,2121
+54,Misiones,F,70 a 74,Argentina,Argentina,13979
+54,Misiones,F,70 a 74,Argentina,Otro Pais,505
+54,Misiones,F,70 a 74,Extranjera,Otro Pais,2114
+54,Misiones,F,75 a 79,Argentina,Argentina,7913
+54,Misiones,F,75 a 79,Argentina,Otro Pais,488
+54,Misiones,F,75 a 79,Extranjera,Otro Pais,1906
+54,Misiones,F,80 a 84,Argentina,Argentina,4794
+54,Misiones,F,80 a 84,Argentina,Otro Pais,418
+54,Misiones,F,80 a 84,Extranjera,Otro Pais,1401
+54,Misiones,F,85 a 89,Argentina,Argentina,2729
+54,Misiones,F,85 a 89,Argentina,Otro Pais,252
+54,Misiones,F,85 a 89,Extranjera,Otro Pais,760
+54,Misiones,F,90 a 94,Argentina,Argentina,1109
+54,Misiones,F,90 a 94,Argentina,Otro Pais,120
+54,Misiones,F,90 a 94,Extranjera,Otro Pais,317
+54,Misiones,F,95 a 99,Argentina,Argentina,283
+54,Misiones,F,95 a 99,Argentina,Otro Pais,35
+54,Misiones,F,95 a 99,Extranjera,Otro Pais,119
+54,Misiones,M,0 a 4,Argentina,Argentina,48554
+54,Misiones,M,0 a 4,Argentina,Otro Pais,61
+54,Misiones,M,0 a 4,Extranjera,Otro Pais,44
+54,Misiones,M,10 a 14,Argentina,Argentina,64440
+54,Misiones,M,10 a 14,Argentina,Otro Pais,101
+54,Misiones,M,10 a 14,Extranjera,Otro Pais,280
+54,Misiones,M,100 y +,Argentina,Argentina,37
+54,Misiones,M,100 y +,Argentina,Otro Pais,3
+54,Misiones,M,100 y +,Extranjera,Otro Pais,24
+54,Misiones,M,15 a 19,Argentina,Argentina,58791
+54,Misiones,M,15 a 19,Argentina,Otro Pais,134
+54,Misiones,M,15 a 19,Extranjera,Otro Pais,419
+54,Misiones,M,20 a 24,Argentina,Argentina,58324
+54,Misiones,M,20 a 24,Argentina,Otro Pais,142
+54,Misiones,M,20 a 24,Extranjera,Otro Pais,605
+54,Misiones,M,25 a 29,Argentina,Argentina,56217
+54,Misiones,M,25 a 29,Argentina,Otro Pais,101
+54,Misiones,M,25 a 29,Extranjera,Otro Pais,887
+54,Misiones,M,30 a 34,Argentina,Argentina,51603
+54,Misiones,M,30 a 34,Argentina,Otro Pais,103
+54,Misiones,M,30 a 34,Extranjera,Otro Pais,1459
+54,Misiones,M,35 a 39,Argentina,Argentina,46135
+54,Misiones,M,35 a 39,Argentina,Otro Pais,88
+54,Misiones,M,35 a 39,Extranjera,Otro Pais,1674
+54,Misiones,M,40 a 44,Argentina,Argentina,42247
+54,Misiones,M,40 a 44,Argentina,Otro Pais,101
+54,Misiones,M,40 a 44,Extranjera,Otro Pais,1756
+54,Misiones,M,45 a 49,Argentina,Argentina,37626
+54,Misiones,M,45 a 49,Argentina,Otro Pais,94
+54,Misiones,M,45 a 49,Extranjera,Otro Pais,1451
+54,Misiones,M,5 a 9,Argentina,Argentina,62545
+54,Misiones,M,5 a 9,Argentina,Otro Pais,158
+54,Misiones,M,5 a 9,Extranjera,Otro Pais,128
+54,Misiones,M,50 a 54,Argentina,Argentina,30743
+54,Misiones,M,50 a 54,Argentina,Otro Pais,106
+54,Misiones,M,50 a 54,Extranjera,Otro Pais,1425
+54,Misiones,M,55 a 59,Argentina,Argentina,26383
+54,Misiones,M,55 a 59,Argentina,Otro Pais,161
+54,Misiones,M,55 a 59,Extranjera,Otro Pais,1536
+54,Misiones,M,60 a 64,Argentina,Argentina,24423
+54,Misiones,M,60 a 64,Argentina,Otro Pais,205
+54,Misiones,M,60 a 64,Extranjera,Otro Pais,1641
+54,Misiones,M,65 a 69,Argentina,Argentina,19912
+54,Misiones,M,65 a 69,Argentina,Otro Pais,333
+54,Misiones,M,65 a 69,Extranjera,Otro Pais,1731
+54,Misiones,M,70 a 74,Argentina,Argentina,12970
+54,Misiones,M,70 a 74,Argentina,Otro Pais,419
+54,Misiones,M,70 a 74,Extranjera,Otro Pais,2053
+54,Misiones,M,75 a 79,Argentina,Argentina,6687
+54,Misiones,M,75 a 79,Argentina,Otro Pais,359
+54,Misiones,M,75 a 79,Extranjera,Otro Pais,1921
+54,Misiones,M,80 a 84,Argentina,Argentina,3420
+54,Misiones,M,80 a 84,Argentina,Otro Pais,296
+54,Misiones,M,80 a 84,Extranjera,Otro Pais,1371
+54,Misiones,M,85 a 89,Argentina,Argentina,1554
+54,Misiones,M,85 a 89,Argentina,Otro Pais,142
+54,Misiones,M,85 a 89,Extranjera,Otro Pais,695
+54,Misiones,M,90 a 94,Argentina,Argentina,511
+54,Misiones,M,90 a 94,Argentina,Otro Pais,58
+54,Misiones,M,90 a 94,Extranjera,Otro Pais,257
+54,Misiones,M,95 a 99,Argentina,Argentina,123
+54,Misiones,M,95 a 99,Argentina,Otro Pais,18
+54,Misiones,M,95 a 99,Extranjera,Otro Pais,112
+54,Misiones,X,15 a 19,Argentina,Argentina,5
+54,Misiones,X,20 a 24,Argentina,Argentina,4
+54,Misiones,X,25 a 29,Argentina,Argentina,4
+54,Misiones,X,30 a 34,Argentina,Argentina,2
+54,Misiones,X,35 a 39,Argentina,Argentina,6
+54,Misiones,X,40 a 44,Argentina,Argentina,1
+54,Misiones,X,55 a 59,Argentina,Argentina,1
+54,Misiones,X,60 a 64,Argentina,Argentina,1
+58,Neuquén,F,0 a 4,Argentina,Argentina,18471
+58,Neuquén,F,0 a 4,Argentina,Otro Pais,20
+58,Neuquén,F,0 a 4,Extranjera,Otro Pais,37
+58,Neuquén,F,10 a 14,Argentina,Argentina,29358
+58,Neuquén,F,10 a 14,Argentina,Otro Pais,74
+58,Neuquén,F,10 a 14,Extranjera,Otro Pais,424
+58,Neuquén,F,100 y +,Argentina,Argentina,46
+58,Neuquén,F,100 y +,Argentina,Otro Pais,3
+58,Neuquén,F,100 y +,Extranjera,Otro Pais,10
+58,Neuquén,F,15 a 19,Argentina,Argentina,27791
+58,Neuquén,F,15 a 19,Argentina,Otro Pais,92
+58,Neuquén,F,15 a 19,Extranjera,Otro Pais,515
+58,Neuquén,F,20 a 24,Argentina,Argentina,26235
+58,Neuquén,F,20 a 24,Argentina,Otro Pais,87
+58,Neuquén,F,20 a 24,Extranjera,Otro Pais,738
+58,Neuquén,F,25 a 29,Argentina,Argentina,29090
+58,Neuquén,F,25 a 29,Argentina,Otro Pais,72
+58,Neuquén,F,25 a 29,Extranjera,Otro Pais,925
+58,Neuquén,F,30 a 34,Argentina,Argentina,31271
+58,Neuquén,F,30 a 34,Argentina,Otro Pais,83
+58,Neuquén,F,30 a 34,Extranjera,Otro Pais,1335
+58,Neuquén,F,35 a 39,Argentina,Argentina,28839
+58,Neuquén,F,35 a 39,Argentina,Otro Pais,158
+58,Neuquén,F,35 a 39,Extranjera,Otro Pais,1477
+58,Neuquén,F,40 a 44,Argentina,Argentina,26850
+58,Neuquén,F,40 a 44,Argentina,Otro Pais,258
+58,Neuquén,F,40 a 44,Extranjera,Otro Pais,1719
+58,Neuquén,F,45 a 49,Argentina,Argentina,24827
+58,Neuquén,F,45 a 49,Argentina,Otro Pais,246
+58,Neuquén,F,45 a 49,Extranjera,Otro Pais,1389
+58,Neuquén,F,5 a 9,Argentina,Argentina,27587
+58,Neuquén,F,5 a 9,Argentina,Otro Pais,63
+58,Neuquén,F,5 a 9,Extranjera,Otro Pais,272
+58,Neuquén,F,50 a 54,Argentina,Argentina,19970
+58,Neuquén,F,50 a 54,Argentina,Otro Pais,364
+58,Neuquén,F,50 a 54,Extranjera,Otro Pais,1728
+58,Neuquén,F,55 a 59,Argentina,Argentina,16253
+58,Neuquén,F,55 a 59,Argentina,Otro Pais,343
+58,Neuquén,F,55 a 59,Extranjera,Otro Pais,2021
+58,Neuquén,F,60 a 64,Argentina,Argentina,14027
+58,Neuquén,F,60 a 64,Argentina,Otro Pais,317
+58,Neuquén,F,60 a 64,Extranjera,Otro Pais,2130
+58,Neuquén,F,65 a 69,Argentina,Argentina,11518
+58,Neuquén,F,65 a 69,Argentina,Otro Pais,360
+58,Neuquén,F,65 a 69,Extranjera,Otro Pais,1865
+58,Neuquén,F,70 a 74,Argentina,Argentina,8951
+58,Neuquén,F,70 a 74,Argentina,Otro Pais,370
+58,Neuquén,F,70 a 74,Extranjera,Otro Pais,1500
+58,Neuquén,F,75 a 79,Argentina,Argentina,6042
+58,Neuquén,F,75 a 79,Argentina,Otro Pais,315
+58,Neuquén,F,75 a 79,Extranjera,Otro Pais,1094
+58,Neuquén,F,80 a 84,Argentina,Argentina,3761
+58,Neuquén,F,80 a 84,Argentina,Otro Pais,193
+58,Neuquén,F,80 a 84,Extranjera,Otro Pais,635
+58,Neuquén,F,85 a 89,Argentina,Argentina,2129
+58,Neuquén,F,85 a 89,Argentina,Otro Pais,100
+58,Neuquén,F,85 a 89,Extranjera,Otro Pais,373
+58,Neuquén,F,90 a 94,Argentina,Argentina,965
+58,Neuquén,F,90 a 94,Argentina,Otro Pais,37
+58,Neuquén,F,90 a 94,Extranjera,Otro Pais,142
+58,Neuquén,F,95 a 99,Argentina,Argentina,268
+58,Neuquén,F,95 a 99,Argentina,Otro Pais,8
+58,Neuquén,F,95 a 99,Extranjera,Otro Pais,59
+58,Neuquén,M,0 a 4,Argentina,Argentina,19077
+58,Neuquén,M,0 a 4,Argentina,Otro Pais,17
+58,Neuquén,M,0 a 4,Extranjera,Otro Pais,45
+58,Neuquén,M,10 a 14,Argentina,Argentina,30179
+58,Neuquén,M,10 a 14,Argentina,Otro Pais,68
+58,Neuquén,M,10 a 14,Extranjera,Otro Pais,431
+58,Neuquén,M,100 y +,Argentina,Argentina,18
+58,Neuquén,M,100 y +,Extranjera,Otro Pais,10
+58,Neuquén,M,15 a 19,Argentina,Argentina,29107
+58,Neuquén,M,15 a 19,Argentina,Otro Pais,84
+58,Neuquén,M,15 a 19,Extranjera,Otro Pais,558
+58,Neuquén,M,20 a 24,Argentina,Argentina,27788
+58,Neuquén,M,20 a 24,Argentina,Otro Pais,60
+58,Neuquén,M,20 a 24,Extranjera,Otro Pais,789
+58,Neuquén,M,25 a 29,Argentina,Argentina,31690
+58,Neuquén,M,25 a 29,Argentina,Otro Pais,72
+58,Neuquén,M,25 a 29,Extranjera,Otro Pais,992
+58,Neuquén,M,30 a 34,Argentina,Argentina,32904
+58,Neuquén,M,30 a 34,Argentina,Otro Pais,86
+58,Neuquén,M,30 a 34,Extranjera,Otro Pais,1518
+58,Neuquén,M,35 a 39,Argentina,Argentina,30556
+58,Neuquén,M,35 a 39,Argentina,Otro Pais,86
+58,Neuquén,M,35 a 39,Extranjera,Otro Pais,1715
+58,Neuquén,M,40 a 44,Argentina,Argentina,28010
+58,Neuquén,M,40 a 44,Argentina,Otro Pais,214
+58,Neuquén,M,40 a 44,Extranjera,Otro Pais,1796
+58,Neuquén,M,45 a 49,Argentina,Argentina,25869
+58,Neuquén,M,45 a 49,Argentina,Otro Pais,168
+58,Neuquén,M,45 a 49,Extranjera,Otro Pais,1462
+58,Neuquén,M,5 a 9,Argentina,Argentina,27874
+58,Neuquén,M,5 a 9,Argentina,Otro Pais,53
+58,Neuquén,M,5 a 9,Extranjera,Otro Pais,269
+58,Neuquén,M,50 a 54,Argentina,Argentina,20109
+58,Neuquén,M,50 a 54,Argentina,Otro Pais,289
+58,Neuquén,M,50 a 54,Extranjera,Otro Pais,1608
+58,Neuquén,M,55 a 59,Argentina,Argentina,15800
+58,Neuquén,M,55 a 59,Argentina,Otro Pais,297
+58,Neuquén,M,55 a 59,Extranjera,Otro Pais,1709
+58,Neuquén,M,60 a 64,Argentina,Argentina,13586
+58,Neuquén,M,60 a 64,Argentina,Otro Pais,227
+58,Neuquén,M,60 a 64,Extranjera,Otro Pais,1757
+58,Neuquén,M,65 a 69,Argentina,Argentina,10964
+58,Neuquén,M,65 a 69,Argentina,Otro Pais,282
+58,Neuquén,M,65 a 69,Extranjera,Otro Pais,1523
+58,Neuquén,M,70 a 74,Argentina,Argentina,7722
+58,Neuquén,M,70 a 74,Argentina,Otro Pais,311
+58,Neuquén,M,70 a 74,Extranjera,Otro Pais,1401
+58,Neuquén,M,75 a 79,Argentina,Argentina,4781
+58,Neuquén,M,75 a 79,Argentina,Otro Pais,284
+58,Neuquén,M,75 a 79,Extranjera,Otro Pais,1001
+58,Neuquén,M,80 a 84,Argentina,Argentina,2566
+58,Neuquén,M,80 a 84,Argentina,Otro Pais,162
+58,Neuquén,M,80 a 84,Extranjera,Otro Pais,591
+58,Neuquén,M,85 a 89,Argentina,Argentina,1145
+58,Neuquén,M,85 a 89,Argentina,Otro Pais,76
+58,Neuquén,M,85 a 89,Extranjera,Otro Pais,230
+58,Neuquén,M,90 a 94,Argentina,Argentina,394
+58,Neuquén,M,90 a 94,Argentina,Otro Pais,27
+58,Neuquén,M,90 a 94,Extranjera,Otro Pais,101
+58,Neuquén,M,95 a 99,Argentina,Argentina,86
+58,Neuquén,M,95 a 99,Argentina,Otro Pais,6
+58,Neuquén,M,95 a 99,Extranjera,Otro Pais,19
+58,Neuquén,X,15 a 19,Argentina,Argentina,16
+58,Neuquén,X,15 a 19,Extranjera,Otro Pais,1
+58,Neuquén,X,20 a 24,Argentina,Argentina,12
+58,Neuquén,X,25 a 29,Argentina,Argentina,15
+58,Neuquén,X,30 a 34,Argentina,Argentina,12
+58,Neuquén,X,35 a 39,Argentina,Argentina,3
+58,Neuquén,X,40 a 44,Argentina,Argentina,2
+58,Neuquén,X,40 a 44,Argentina,Otro Pais,1
+58,Neuquén,X,45 a 49,Argentina,Argentina,2
+58,Neuquén,X,50 a 54,Argentina,Argentina,2
+62,Río Negro,F,0 a 4,Argentina,Argentina,18919
+62,Río Negro,F,0 a 4,Argentina,Otro Pais,47
+62,Río Negro,F,0 a 4,Extranjera,Otro Pais,31
+62,Río Negro,F,10 a 14,Argentina,Argentina,30606
+62,Río Negro,F,10 a 14,Argentina,Otro Pais,101
+62,Río Negro,F,10 a 14,Extranjera,Otro Pais,301
+62,Río Negro,F,100 y +,Argentina,Argentina,66
+62,Río Negro,F,100 y +,Argentina,Otro Pais,3
+62,Río Negro,F,100 y +,Extranjera,Otro Pais,22
+62,Río Negro,F,15 a 19,Argentina,Argentina,28748
+62,Río Negro,F,15 a 19,Argentina,Otro Pais,93
+62,Río Negro,F,15 a 19,Extranjera,Otro Pais,431
+62,Río Negro,F,20 a 24,Argentina,Argentina,27935
+62,Río Negro,F,20 a 24,Argentina,Otro Pais,88
+62,Río Negro,F,20 a 24,Extranjera,Otro Pais,647
+62,Río Negro,F,25 a 29,Argentina,Argentina,30038
+62,Río Negro,F,25 a 29,Argentina,Otro Pais,66
+62,Río Negro,F,25 a 29,Extranjera,Otro Pais,890
+62,Río Negro,F,30 a 34,Argentina,Argentina,31400
+62,Río Negro,F,30 a 34,Argentina,Otro Pais,83
+62,Río Negro,F,30 a 34,Extranjera,Otro Pais,1159
+62,Río Negro,F,35 a 39,Argentina,Argentina,30168
+62,Río Negro,F,35 a 39,Argentina,Otro Pais,126
+62,Río Negro,F,35 a 39,Extranjera,Otro Pais,1228
+62,Río Negro,F,40 a 44,Argentina,Argentina,28470
+62,Río Negro,F,40 a 44,Argentina,Otro Pais,249
+62,Río Negro,F,40 a 44,Extranjera,Otro Pais,1508
+62,Río Negro,F,45 a 49,Argentina,Argentina,26295
+62,Río Negro,F,45 a 49,Argentina,Otro Pais,207
+62,Río Negro,F,45 a 49,Extranjera,Otro Pais,1435
+62,Río Negro,F,5 a 9,Argentina,Argentina,28633
+62,Río Negro,F,5 a 9,Argentina,Otro Pais,52
+62,Río Negro,F,5 a 9,Extranjera,Otro Pais,189
+62,Río Negro,F,50 a 54,Argentina,Argentina,20689
+62,Río Negro,F,50 a 54,Argentina,Otro Pais,355
+62,Río Negro,F,50 a 54,Extranjera,Otro Pais,1943
+62,Río Negro,F,55 a 59,Argentina,Argentina,17636
+62,Río Negro,F,55 a 59,Argentina,Otro Pais,311
+62,Río Negro,F,55 a 59,Extranjera,Otro Pais,2276
+62,Río Negro,F,60 a 64,Argentina,Argentina,16000
+62,Río Negro,F,60 a 64,Argentina,Otro Pais,325
+62,Río Negro,F,60 a 64,Extranjera,Otro Pais,2355
+62,Río Negro,F,65 a 69,Argentina,Argentina,13456
+62,Río Negro,F,65 a 69,Argentina,Otro Pais,396
+62,Río Negro,F,65 a 69,Extranjera,Otro Pais,2337
+62,Río Negro,F,70 a 74,Argentina,Argentina,10802
+62,Río Negro,F,70 a 74,Argentina,Otro Pais,430
+62,Río Negro,F,70 a 74,Extranjera,Otro Pais,2089
+62,Río Negro,F,75 a 79,Argentina,Argentina,7763
+62,Río Negro,F,75 a 79,Argentina,Otro Pais,465
+62,Río Negro,F,75 a 79,Extranjera,Otro Pais,1576
+62,Río Negro,F,80 a 84,Argentina,Argentina,5175
+62,Río Negro,F,80 a 84,Argentina,Otro Pais,275
+62,Río Negro,F,80 a 84,Extranjera,Otro Pais,1022
+62,Río Negro,F,85 a 89,Argentina,Argentina,2968
+62,Río Negro,F,85 a 89,Argentina,Otro Pais,139
+62,Río Negro,F,85 a 89,Extranjera,Otro Pais,529
+62,Río Negro,F,90 a 94,Argentina,Argentina,1419
+62,Río Negro,F,90 a 94,Argentina,Otro Pais,54
+62,Río Negro,F,90 a 94,Extranjera,Otro Pais,253
+62,Río Negro,F,95 a 99,Argentina,Argentina,388
+62,Río Negro,F,95 a 99,Argentina,Otro Pais,16
+62,Río Negro,F,95 a 99,Extranjera,Otro Pais,70
+62,Río Negro,M,0 a 4,Argentina,Argentina,19452
+62,Río Negro,M,0 a 4,Argentina,Otro Pais,31
+62,Río Negro,M,0 a 4,Extranjera,Otro Pais,50
+62,Río Negro,M,10 a 14,Argentina,Argentina,31574
+62,Río Negro,M,10 a 14,Argentina,Otro Pais,82
+62,Río Negro,M,10 a 14,Extranjera,Otro Pais,353
+62,Río Negro,M,100 y +,Argentina,Argentina,25
+62,Río Negro,M,100 y +,Argentina,Otro Pais,3
+62,Río Negro,M,100 y +,Extranjera,Otro Pais,10
+62,Río Negro,M,15 a 19,Argentina,Argentina,30265
+62,Río Negro,M,15 a 19,Argentina,Otro Pais,105
+62,Río Negro,M,15 a 19,Extranjera,Otro Pais,463
+62,Río Negro,M,20 a 24,Argentina,Argentina,29557
+62,Río Negro,M,20 a 24,Argentina,Otro Pais,82
+62,Río Negro,M,20 a 24,Extranjera,Otro Pais,712
+62,Río Negro,M,25 a 29,Argentina,Argentina,31087
+62,Río Negro,M,25 a 29,Argentina,Otro Pais,63
+62,Río Negro,M,25 a 29,Extranjera,Otro Pais,961
+62,Río Negro,M,30 a 34,Argentina,Argentina,31953
+62,Río Negro,M,30 a 34,Argentina,Otro Pais,76
+62,Río Negro,M,30 a 34,Extranjera,Otro Pais,1271
+62,Río Negro,M,35 a 39,Argentina,Argentina,30368
+62,Río Negro,M,35 a 39,Argentina,Otro Pais,107
+62,Río Negro,M,35 a 39,Extranjera,Otro Pais,1424
+62,Río Negro,M,40 a 44,Argentina,Argentina,28512
+62,Río Negro,M,40 a 44,Argentina,Otro Pais,180
+62,Río Negro,M,40 a 44,Extranjera,Otro Pais,1620
+62,Río Negro,M,45 a 49,Argentina,Argentina,26397
+62,Río Negro,M,45 a 49,Argentina,Otro Pais,150
+62,Río Negro,M,45 a 49,Extranjera,Otro Pais,1405
+62,Río Negro,M,5 a 9,Argentina,Argentina,29816
+62,Río Negro,M,5 a 9,Argentina,Otro Pais,70
+62,Río Negro,M,5 a 9,Extranjera,Otro Pais,208
+62,Río Negro,M,50 a 54,Argentina,Argentina,20957
+62,Río Negro,M,50 a 54,Argentina,Otro Pais,226
+62,Río Negro,M,50 a 54,Extranjera,Otro Pais,1749
+62,Río Negro,M,55 a 59,Argentina,Argentina,17268
+62,Río Negro,M,55 a 59,Argentina,Otro Pais,260
+62,Río Negro,M,55 a 59,Extranjera,Otro Pais,2026
+62,Río Negro,M,60 a 64,Argentina,Argentina,15358
+62,Río Negro,M,60 a 64,Argentina,Otro Pais,244
+62,Río Negro,M,60 a 64,Extranjera,Otro Pais,2062
+62,Río Negro,M,65 a 69,Argentina,Argentina,12735
+62,Río Negro,M,65 a 69,Argentina,Otro Pais,362
+62,Río Negro,M,65 a 69,Extranjera,Otro Pais,2004
+62,Río Negro,M,70 a 74,Argentina,Argentina,9551
+62,Río Negro,M,70 a 74,Argentina,Otro Pais,363
+62,Río Negro,M,70 a 74,Extranjera,Otro Pais,1914
+62,Río Negro,M,75 a 79,Argentina,Argentina,6183
+62,Río Negro,M,75 a 79,Argentina,Otro Pais,373
+62,Río Negro,M,75 a 79,Extranjera,Otro Pais,1546
+62,Río Negro,M,80 a 84,Argentina,Argentina,3476
+62,Río Negro,M,80 a 84,Argentina,Otro Pais,238
+62,Río Negro,M,80 a 84,Extranjera,Otro Pais,885
+62,Río Negro,M,85 a 89,Argentina,Argentina,1604
+62,Río Negro,M,85 a 89,Argentina,Otro Pais,121
+62,Río Negro,M,85 a 89,Extranjera,Otro Pais,467
+62,Río Negro,M,90 a 94,Argentina,Argentina,528
+62,Río Negro,M,90 a 94,Argentina,Otro Pais,42
+62,Río Negro,M,90 a 94,Extranjera,Otro Pais,162
+62,Río Negro,M,95 a 99,Argentina,Argentina,117
+62,Río Negro,M,95 a 99,Argentina,Otro Pais,10
+62,Río Negro,M,95 a 99,Extranjera,Otro Pais,48
+62,Río Negro,X,10 a 14,Argentina,Argentina,2
+62,Río Negro,X,15 a 19,Argentina,Argentina,7
+62,Río Negro,X,20 a 24,Argentina,Argentina,9
+62,Río Negro,X,25 a 29,Argentina,Argentina,7
+62,Río Negro,X,30 a 34,Argentina,Argentina,2
+62,Río Negro,X,35 a 39,Argentina,Argentina,4
+62,Río Negro,X,40 a 44,Argentina,Argentina,1
+62,Río Negro,X,45 a 49,Argentina,Argentina,1
+62,Río Negro,X,55 a 59,Argentina,Argentina,2
+62,Río Negro,X,60 a 64,Argentina,Argentina,3
+66,Salta,F,0 a 4,Argentina,Argentina,43320
+66,Salta,F,0 a 4,Argentina,Otro Pais,44
+66,Salta,F,0 a 4,Extranjera,Otro Pais,56
+66,Salta,F,10 a 14,Argentina,Argentina,64516
+66,Salta,F,10 a 14,Argentina,Otro Pais,94
+66,Salta,F,10 a 14,Extranjera,Otro Pais,386
+66,Salta,F,100 y +,Argentina,Argentina,130
+66,Salta,F,100 y +,Argentina,Otro Pais,1
+66,Salta,F,100 y +,Extranjera,Otro Pais,12
+66,Salta,F,15 a 19,Argentina,Argentina,59869
+66,Salta,F,15 a 19,Argentina,Otro Pais,106
+66,Salta,F,15 a 19,Extranjera,Otro Pais,459
+66,Salta,F,20 a 24,Argentina,Argentina,60534
+66,Salta,F,20 a 24,Argentina,Otro Pais,77
+66,Salta,F,20 a 24,Extranjera,Otro Pais,743
+66,Salta,F,25 a 29,Argentina,Argentina,59634
+66,Salta,F,25 a 29,Argentina,Otro Pais,60
+66,Salta,F,25 a 29,Extranjera,Otro Pais,1061
+66,Salta,F,30 a 34,Argentina,Argentina,55769
+66,Salta,F,30 a 34,Argentina,Otro Pais,59
+66,Salta,F,30 a 34,Extranjera,Otro Pais,1295
+66,Salta,F,35 a 39,Argentina,Argentina,49884
+66,Salta,F,35 a 39,Argentina,Otro Pais,81
+66,Salta,F,35 a 39,Extranjera,Otro Pais,1553
+66,Salta,F,40 a 44,Argentina,Argentina,47022
+66,Salta,F,40 a 44,Argentina,Otro Pais,123
+66,Salta,F,40 a 44,Extranjera,Otro Pais,1642
+66,Salta,F,45 a 49,Argentina,Argentina,43589
+66,Salta,F,45 a 49,Argentina,Otro Pais,102
+66,Salta,F,45 a 49,Extranjera,Otro Pais,1724
+66,Salta,F,5 a 9,Argentina,Argentina,61059
+66,Salta,F,5 a 9,Argentina,Otro Pais,81
+66,Salta,F,5 a 9,Extranjera,Otro Pais,217
+66,Salta,F,50 a 54,Argentina,Argentina,34976
+66,Salta,F,50 a 54,Argentina,Otro Pais,115
+66,Salta,F,50 a 54,Extranjera,Otro Pais,1630
+66,Salta,F,55 a 59,Argentina,Argentina,29485
+66,Salta,F,55 a 59,Argentina,Otro Pais,164
+66,Salta,F,55 a 59,Extranjera,Otro Pais,1522
+66,Salta,F,60 a 64,Argentina,Argentina,25754
+66,Salta,F,60 a 64,Argentina,Otro Pais,168
+66,Salta,F,60 a 64,Extranjera,Otro Pais,1478
+66,Salta,F,65 a 69,Argentina,Argentina,22453
+66,Salta,F,65 a 69,Argentina,Otro Pais,213
+66,Salta,F,65 a 69,Extranjera,Otro Pais,1230
+66,Salta,F,70 a 74,Argentina,Argentina,18348
+66,Salta,F,70 a 74,Argentina,Otro Pais,235
+66,Salta,F,70 a 74,Extranjera,Otro Pais,1040
+66,Salta,F,75 a 79,Argentina,Argentina,12524
+66,Salta,F,75 a 79,Argentina,Otro Pais,246
+66,Salta,F,75 a 79,Extranjera,Otro Pais,852
+66,Salta,F,80 a 84,Argentina,Argentina,8298
+66,Salta,F,80 a 84,Argentina,Otro Pais,144
+66,Salta,F,80 a 84,Extranjera,Otro Pais,558
+66,Salta,F,85 a 89,Argentina,Argentina,4513
+66,Salta,F,85 a 89,Argentina,Otro Pais,81
+66,Salta,F,85 a 89,Extranjera,Otro Pais,284
+66,Salta,F,90 a 94,Argentina,Argentina,2066
+66,Salta,F,90 a 94,Argentina,Otro Pais,42
+66,Salta,F,90 a 94,Extranjera,Otro Pais,129
+66,Salta,F,95 a 99,Argentina,Argentina,536
+66,Salta,F,95 a 99,Argentina,Otro Pais,10
+66,Salta,F,95 a 99,Extranjera,Otro Pais,57
+66,Salta,M,0 a 4,Argentina,Argentina,44846
+66,Salta,M,0 a 4,Argentina,Otro Pais,52
+66,Salta,M,0 a 4,Extranjera,Otro Pais,64
+66,Salta,M,10 a 14,Argentina,Argentina,66171
+66,Salta,M,10 a 14,Argentina,Otro Pais,100
+66,Salta,M,10 a 14,Extranjera,Otro Pais,407
+66,Salta,M,100 y +,Argentina,Argentina,51
+66,Salta,M,100 y +,Argentina,Otro Pais,1
+66,Salta,M,100 y +,Extranjera,Otro Pais,7
+66,Salta,M,15 a 19,Argentina,Argentina,62326
+66,Salta,M,15 a 19,Argentina,Otro Pais,131
+66,Salta,M,15 a 19,Extranjera,Otro Pais,551
+66,Salta,M,20 a 24,Argentina,Argentina,62140
+66,Salta,M,20 a 24,Argentina,Otro Pais,84
+66,Salta,M,20 a 24,Extranjera,Otro Pais,775
+66,Salta,M,25 a 29,Argentina,Argentina,59938
+66,Salta,M,25 a 29,Argentina,Otro Pais,68
+66,Salta,M,25 a 29,Extranjera,Otro Pais,1043
+66,Salta,M,30 a 34,Argentina,Argentina,55394
+66,Salta,M,30 a 34,Argentina,Otro Pais,88
+66,Salta,M,30 a 34,Extranjera,Otro Pais,1575
+66,Salta,M,35 a 39,Argentina,Argentina,49060
+66,Salta,M,35 a 39,Argentina,Otro Pais,73
+66,Salta,M,35 a 39,Extranjera,Otro Pais,1533
+66,Salta,M,40 a 44,Argentina,Argentina,46327
+66,Salta,M,40 a 44,Argentina,Otro Pais,99
+66,Salta,M,40 a 44,Extranjera,Otro Pais,1598
+66,Salta,M,45 a 49,Argentina,Argentina,42643
+66,Salta,M,45 a 49,Argentina,Otro Pais,99
+66,Salta,M,45 a 49,Extranjera,Otro Pais,1444
+66,Salta,M,5 a 9,Argentina,Argentina,62576
+66,Salta,M,5 a 9,Argentina,Otro Pais,108
+66,Salta,M,5 a 9,Extranjera,Otro Pais,270
+66,Salta,M,50 a 54,Argentina,Argentina,33895
+66,Salta,M,50 a 54,Argentina,Otro Pais,122
+66,Salta,M,50 a 54,Extranjera,Otro Pais,1417
+66,Salta,M,55 a 59,Argentina,Argentina,28699
+66,Salta,M,55 a 59,Argentina,Otro Pais,123
+66,Salta,M,55 a 59,Extranjera,Otro Pais,1273
+66,Salta,M,60 a 64,Argentina,Argentina,24877
+66,Salta,M,60 a 64,Argentina,Otro Pais,122
+66,Salta,M,60 a 64,Extranjera,Otro Pais,1241
+66,Salta,M,65 a 69,Argentina,Argentina,20694
+66,Salta,M,65 a 69,Argentina,Otro Pais,158
+66,Salta,M,65 a 69,Extranjera,Otro Pais,1002
+66,Salta,M,70 a 74,Argentina,Argentina,15698
+66,Salta,M,70 a 74,Argentina,Otro Pais,229
+66,Salta,M,70 a 74,Extranjera,Otro Pais,973
+66,Salta,M,75 a 79,Argentina,Argentina,9673
+66,Salta,M,75 a 79,Argentina,Otro Pais,217
+66,Salta,M,75 a 79,Extranjera,Otro Pais,815
+66,Salta,M,80 a 84,Argentina,Argentina,5535
+66,Salta,M,80 a 84,Argentina,Otro Pais,146
+66,Salta,M,80 a 84,Extranjera,Otro Pais,510
+66,Salta,M,85 a 89,Argentina,Argentina,2642
+66,Salta,M,85 a 89,Argentina,Otro Pais,70
+66,Salta,M,85 a 89,Extranjera,Otro Pais,251
+66,Salta,M,90 a 94,Argentina,Argentina,951
+66,Salta,M,90 a 94,Argentina,Otro Pais,23
+66,Salta,M,90 a 94,Extranjera,Otro Pais,112
+66,Salta,M,95 a 99,Argentina,Argentina,228
+66,Salta,M,95 a 99,Argentina,Otro Pais,4
+66,Salta,M,95 a 99,Extranjera,Otro Pais,30
+66,Salta,X,15 a 19,Argentina,Argentina,1
+66,Salta,X,20 a 24,Argentina,Argentina,5
+66,Salta,X,25 a 29,Argentina,Argentina,3
+66,Salta,X,30 a 34,Argentina,Argentina,5
+66,Salta,X,35 a 39,Argentina,Argentina,7
+66,Salta,X,40 a 44,Argentina,Argentina,4
+66,Salta,X,45 a 49,Argentina,Argentina,5
+66,Salta,X,5 a 9,Argentina,Argentina,1
+66,Salta,X,50 a 54,Argentina,Argentina,1
+70,San Juan,F,0 a 4,Argentina,Argentina,24910
+70,San Juan,F,0 a 4,Argentina,Otro Pais,18
+70,San Juan,F,0 a 4,Extranjera,Otro Pais,9
+70,San Juan,F,10 a 14,Argentina,Argentina,35192
+70,San Juan,F,10 a 14,Argentina,Otro Pais,44
+70,San Juan,F,10 a 14,Extranjera,Otro Pais,106
+70,San Juan,F,100 y +,Argentina,Argentina,54
+70,San Juan,F,100 y +,Extranjera,Otro Pais,2
+70,San Juan,F,15 a 19,Argentina,Argentina,34666
+70,San Juan,F,15 a 19,Argentina,Otro Pais,104
+70,San Juan,F,15 a 19,Extranjera,Otro Pais,103
+70,San Juan,F,20 a 24,Argentina,Argentina,32733
+70,San Juan,F,20 a 24,Argentina,Otro Pais,59
+70,San Juan,F,20 a 24,Extranjera,Otro Pais,150
+70,San Juan,F,25 a 29,Argentina,Argentina,31528
+70,San Juan,F,25 a 29,Argentina,Otro Pais,29
+70,San Juan,F,25 a 29,Extranjera,Otro Pais,220
+70,San Juan,F,30 a 34,Argentina,Argentina,30554
+70,San Juan,F,30 a 34,Argentina,Otro Pais,39
+70,San Juan,F,30 a 34,Extranjera,Otro Pais,315
+70,San Juan,F,35 a 39,Argentina,Argentina,27331
+70,San Juan,F,35 a 39,Argentina,Otro Pais,30
+70,San Juan,F,35 a 39,Extranjera,Otro Pais,296
+70,San Juan,F,40 a 44,Argentina,Argentina,27416
+70,San Juan,F,40 a 44,Argentina,Otro Pais,24
+70,San Juan,F,40 a 44,Extranjera,Otro Pais,246
+70,San Juan,F,45 a 49,Argentina,Argentina,25769
+70,San Juan,F,45 a 49,Argentina,Otro Pais,19
+70,San Juan,F,45 a 49,Extranjera,Otro Pais,222
+70,San Juan,F,5 a 9,Argentina,Argentina,33683
+70,San Juan,F,5 a 9,Argentina,Otro Pais,25
+70,San Juan,F,5 a 9,Extranjera,Otro Pais,49
+70,San Juan,F,50 a 54,Argentina,Argentina,22050
+70,San Juan,F,50 a 54,Argentina,Otro Pais,29
+70,San Juan,F,50 a 54,Extranjera,Otro Pais,234
+70,San Juan,F,55 a 59,Argentina,Argentina,18185
+70,San Juan,F,55 a 59,Argentina,Otro Pais,27
+70,San Juan,F,55 a 59,Extranjera,Otro Pais,207
+70,San Juan,F,60 a 64,Argentina,Argentina,16889
+70,San Juan,F,60 a 64,Argentina,Otro Pais,26
+70,San Juan,F,60 a 64,Extranjera,Otro Pais,185
+70,San Juan,F,65 a 69,Argentina,Argentina,15487
+70,San Juan,F,65 a 69,Argentina,Otro Pais,27
+70,San Juan,F,65 a 69,Extranjera,Otro Pais,153
+70,San Juan,F,70 a 74,Argentina,Argentina,13398
+70,San Juan,F,70 a 74,Argentina,Otro Pais,35
+70,San Juan,F,70 a 74,Extranjera,Otro Pais,148
+70,San Juan,F,75 a 79,Argentina,Argentina,10066
+70,San Juan,F,75 a 79,Argentina,Otro Pais,57
+70,San Juan,F,75 a 79,Extranjera,Otro Pais,244
+70,San Juan,F,80 a 84,Argentina,Argentina,6290
+70,San Juan,F,80 a 84,Argentina,Otro Pais,44
+70,San Juan,F,80 a 84,Extranjera,Otro Pais,153
+70,San Juan,F,85 a 89,Argentina,Argentina,3273
+70,San Juan,F,85 a 89,Argentina,Otro Pais,19
+70,San Juan,F,85 a 89,Extranjera,Otro Pais,92
+70,San Juan,F,90 a 94,Argentina,Argentina,1338
+70,San Juan,F,90 a 94,Argentina,Otro Pais,14
+70,San Juan,F,90 a 94,Extranjera,Otro Pais,51
+70,San Juan,F,95 a 99,Argentina,Argentina,325
+70,San Juan,F,95 a 99,Argentina,Otro Pais,1
+70,San Juan,F,95 a 99,Extranjera,Otro Pais,19
+70,San Juan,M,0 a 4,Argentina,Argentina,25908
+70,San Juan,M,0 a 4,Argentina,Otro Pais,12
+70,San Juan,M,0 a 4,Extranjera,Otro Pais,13
+70,San Juan,M,10 a 14,Argentina,Argentina,36463
+70,San Juan,M,10 a 14,Argentina,Otro Pais,52
+70,San Juan,M,10 a 14,Extranjera,Otro Pais,122
+70,San Juan,M,100 y +,Argentina,Argentina,26
+70,San Juan,M,100 y +,Extranjera,Otro Pais,2
+70,San Juan,M,15 a 19,Argentina,Argentina,36089
+70,San Juan,M,15 a 19,Argentina,Otro Pais,91
+70,San Juan,M,15 a 19,Extranjera,Otro Pais,151
+70,San Juan,M,20 a 24,Argentina,Argentina,33941
+70,San Juan,M,20 a 24,Argentina,Otro Pais,69
+70,San Juan,M,20 a 24,Extranjera,Otro Pais,174
+70,San Juan,M,25 a 29,Argentina,Argentina,32147
+70,San Juan,M,25 a 29,Argentina,Otro Pais,21
+70,San Juan,M,25 a 29,Extranjera,Otro Pais,239
+70,San Juan,M,30 a 34,Argentina,Argentina,30801
+70,San Juan,M,30 a 34,Argentina,Otro Pais,42
+70,San Juan,M,30 a 34,Extranjera,Otro Pais,416
+70,San Juan,M,35 a 39,Argentina,Argentina,27512
+70,San Juan,M,35 a 39,Argentina,Otro Pais,31
+70,San Juan,M,35 a 39,Extranjera,Otro Pais,469
+70,San Juan,M,40 a 44,Argentina,Argentina,26719
+70,San Juan,M,40 a 44,Argentina,Otro Pais,31
+70,San Juan,M,40 a 44,Extranjera,Otro Pais,438
+70,San Juan,M,45 a 49,Argentina,Argentina,25453
+70,San Juan,M,45 a 49,Argentina,Otro Pais,26
+70,San Juan,M,45 a 49,Extranjera,Otro Pais,395
+70,San Juan,M,5 a 9,Argentina,Argentina,34887
+70,San Juan,M,5 a 9,Argentina,Otro Pais,30
+70,San Juan,M,5 a 9,Extranjera,Otro Pais,64
+70,San Juan,M,50 a 54,Argentina,Argentina,20711
+70,San Juan,M,50 a 54,Argentina,Otro Pais,34
+70,San Juan,M,50 a 54,Extranjera,Otro Pais,352
+70,San Juan,M,55 a 59,Argentina,Argentina,16835
+70,San Juan,M,55 a 59,Argentina,Otro Pais,23
+70,San Juan,M,55 a 59,Extranjera,Otro Pais,313
+70,San Juan,M,60 a 64,Argentina,Argentina,15092
+70,San Juan,M,60 a 64,Argentina,Otro Pais,23
+70,San Juan,M,60 a 64,Extranjera,Otro Pais,232
+70,San Juan,M,65 a 69,Argentina,Argentina,13128
+70,San Juan,M,65 a 69,Argentina,Otro Pais,23
+70,San Juan,M,65 a 69,Extranjera,Otro Pais,181
+70,San Juan,M,70 a 74,Argentina,Argentina,10603
+70,San Juan,M,70 a 74,Argentina,Otro Pais,36
+70,San Juan,M,70 a 74,Extranjera,Otro Pais,174
+70,San Juan,M,75 a 79,Argentina,Argentina,7239
+70,San Juan,M,75 a 79,Argentina,Otro Pais,47
+70,San Juan,M,75 a 79,Extranjera,Otro Pais,210
+70,San Juan,M,80 a 84,Argentina,Argentina,3834
+70,San Juan,M,80 a 84,Argentina,Otro Pais,40
+70,San Juan,M,80 a 84,Extranjera,Otro Pais,121
+70,San Juan,M,85 a 89,Argentina,Argentina,1719
+70,San Juan,M,85 a 89,Argentina,Otro Pais,16
+70,San Juan,M,85 a 89,Extranjera,Otro Pais,55
+70,San Juan,M,90 a 94,Argentina,Argentina,568
+70,San Juan,M,90 a 94,Argentina,Otro Pais,5
+70,San Juan,M,90 a 94,Extranjera,Otro Pais,32
+70,San Juan,M,95 a 99,Argentina,Argentina,104
+70,San Juan,M,95 a 99,Argentina,Otro Pais,4
+70,San Juan,M,95 a 99,Extranjera,Otro Pais,10
+70,San Juan,X,20 a 24,Argentina,Argentina,2
+70,San Juan,X,25 a 29,Argentina,Argentina,7
+70,San Juan,X,30 a 34,Argentina,Argentina,2
+70,San Juan,X,35 a 39,Argentina,Argentina,3
+70,San Juan,X,40 a 44,Argentina,Argentina,1
+74,San Luis,F,0 a 4,Argentina,Argentina,13304
+74,San Luis,F,0 a 4,Extranjera,Otro Pais,14
+74,San Luis,F,10 a 14,Argentina,Argentina,20548
+74,San Luis,F,10 a 14,Argentina,Otro Pais,25
+74,San Luis,F,10 a 14,Extranjera,Otro Pais,95
+74,San Luis,F,100 y +,Argentina,Argentina,45
+74,San Luis,F,100 y +,Extranjera,Otro Pais,4
+74,San Luis,F,15 a 19,Argentina,Argentina,21538
+74,San Luis,F,15 a 19,Argentina,Otro Pais,35
+74,San Luis,F,15 a 19,Extranjera,Otro Pais,141
+74,San Luis,F,20 a 24,Argentina,Argentina,21703
+74,San Luis,F,20 a 24,Argentina,Otro Pais,17
+74,San Luis,F,20 a 24,Extranjera,Otro Pais,183
+74,San Luis,F,25 a 29,Argentina,Argentina,21999
+74,San Luis,F,25 a 29,Argentina,Otro Pais,5
+74,San Luis,F,25 a 29,Extranjera,Otro Pais,189
+74,San Luis,F,30 a 34,Argentina,Argentina,20991
+74,San Luis,F,30 a 34,Argentina,Otro Pais,25
+74,San Luis,F,30 a 34,Extranjera,Otro Pais,259
+74,San Luis,F,35 a 39,Argentina,Argentina,18931
+74,San Luis,F,35 a 39,Argentina,Otro Pais,33
+74,San Luis,F,35 a 39,Extranjera,Otro Pais,359
+74,San Luis,F,40 a 44,Argentina,Argentina,19142
+74,San Luis,F,40 a 44,Argentina,Otro Pais,37
+74,San Luis,F,40 a 44,Extranjera,Otro Pais,379
+74,San Luis,F,45 a 49,Argentina,Argentina,18377
+74,San Luis,F,45 a 49,Argentina,Otro Pais,39
+74,San Luis,F,45 a 49,Extranjera,Otro Pais,343
+74,San Luis,F,5 a 9,Argentina,Argentina,18650
+74,San Luis,F,5 a 9,Argentina,Otro Pais,18
+74,San Luis,F,5 a 9,Extranjera,Otro Pais,48
+74,San Luis,F,50 a 54,Argentina,Argentina,14710
+74,San Luis,F,50 a 54,Argentina,Otro Pais,38
+74,San Luis,F,50 a 54,Extranjera,Otro Pais,327
+74,San Luis,F,55 a 59,Argentina,Argentina,12412
+74,San Luis,F,55 a 59,Argentina,Otro Pais,42
+74,San Luis,F,55 a 59,Extranjera,Otro Pais,332
+74,San Luis,F,60 a 64,Argentina,Argentina,11480
+74,San Luis,F,60 a 64,Argentina,Otro Pais,37
+74,San Luis,F,60 a 64,Extranjera,Otro Pais,283
+74,San Luis,F,65 a 69,Argentina,Argentina,9953
+74,San Luis,F,65 a 69,Argentina,Otro Pais,37
+74,San Luis,F,65 a 69,Extranjera,Otro Pais,210
+74,San Luis,F,70 a 74,Argentina,Argentina,8400
+74,San Luis,F,70 a 74,Argentina,Otro Pais,31
+74,San Luis,F,70 a 74,Extranjera,Otro Pais,161
+74,San Luis,F,75 a 79,Argentina,Argentina,6190
+74,San Luis,F,75 a 79,Argentina,Otro Pais,40
+74,San Luis,F,75 a 79,Extranjera,Otro Pais,169
+74,San Luis,F,80 a 84,Argentina,Argentina,4022
+74,San Luis,F,80 a 84,Argentina,Otro Pais,26
+74,San Luis,F,80 a 84,Extranjera,Otro Pais,92
+74,San Luis,F,85 a 89,Argentina,Argentina,2186
+74,San Luis,F,85 a 89,Argentina,Otro Pais,5
+74,San Luis,F,85 a 89,Extranjera,Otro Pais,53
+74,San Luis,F,90 a 94,Argentina,Argentina,936
+74,San Luis,F,90 a 94,Argentina,Otro Pais,4
+74,San Luis,F,90 a 94,Extranjera,Otro Pais,28
+74,San Luis,F,95 a 99,Argentina,Argentina,241
+74,San Luis,F,95 a 99,Argentina,Otro Pais,1
+74,San Luis,F,95 a 99,Extranjera,Otro Pais,4
+74,San Luis,M,0 a 4,Argentina,Argentina,13922
+74,San Luis,M,0 a 4,Argentina,Otro Pais,7
+74,San Luis,M,0 a 4,Extranjera,Otro Pais,7
+74,San Luis,M,10 a 14,Argentina,Argentina,21344
+74,San Luis,M,10 a 14,Argentina,Otro Pais,23
+74,San Luis,M,10 a 14,Extranjera,Otro Pais,106
+74,San Luis,M,100 y +,Argentina,Argentina,16
+74,San Luis,M,100 y +,Argentina,Otro Pais,1
+74,San Luis,M,15 a 19,Argentina,Argentina,22401
+74,San Luis,M,15 a 19,Argentina,Otro Pais,37
+74,San Luis,M,15 a 19,Extranjera,Otro Pais,144
+74,San Luis,M,20 a 24,Argentina,Argentina,22527
+74,San Luis,M,20 a 24,Argentina,Otro Pais,22
+74,San Luis,M,20 a 24,Extranjera,Otro Pais,194
+74,San Luis,M,25 a 29,Argentina,Argentina,22803
+74,San Luis,M,25 a 29,Argentina,Otro Pais,11
+74,San Luis,M,25 a 29,Extranjera,Otro Pais,171
+74,San Luis,M,30 a 34,Argentina,Argentina,21493
+74,San Luis,M,30 a 34,Argentina,Otro Pais,20
+74,San Luis,M,30 a 34,Extranjera,Otro Pais,305
+74,San Luis,M,35 a 39,Argentina,Argentina,19238
+74,San Luis,M,35 a 39,Argentina,Otro Pais,19
+74,San Luis,M,35 a 39,Extranjera,Otro Pais,307
+74,San Luis,M,40 a 44,Argentina,Argentina,19699
+74,San Luis,M,40 a 44,Argentina,Otro Pais,40
+74,San Luis,M,40 a 44,Extranjera,Otro Pais,331
+74,San Luis,M,45 a 49,Argentina,Argentina,18783
+74,San Luis,M,45 a 49,Argentina,Otro Pais,37
+74,San Luis,M,45 a 49,Extranjera,Otro Pais,312
+74,San Luis,M,5 a 9,Argentina,Argentina,19556
+74,San Luis,M,5 a 9,Argentina,Otro Pais,13
+74,San Luis,M,5 a 9,Extranjera,Otro Pais,69
+74,San Luis,M,50 a 54,Argentina,Argentina,15388
+74,San Luis,M,50 a 54,Argentina,Otro Pais,35
+74,San Luis,M,50 a 54,Extranjera,Otro Pais,303
+74,San Luis,M,55 a 59,Argentina,Argentina,13081
+74,San Luis,M,55 a 59,Argentina,Otro Pais,40
+74,San Luis,M,55 a 59,Extranjera,Otro Pais,296
+74,San Luis,M,60 a 64,Argentina,Argentina,11576
+74,San Luis,M,60 a 64,Argentina,Otro Pais,34
+74,San Luis,M,60 a 64,Extranjera,Otro Pais,278
+74,San Luis,M,65 a 69,Argentina,Argentina,9601
+74,San Luis,M,65 a 69,Argentina,Otro Pais,31
+74,San Luis,M,65 a 69,Extranjera,Otro Pais,228
+74,San Luis,M,70 a 74,Argentina,Argentina,7503
+74,San Luis,M,70 a 74,Argentina,Otro Pais,38
+74,San Luis,M,70 a 74,Extranjera,Otro Pais,198
+74,San Luis,M,75 a 79,Argentina,Argentina,5087
+74,San Luis,M,75 a 79,Argentina,Otro Pais,33
+74,San Luis,M,75 a 79,Extranjera,Otro Pais,154
+74,San Luis,M,80 a 84,Argentina,Argentina,2779
+74,San Luis,M,80 a 84,Argentina,Otro Pais,29
+74,San Luis,M,80 a 84,Extranjera,Otro Pais,75
+74,San Luis,M,85 a 89,Argentina,Argentina,1189
+74,San Luis,M,85 a 89,Argentina,Otro Pais,15
+74,San Luis,M,85 a 89,Extranjera,Otro Pais,30
+74,San Luis,M,90 a 94,Argentina,Argentina,367
+74,San Luis,M,90 a 94,Argentina,Otro Pais,4
+74,San Luis,M,90 a 94,Extranjera,Otro Pais,15
+74,San Luis,M,95 a 99,Argentina,Argentina,88
+74,San Luis,M,95 a 99,Extranjera,Otro Pais,2
+74,San Luis,X,10 a 14,Argentina,Argentina,1
+74,San Luis,X,15 a 19,Argentina,Argentina,4
+74,San Luis,X,20 a 24,Argentina,Argentina,3
+74,San Luis,X,25 a 29,Argentina,Argentina,1
+74,San Luis,X,30 a 34,Argentina,Argentina,4
+74,San Luis,X,35 a 39,Argentina,Argentina,1
+74,San Luis,X,45 a 49,Argentina,Argentina,2
+78,Santa Cruz,F,0 a 4,Argentina,Argentina,8849
+78,Santa Cruz,F,0 a 4,Argentina,Otro Pais,7
+78,Santa Cruz,F,0 a 4,Extranjera,Otro Pais,15
+78,Santa Cruz,F,10 a 14,Argentina,Argentina,14705
+78,Santa Cruz,F,10 a 14,Argentina,Otro Pais,17
+78,Santa Cruz,F,10 a 14,Extranjera,Otro Pais,202
+78,Santa Cruz,F,100 y +,Argentina,Argentina,16
+78,Santa Cruz,F,100 y +,Argentina,Otro Pais,5
+78,Santa Cruz,F,100 y +,Extranjera,Otro Pais,3
+78,Santa Cruz,F,15 a 19,Argentina,Argentina,14013
+78,Santa Cruz,F,15 a 19,Argentina,Otro Pais,26
+78,Santa Cruz,F,15 a 19,Extranjera,Otro Pais,311
+78,Santa Cruz,F,20 a 24,Argentina,Argentina,13310
+78,Santa Cruz,F,20 a 24,Argentina,Otro Pais,49
+78,Santa Cruz,F,20 a 24,Extranjera,Otro Pais,415
+78,Santa Cruz,F,25 a 29,Argentina,Argentina,14078
+78,Santa Cruz,F,25 a 29,Argentina,Otro Pais,89
+78,Santa Cruz,F,25 a 29,Extranjera,Otro Pais,533
+78,Santa Cruz,F,30 a 34,Argentina,Argentina,14663
+78,Santa Cruz,F,30 a 34,Argentina,Otro Pais,181
+78,Santa Cruz,F,30 a 34,Extranjera,Otro Pais,799
+78,Santa Cruz,F,35 a 39,Argentina,Argentina,13527
+78,Santa Cruz,F,35 a 39,Argentina,Otro Pais,251
+78,Santa Cruz,F,35 a 39,Extranjera,Otro Pais,855
+78,Santa Cruz,F,40 a 44,Argentina,Argentina,12536
+78,Santa Cruz,F,40 a 44,Argentina,Otro Pais,411
+78,Santa Cruz,F,40 a 44,Extranjera,Otro Pais,794
+78,Santa Cruz,F,45 a 49,Argentina,Argentina,11104
+78,Santa Cruz,F,45 a 49,Argentina,Otro Pais,428
+78,Santa Cruz,F,45 a 49,Extranjera,Otro Pais,628
+78,Santa Cruz,F,5 a 9,Argentina,Argentina,13948
+78,Santa Cruz,F,5 a 9,Argentina,Otro Pais,14
+78,Santa Cruz,F,5 a 9,Extranjera,Otro Pais,91
+78,Santa Cruz,F,50 a 54,Argentina,Argentina,8249
+78,Santa Cruz,F,50 a 54,Argentina,Otro Pais,616
+78,Santa Cruz,F,50 a 54,Extranjera,Otro Pais,598
+78,Santa Cruz,F,55 a 59,Argentina,Argentina,6516
+78,Santa Cruz,F,55 a 59,Argentina,Otro Pais,739
+78,Santa Cruz,F,55 a 59,Extranjera,Otro Pais,574
+78,Santa Cruz,F,60 a 64,Argentina,Argentina,5497
+78,Santa Cruz,F,60 a 64,Argentina,Otro Pais,773
+78,Santa Cruz,F,60 a 64,Extranjera,Otro Pais,566
+78,Santa Cruz,F,65 a 69,Argentina,Argentina,4133
+78,Santa Cruz,F,65 a 69,Argentina,Otro Pais,861
+78,Santa Cruz,F,65 a 69,Extranjera,Otro Pais,503
+78,Santa Cruz,F,70 a 74,Argentina,Argentina,2782
+78,Santa Cruz,F,70 a 74,Argentina,Otro Pais,753
+78,Santa Cruz,F,70 a 74,Extranjera,Otro Pais,469
+78,Santa Cruz,F,75 a 79,Argentina,Argentina,1599
+78,Santa Cruz,F,75 a 79,Argentina,Otro Pais,645
+78,Santa Cruz,F,75 a 79,Extranjera,Otro Pais,398
+78,Santa Cruz,F,80 a 84,Argentina,Argentina,940
+78,Santa Cruz,F,80 a 84,Argentina,Otro Pais,445
+78,Santa Cruz,F,80 a 84,Extranjera,Otro Pais,314
+78,Santa Cruz,F,85 a 89,Argentina,Argentina,525
+78,Santa Cruz,F,85 a 89,Argentina,Otro Pais,231
+78,Santa Cruz,F,85 a 89,Extranjera,Otro Pais,200
+78,Santa Cruz,F,90 a 94,Argentina,Argentina,207
+78,Santa Cruz,F,90 a 94,Argentina,Otro Pais,72
+78,Santa Cruz,F,90 a 94,Extranjera,Otro Pais,64
+78,Santa Cruz,F,95 a 99,Argentina,Argentina,56
+78,Santa Cruz,F,95 a 99,Argentina,Otro Pais,14
+78,Santa Cruz,F,95 a 99,Extranjera,Otro Pais,19
+78,Santa Cruz,M,0 a 4,Argentina,Argentina,9169
+78,Santa Cruz,M,0 a 4,Argentina,Otro Pais,9
+78,Santa Cruz,M,0 a 4,Extranjera,Otro Pais,19
+78,Santa Cruz,M,10 a 14,Argentina,Argentina,15099
+78,Santa Cruz,M,10 a 14,Argentina,Otro Pais,15
+78,Santa Cruz,M,10 a 14,Extranjera,Otro Pais,220
+78,Santa Cruz,M,100 y +,Argentina,Argentina,5
+78,Santa Cruz,M,100 y +,Extranjera,Otro Pais,4
+78,Santa Cruz,M,15 a 19,Argentina,Argentina,14597
+78,Santa Cruz,M,15 a 19,Argentina,Otro Pais,17
+78,Santa Cruz,M,15 a 19,Extranjera,Otro Pais,332
+78,Santa Cruz,M,20 a 24,Argentina,Argentina,14351
+78,Santa Cruz,M,20 a 24,Argentina,Otro Pais,47
+78,Santa Cruz,M,20 a 24,Extranjera,Otro Pais,492
+78,Santa Cruz,M,25 a 29,Argentina,Argentina,15255
+78,Santa Cruz,M,25 a 29,Argentina,Otro Pais,68
+78,Santa Cruz,M,25 a 29,Extranjera,Otro Pais,508
+78,Santa Cruz,M,30 a 34,Argentina,Argentina,15558
+78,Santa Cruz,M,30 a 34,Argentina,Otro Pais,127
+78,Santa Cruz,M,30 a 34,Extranjera,Otro Pais,774
+78,Santa Cruz,M,35 a 39,Argentina,Argentina,14751
+78,Santa Cruz,M,35 a 39,Argentina,Otro Pais,169
+78,Santa Cruz,M,35 a 39,Extranjera,Otro Pais,895
+78,Santa Cruz,M,40 a 44,Argentina,Argentina,13803
+78,Santa Cruz,M,40 a 44,Argentina,Otro Pais,289
+78,Santa Cruz,M,40 a 44,Extranjera,Otro Pais,869
+78,Santa Cruz,M,45 a 49,Argentina,Argentina,12040
+78,Santa Cruz,M,45 a 49,Argentina,Otro Pais,280
+78,Santa Cruz,M,45 a 49,Extranjera,Otro Pais,693
+78,Santa Cruz,M,5 a 9,Argentina,Argentina,14384
+78,Santa Cruz,M,5 a 9,Argentina,Otro Pais,20
+78,Santa Cruz,M,5 a 9,Extranjera,Otro Pais,86
+78,Santa Cruz,M,50 a 54,Argentina,Argentina,8805
+78,Santa Cruz,M,50 a 54,Argentina,Otro Pais,448
+78,Santa Cruz,M,50 a 54,Extranjera,Otro Pais,639
+78,Santa Cruz,M,55 a 59,Argentina,Argentina,6865
+78,Santa Cruz,M,55 a 59,Argentina,Otro Pais,453
+78,Santa Cruz,M,55 a 59,Extranjera,Otro Pais,568
+78,Santa Cruz,M,60 a 64,Argentina,Argentina,5816
+78,Santa Cruz,M,60 a 64,Argentina,Otro Pais,593
+78,Santa Cruz,M,60 a 64,Extranjera,Otro Pais,590
+78,Santa Cruz,M,65 a 69,Argentina,Argentina,4335
+78,Santa Cruz,M,65 a 69,Argentina,Otro Pais,532
+78,Santa Cruz,M,65 a 69,Extranjera,Otro Pais,533
+78,Santa Cruz,M,70 a 74,Argentina,Argentina,2767
+78,Santa Cruz,M,70 a 74,Argentina,Otro Pais,516
+78,Santa Cruz,M,70 a 74,Extranjera,Otro Pais,519
+78,Santa Cruz,M,75 a 79,Argentina,Argentina,1299
+78,Santa Cruz,M,75 a 79,Argentina,Otro Pais,399
+78,Santa Cruz,M,75 a 79,Extranjera,Otro Pais,368
+78,Santa Cruz,M,80 a 84,Argentina,Argentina,707
+78,Santa Cruz,M,80 a 84,Argentina,Otro Pais,295
+78,Santa Cruz,M,80 a 84,Extranjera,Otro Pais,303
+78,Santa Cruz,M,85 a 89,Argentina,Argentina,324
+78,Santa Cruz,M,85 a 89,Argentina,Otro Pais,126
+78,Santa Cruz,M,85 a 89,Extranjera,Otro Pais,139
+78,Santa Cruz,M,90 a 94,Argentina,Argentina,111
+78,Santa Cruz,M,90 a 94,Argentina,Otro Pais,47
+78,Santa Cruz,M,90 a 94,Extranjera,Otro Pais,78
+78,Santa Cruz,M,95 a 99,Argentina,Argentina,32
+78,Santa Cruz,M,95 a 99,Argentina,Otro Pais,8
+78,Santa Cruz,M,95 a 99,Extranjera,Otro Pais,20
+78,Santa Cruz,X,15 a 19,Argentina,Argentina,3
+78,Santa Cruz,X,20 a 24,Argentina,Argentina,2
+78,Santa Cruz,X,25 a 29,Argentina,Argentina,4
+78,Santa Cruz,X,35 a 39,Argentina,Argentina,2
+82,Santa Fe,F,0 a 4,Argentina,Argentina,93331
+82,Santa Fe,F,0 a 4,Argentina,Otro Pais,103
+82,Santa Fe,F,0 a 4,Extranjera,Otro Pais,71
+82,Santa Fe,F,10 a 14,Argentina,Argentina,131334
+82,Santa Fe,F,10 a 14,Argentina,Otro Pais,226
+82,Santa Fe,F,10 a 14,Extranjera,Otro Pais,457
+82,Santa Fe,F,100 y +,Argentina,Argentina,419
+82,Santa Fe,F,100 y +,Argentina,Otro Pais,7
+82,Santa Fe,F,100 y +,Extranjera,Otro Pais,24
+82,Santa Fe,F,15 a 19,Argentina,Argentina,125529
+82,Santa Fe,F,15 a 19,Argentina,Otro Pais,345
+82,Santa Fe,F,15 a 19,Extranjera,Otro Pais,982
+82,Santa Fe,F,20 a 24,Argentina,Argentina,128131
+82,Santa Fe,F,20 a 24,Argentina,Otro Pais,210
+82,Santa Fe,F,20 a 24,Extranjera,Otro Pais,2524
+82,Santa Fe,F,25 a 29,Argentina,Argentina,130424
+82,Santa Fe,F,25 a 29,Argentina,Otro Pais,142
+82,Santa Fe,F,25 a 29,Extranjera,Otro Pais,2613
+82,Santa Fe,F,30 a 34,Argentina,Argentina,137130
+82,Santa Fe,F,30 a 34,Argentina,Otro Pais,196
+82,Santa Fe,F,30 a 34,Extranjera,Otro Pais,2581
+82,Santa Fe,F,35 a 39,Argentina,Argentina,131076
+82,Santa Fe,F,35 a 39,Argentina,Otro Pais,159
+82,Santa Fe,F,35 a 39,Extranjera,Otro Pais,2421
+82,Santa Fe,F,40 a 44,Argentina,Argentina,130831
+82,Santa Fe,F,40 a 44,Argentina,Otro Pais,174
+82,Santa Fe,F,40 a 44,Extranjera,Otro Pais,2001
+82,Santa Fe,F,45 a 49,Argentina,Argentina,120820
+82,Santa Fe,F,45 a 49,Argentina,Otro Pais,154
+82,Santa Fe,F,45 a 49,Extranjera,Otro Pais,1547
+82,Santa Fe,F,5 a 9,Argentina,Argentina,128530
+82,Santa Fe,F,5 a 9,Argentina,Otro Pais,127
+82,Santa Fe,F,5 a 9,Extranjera,Otro Pais,283
+82,Santa Fe,F,50 a 54,Argentina,Argentina,98496
+82,Santa Fe,F,50 a 54,Argentina,Otro Pais,168
+82,Santa Fe,F,50 a 54,Extranjera,Otro Pais,1420
+82,Santa Fe,F,55 a 59,Argentina,Argentina,87932
+82,Santa Fe,F,55 a 59,Argentina,Otro Pais,184
+82,Santa Fe,F,55 a 59,Extranjera,Otro Pais,1248
+82,Santa Fe,F,60 a 64,Argentina,Argentina,85372
+82,Santa Fe,F,60 a 64,Argentina,Otro Pais,134
+82,Santa Fe,F,60 a 64,Extranjera,Otro Pais,1007
+82,Santa Fe,F,65 a 69,Argentina,Argentina,76480
+82,Santa Fe,F,65 a 69,Argentina,Otro Pais,138
+82,Santa Fe,F,65 a 69,Extranjera,Otro Pais,935
+82,Santa Fe,F,70 a 74,Argentina,Argentina,66203
+82,Santa Fe,F,70 a 74,Argentina,Otro Pais,160
+82,Santa Fe,F,70 a 74,Extranjera,Otro Pais,875
+82,Santa Fe,F,75 a 79,Argentina,Argentina,51315
+82,Santa Fe,F,75 a 79,Argentina,Otro Pais,236
+82,Santa Fe,F,75 a 79,Extranjera,Otro Pais,1094
+82,Santa Fe,F,80 a 84,Argentina,Argentina,36280
+82,Santa Fe,F,80 a 84,Argentina,Otro Pais,150
+82,Santa Fe,F,80 a 84,Extranjera,Otro Pais,750
+82,Santa Fe,F,85 a 89,Argentina,Argentina,21972
+82,Santa Fe,F,85 a 89,Argentina,Otro Pais,51
+82,Santa Fe,F,85 a 89,Extranjera,Otro Pais,477
+82,Santa Fe,F,90 a 94,Argentina,Argentina,9816
+82,Santa Fe,F,90 a 94,Argentina,Otro Pais,31
+82,Santa Fe,F,90 a 94,Extranjera,Otro Pais,241
+82,Santa Fe,F,95 a 99,Argentina,Argentina,2512
+82,Santa Fe,F,95 a 99,Argentina,Otro Pais,19
+82,Santa Fe,F,95 a 99,Extranjera,Otro Pais,76
+82,Santa Fe,M,0 a 4,Argentina,Argentina,96400
+82,Santa Fe,M,0 a 4,Argentina,Otro Pais,93
+82,Santa Fe,M,0 a 4,Extranjera,Otro Pais,66
+82,Santa Fe,M,10 a 14,Argentina,Argentina,136974
+82,Santa Fe,M,10 a 14,Argentina,Otro Pais,243
+82,Santa Fe,M,10 a 14,Extranjera,Otro Pais,522
+82,Santa Fe,M,100 y +,Argentina,Argentina,88
+82,Santa Fe,M,100 y +,Argentina,Otro Pais,5
+82,Santa Fe,M,100 y +,Extranjera,Otro Pais,3
+82,Santa Fe,M,15 a 19,Argentina,Argentina,130762
+82,Santa Fe,M,15 a 19,Argentina,Otro Pais,418
+82,Santa Fe,M,15 a 19,Extranjera,Otro Pais,979
+82,Santa Fe,M,20 a 24,Argentina,Argentina,130870
+82,Santa Fe,M,20 a 24,Argentina,Otro Pais,220
+82,Santa Fe,M,20 a 24,Extranjera,Otro Pais,2086
+82,Santa Fe,M,25 a 29,Argentina,Argentina,132779
+82,Santa Fe,M,25 a 29,Argentina,Otro Pais,133
+82,Santa Fe,M,25 a 29,Extranjera,Otro Pais,2449
+82,Santa Fe,M,30 a 34,Argentina,Argentina,135718
+82,Santa Fe,M,30 a 34,Argentina,Otro Pais,204
+82,Santa Fe,M,30 a 34,Extranjera,Otro Pais,2940
+82,Santa Fe,M,35 a 39,Argentina,Argentina,130142
+82,Santa Fe,M,35 a 39,Argentina,Otro Pais,178
+82,Santa Fe,M,35 a 39,Extranjera,Otro Pais,2671
+82,Santa Fe,M,40 a 44,Argentina,Argentina,130826
+82,Santa Fe,M,40 a 44,Argentina,Otro Pais,189
+82,Santa Fe,M,40 a 44,Extranjera,Otro Pais,2168
+82,Santa Fe,M,45 a 49,Argentina,Argentina,119569
+82,Santa Fe,M,45 a 49,Argentina,Otro Pais,152
+82,Santa Fe,M,45 a 49,Extranjera,Otro Pais,1594
+82,Santa Fe,M,5 a 9,Argentina,Argentina,133517
+82,Santa Fe,M,5 a 9,Argentina,Otro Pais,142
+82,Santa Fe,M,5 a 9,Extranjera,Otro Pais,268
+82,Santa Fe,M,50 a 54,Argentina,Argentina,95563
+82,Santa Fe,M,50 a 54,Argentina,Otro Pais,149
+82,Santa Fe,M,50 a 54,Extranjera,Otro Pais,1362
+82,Santa Fe,M,55 a 59,Argentina,Argentina,83004
+82,Santa Fe,M,55 a 59,Argentina,Otro Pais,145
+82,Santa Fe,M,55 a 59,Extranjera,Otro Pais,1144
+82,Santa Fe,M,60 a 64,Argentina,Argentina,77734
+82,Santa Fe,M,60 a 64,Argentina,Otro Pais,97
+82,Santa Fe,M,60 a 64,Extranjera,Otro Pais,895
+82,Santa Fe,M,65 a 69,Argentina,Argentina,66848
+82,Santa Fe,M,65 a 69,Argentina,Otro Pais,136
+82,Santa Fe,M,65 a 69,Extranjera,Otro Pais,745
+82,Santa Fe,M,70 a 74,Argentina,Argentina,53200
+82,Santa Fe,M,70 a 74,Argentina,Otro Pais,153
+82,Santa Fe,M,70 a 74,Extranjera,Otro Pais,797
+82,Santa Fe,M,75 a 79,Argentina,Argentina,35068
+82,Santa Fe,M,75 a 79,Argentina,Otro Pais,178
+82,Santa Fe,M,75 a 79,Extranjera,Otro Pais,926
+82,Santa Fe,M,80 a 84,Argentina,Argentina,20254
+82,Santa Fe,M,80 a 84,Argentina,Otro Pais,81
+82,Santa Fe,M,80 a 84,Extranjera,Otro Pais,524
+82,Santa Fe,M,85 a 89,Argentina,Argentina,9985
+82,Santa Fe,M,85 a 89,Argentina,Otro Pais,74
+82,Santa Fe,M,85 a 89,Extranjera,Otro Pais,301
+82,Santa Fe,M,90 a 94,Argentina,Argentina,3275
+82,Santa Fe,M,90 a 94,Argentina,Otro Pais,29
+82,Santa Fe,M,90 a 94,Extranjera,Otro Pais,120
+82,Santa Fe,M,95 a 99,Argentina,Argentina,643
+82,Santa Fe,M,95 a 99,Argentina,Otro Pais,16
+82,Santa Fe,M,95 a 99,Extranjera,Otro Pais,29
+82,Santa Fe,X,15 a 19,Argentina,Argentina,11
+82,Santa Fe,X,20 a 24,Argentina,Argentina,22
+82,Santa Fe,X,25 a 29,Argentina,Argentina,21
+82,Santa Fe,X,25 a 29,Extranjera,Otro Pais,1
+82,Santa Fe,X,30 a 34,Argentina,Argentina,7
+82,Santa Fe,X,35 a 39,Argentina,Argentina,7
+82,Santa Fe,X,40 a 44,Argentina,Argentina,4
+82,Santa Fe,X,45 a 49,Argentina,Argentina,6
+82,Santa Fe,X,50 a 54,Argentina,Argentina,4
+82,Santa Fe,X,55 a 59,Argentina,Argentina,2
+86,Santiago del Estero,F,0 a 4,Argentina,Argentina,34757
+86,Santiago del Estero,F,10 a 14,Argentina,Argentina,46749
+86,Santiago del Estero,F,10 a 14,Argentina,Otro Pais,12
+86,Santiago del Estero,F,10 a 14,Extranjera,Otro Pais,23
+86,Santiago del Estero,F,100 y +,Argentina,Argentina,174
+86,Santiago del Estero,F,100 y +,Extranjera,Otro Pais,1
+86,Santiago del Estero,F,15 a 19,Argentina,Argentina,45716
+86,Santiago del Estero,F,15 a 19,Argentina,Otro Pais,19
+86,Santiago del Estero,F,15 a 19,Extranjera,Otro Pais,30
+86,Santiago del Estero,F,20 a 24,Argentina,Argentina,47043
+86,Santiago del Estero,F,20 a 24,Argentina,Otro Pais,10
+86,Santiago del Estero,F,20 a 24,Extranjera,Otro Pais,43
+86,Santiago del Estero,F,25 a 29,Argentina,Argentina,46541
+86,Santiago del Estero,F,25 a 29,Argentina,Otro Pais,4
+86,Santiago del Estero,F,25 a 29,Extranjera,Otro Pais,66
+86,Santiago del Estero,F,30 a 34,Argentina,Argentina,42124
+86,Santiago del Estero,F,30 a 34,Argentina,Otro Pais,8
+86,Santiago del Estero,F,30 a 34,Extranjera,Otro Pais,136
+86,Santiago del Estero,F,35 a 39,Argentina,Argentina,36456
+86,Santiago del Estero,F,35 a 39,Argentina,Otro Pais,8
+86,Santiago del Estero,F,35 a 39,Extranjera,Otro Pais,162
+86,Santiago del Estero,F,40 a 44,Argentina,Argentina,35998
+86,Santiago del Estero,F,40 a 44,Argentina,Otro Pais,7
+86,Santiago del Estero,F,40 a 44,Extranjera,Otro Pais,146
+86,Santiago del Estero,F,45 a 49,Argentina,Argentina,32511
+86,Santiago del Estero,F,45 a 49,Argentina,Otro Pais,8
+86,Santiago del Estero,F,45 a 49,Extranjera,Otro Pais,122
+86,Santiago del Estero,F,5 a 9,Argentina,Argentina,46079
+86,Santiago del Estero,F,5 a 9,Argentina,Otro Pais,9
+86,Santiago del Estero,F,5 a 9,Extranjera,Otro Pais,16
+86,Santiago del Estero,F,50 a 54,Argentina,Argentina,25781
+86,Santiago del Estero,F,50 a 54,Argentina,Otro Pais,4
+86,Santiago del Estero,F,50 a 54,Extranjera,Otro Pais,109
+86,Santiago del Estero,F,55 a 59,Argentina,Argentina,21317
+86,Santiago del Estero,F,55 a 59,Argentina,Otro Pais,7
+86,Santiago del Estero,F,55 a 59,Extranjera,Otro Pais,103
+86,Santiago del Estero,F,60 a 64,Argentina,Argentina,19081
+86,Santiago del Estero,F,60 a 64,Argentina,Otro Pais,12
+86,Santiago del Estero,F,60 a 64,Extranjera,Otro Pais,75
+86,Santiago del Estero,F,65 a 69,Argentina,Argentina,17440
+86,Santiago del Estero,F,65 a 69,Argentina,Otro Pais,10
+86,Santiago del Estero,F,65 a 69,Extranjera,Otro Pais,67
+86,Santiago del Estero,F,70 a 74,Argentina,Argentina,14208
+86,Santiago del Estero,F,70 a 74,Argentina,Otro Pais,15
+86,Santiago del Estero,F,70 a 74,Extranjera,Otro Pais,49
+86,Santiago del Estero,F,75 a 79,Argentina,Argentina,10325
+86,Santiago del Estero,F,75 a 79,Argentina,Otro Pais,16
+86,Santiago del Estero,F,75 a 79,Extranjera,Otro Pais,65
+86,Santiago del Estero,F,80 a 84,Argentina,Argentina,7500
+86,Santiago del Estero,F,80 a 84,Argentina,Otro Pais,17
+86,Santiago del Estero,F,80 a 84,Extranjera,Otro Pais,20
+86,Santiago del Estero,F,85 a 89,Argentina,Argentina,4340
+86,Santiago del Estero,F,85 a 89,Argentina,Otro Pais,7
+86,Santiago del Estero,F,85 a 89,Extranjera,Otro Pais,17
+86,Santiago del Estero,F,90 a 94,Argentina,Argentina,2228
+86,Santiago del Estero,F,90 a 94,Argentina,Otro Pais,4
+86,Santiago del Estero,F,90 a 94,Extranjera,Otro Pais,12
+86,Santiago del Estero,F,95 a 99,Argentina,Argentina,784
+86,Santiago del Estero,F,95 a 99,Argentina,Otro Pais,1
+86,Santiago del Estero,F,95 a 99,Extranjera,Otro Pais,5
+86,Santiago del Estero,M,0 a 4,Argentina,Argentina,35678
+86,Santiago del Estero,M,0 a 4,Argentina,Otro Pais,5
+86,Santiago del Estero,M,0 a 4,Extranjera,Otro Pais,2
+86,Santiago del Estero,M,10 a 14,Argentina,Argentina,48025
+86,Santiago del Estero,M,10 a 14,Argentina,Otro Pais,23
+86,Santiago del Estero,M,10 a 14,Extranjera,Otro Pais,27
+86,Santiago del Estero,M,100 y +,Argentina,Argentina,65
+86,Santiago del Estero,M,100 y +,Extranjera,Otro Pais,3
+86,Santiago del Estero,M,15 a 19,Argentina,Argentina,47128
+86,Santiago del Estero,M,15 a 19,Argentina,Otro Pais,25
+86,Santiago del Estero,M,15 a 19,Extranjera,Otro Pais,49
+86,Santiago del Estero,M,20 a 24,Argentina,Argentina,47824
+86,Santiago del Estero,M,20 a 24,Argentina,Otro Pais,13
+86,Santiago del Estero,M,20 a 24,Extranjera,Otro Pais,54
+86,Santiago del Estero,M,25 a 29,Argentina,Argentina,46891
+86,Santiago del Estero,M,25 a 29,Argentina,Otro Pais,5
+86,Santiago del Estero,M,25 a 29,Extranjera,Otro Pais,101
+86,Santiago del Estero,M,30 a 34,Argentina,Argentina,42470
+86,Santiago del Estero,M,30 a 34,Argentina,Otro Pais,3
+86,Santiago del Estero,M,30 a 34,Extranjera,Otro Pais,144
+86,Santiago del Estero,M,35 a 39,Argentina,Argentina,36828
+86,Santiago del Estero,M,35 a 39,Argentina,Otro Pais,1
+86,Santiago del Estero,M,35 a 39,Extranjera,Otro Pais,166
+86,Santiago del Estero,M,40 a 44,Argentina,Argentina,36232
+86,Santiago del Estero,M,40 a 44,Argentina,Otro Pais,11
+86,Santiago del Estero,M,40 a 44,Extranjera,Otro Pais,162
+86,Santiago del Estero,M,45 a 49,Argentina,Argentina,33433
+86,Santiago del Estero,M,45 a 49,Argentina,Otro Pais,7
+86,Santiago del Estero,M,45 a 49,Extranjera,Otro Pais,151
+86,Santiago del Estero,M,5 a 9,Argentina,Argentina,47737
+86,Santiago del Estero,M,5 a 9,Argentina,Otro Pais,7
+86,Santiago del Estero,M,5 a 9,Extranjera,Otro Pais,19
+86,Santiago del Estero,M,50 a 54,Argentina,Argentina,26395
+86,Santiago del Estero,M,50 a 54,Argentina,Otro Pais,17
+86,Santiago del Estero,M,50 a 54,Extranjera,Otro Pais,119
+86,Santiago del Estero,M,55 a 59,Argentina,Argentina,22429
+86,Santiago del Estero,M,55 a 59,Argentina,Otro Pais,19
+86,Santiago del Estero,M,55 a 59,Extranjera,Otro Pais,107
+86,Santiago del Estero,M,60 a 64,Argentina,Argentina,19894
+86,Santiago del Estero,M,60 a 64,Argentina,Otro Pais,9
+86,Santiago del Estero,M,60 a 64,Extranjera,Otro Pais,83
+86,Santiago del Estero,M,65 a 69,Argentina,Argentina,17197
+86,Santiago del Estero,M,65 a 69,Argentina,Otro Pais,16
+86,Santiago del Estero,M,65 a 69,Extranjera,Otro Pais,72
+86,Santiago del Estero,M,70 a 74,Argentina,Argentina,14072
+86,Santiago del Estero,M,70 a 74,Argentina,Otro Pais,19
+86,Santiago del Estero,M,70 a 74,Extranjera,Otro Pais,84
+86,Santiago del Estero,M,75 a 79,Argentina,Argentina,8881
+86,Santiago del Estero,M,75 a 79,Argentina,Otro Pais,19
+86,Santiago del Estero,M,75 a 79,Extranjera,Otro Pais,53
+86,Santiago del Estero,M,80 a 84,Argentina,Argentina,5325
+86,Santiago del Estero,M,80 a 84,Argentina,Otro Pais,15
+86,Santiago del Estero,M,80 a 84,Extranjera,Otro Pais,26
+86,Santiago del Estero,M,85 a 89,Argentina,Argentina,2520
+86,Santiago del Estero,M,85 a 89,Argentina,Otro Pais,4
+86,Santiago del Estero,M,85 a 89,Extranjera,Otro Pais,20
+86,Santiago del Estero,M,90 a 94,Argentina,Argentina,1123
+86,Santiago del Estero,M,90 a 94,Argentina,Otro Pais,6
+86,Santiago del Estero,M,90 a 94,Extranjera,Otro Pais,6
+86,Santiago del Estero,M,95 a 99,Argentina,Argentina,337
+86,Santiago del Estero,M,95 a 99,Extranjera,Otro Pais,4
+86,Santiago del Estero,X,15 a 19,Argentina,Argentina,1
+86,Santiago del Estero,X,20 a 24,Argentina,Argentina,1
+86,Santiago del Estero,X,25 a 29,Argentina,Argentina,3
+86,Santiago del Estero,X,30 a 34,Argentina,Argentina,1
+86,Santiago del Estero,X,40 a 44,Argentina,Argentina,2
+90,Tucumán,F,0 a 4,Argentina,Argentina,47420
+90,Tucumán,F,0 a 4,Argentina,Otro Pais,23
+90,Tucumán,F,0 a 4,Extranjera,Otro Pais,13
+90,Tucumán,F,10 a 14,Argentina,Argentina,71095
+90,Tucumán,F,10 a 14,Argentina,Otro Pais,50
+90,Tucumán,F,10 a 14,Extranjera,Otro Pais,83
+90,Tucumán,F,100 y +,Argentina,Argentina,234
+90,Tucumán,F,100 y +,Argentina,Otro Pais,1
+90,Tucumán,F,100 y +,Extranjera,Otro Pais,3
+90,Tucumán,F,15 a 19,Argentina,Argentina,68256
+90,Tucumán,F,15 a 19,Argentina,Otro Pais,73
+90,Tucumán,F,15 a 19,Extranjera,Otro Pais,123
+90,Tucumán,F,20 a 24,Argentina,Argentina,72114
+90,Tucumán,F,20 a 24,Argentina,Otro Pais,56
+90,Tucumán,F,20 a 24,Extranjera,Otro Pais,160
+90,Tucumán,F,25 a 29,Argentina,Argentina,70896
+90,Tucumán,F,25 a 29,Argentina,Otro Pais,28
+90,Tucumán,F,25 a 29,Extranjera,Otro Pais,248
+90,Tucumán,F,30 a 34,Argentina,Argentina,66687
+90,Tucumán,F,30 a 34,Argentina,Otro Pais,28
+90,Tucumán,F,30 a 34,Extranjera,Otro Pais,333
+90,Tucumán,F,35 a 39,Argentina,Argentina,60012
+90,Tucumán,F,35 a 39,Argentina,Otro Pais,25
+90,Tucumán,F,35 a 39,Extranjera,Otro Pais,361
+90,Tucumán,F,40 a 44,Argentina,Argentina,59794
+90,Tucumán,F,40 a 44,Argentina,Otro Pais,36
+90,Tucumán,F,40 a 44,Extranjera,Otro Pais,362
+90,Tucumán,F,45 a 49,Argentina,Argentina,57256
+90,Tucumán,F,45 a 49,Argentina,Otro Pais,53
+90,Tucumán,F,45 a 49,Extranjera,Otro Pais,295
+90,Tucumán,F,5 a 9,Argentina,Argentina,67025
+90,Tucumán,F,5 a 9,Argentina,Otro Pais,27
+90,Tucumán,F,5 a 9,Extranjera,Otro Pais,47
+90,Tucumán,F,50 a 54,Argentina,Argentina,43736
+90,Tucumán,F,50 a 54,Argentina,Otro Pais,57
+90,Tucumán,F,50 a 54,Extranjera,Otro Pais,337
+90,Tucumán,F,55 a 59,Argentina,Argentina,37698
+90,Tucumán,F,55 a 59,Argentina,Otro Pais,64
+90,Tucumán,F,55 a 59,Extranjera,Otro Pais,307
+90,Tucumán,F,60 a 64,Argentina,Argentina,35528
+90,Tucumán,F,60 a 64,Argentina,Otro Pais,44
+90,Tucumán,F,60 a 64,Extranjera,Otro Pais,248
+90,Tucumán,F,65 a 69,Argentina,Argentina,34029
+90,Tucumán,F,65 a 69,Argentina,Otro Pais,54
+90,Tucumán,F,65 a 69,Extranjera,Otro Pais,189
+90,Tucumán,F,70 a 74,Argentina,Argentina,27485
+90,Tucumán,F,70 a 74,Argentina,Otro Pais,81
+90,Tucumán,F,70 a 74,Extranjera,Otro Pais,154
+90,Tucumán,F,75 a 79,Argentina,Argentina,18606
+90,Tucumán,F,75 a 79,Argentina,Otro Pais,82
+90,Tucumán,F,75 a 79,Extranjera,Otro Pais,154
+90,Tucumán,F,80 a 84,Argentina,Argentina,11948
+90,Tucumán,F,80 a 84,Argentina,Otro Pais,50
+90,Tucumán,F,80 a 84,Extranjera,Otro Pais,102
+90,Tucumán,F,85 a 89,Argentina,Argentina,6775
+90,Tucumán,F,85 a 89,Argentina,Otro Pais,19
+90,Tucumán,F,85 a 89,Extranjera,Otro Pais,58
+90,Tucumán,F,90 a 94,Argentina,Argentina,3189
+90,Tucumán,F,90 a 94,Argentina,Otro Pais,7
+90,Tucumán,F,90 a 94,Extranjera,Otro Pais,36
+90,Tucumán,F,95 a 99,Argentina,Argentina,881
+90,Tucumán,F,95 a 99,Argentina,Otro Pais,6
+90,Tucumán,F,95 a 99,Extranjera,Otro Pais,9
+90,Tucumán,M,0 a 4,Argentina,Argentina,48460
+90,Tucumán,M,0 a 4,Argentina,Otro Pais,19
+90,Tucumán,M,0 a 4,Extranjera,Otro Pais,11
+90,Tucumán,M,10 a 14,Argentina,Argentina,73392
+90,Tucumán,M,10 a 14,Argentina,Otro Pais,48
+90,Tucumán,M,10 a 14,Extranjera,Otro Pais,102
+90,Tucumán,M,100 y +,Argentina,Argentina,108
+90,Tucumán,M,100 y +,Argentina,Otro Pais,2
+90,Tucumán,M,100 y +,Extranjera,Otro Pais,1
+90,Tucumán,M,15 a 19,Argentina,Argentina,70208
+90,Tucumán,M,15 a 19,Argentina,Otro Pais,93
+90,Tucumán,M,15 a 19,Extranjera,Otro Pais,139
+90,Tucumán,M,20 a 24,Argentina,Argentina,72964
+90,Tucumán,M,20 a 24,Argentina,Otro Pais,53
+90,Tucumán,M,20 a 24,Extranjera,Otro Pais,175
+90,Tucumán,M,25 a 29,Argentina,Argentina,70821
+90,Tucumán,M,25 a 29,Argentina,Otro Pais,29
+90,Tucumán,M,25 a 29,Extranjera,Otro Pais,240
+90,Tucumán,M,30 a 34,Argentina,Argentina,65966
+90,Tucumán,M,30 a 34,Argentina,Otro Pais,42
+90,Tucumán,M,30 a 34,Extranjera,Otro Pais,375
+90,Tucumán,M,35 a 39,Argentina,Argentina,58832
+90,Tucumán,M,35 a 39,Argentina,Otro Pais,24
+90,Tucumán,M,35 a 39,Extranjera,Otro Pais,449
+90,Tucumán,M,40 a 44,Argentina,Argentina,58950
+90,Tucumán,M,40 a 44,Argentina,Otro Pais,61
+90,Tucumán,M,40 a 44,Extranjera,Otro Pais,392
+90,Tucumán,M,45 a 49,Argentina,Argentina,56286
+90,Tucumán,M,45 a 49,Argentina,Otro Pais,49
+90,Tucumán,M,45 a 49,Extranjera,Otro Pais,304
+90,Tucumán,M,5 a 9,Argentina,Argentina,69895
+90,Tucumán,M,5 a 9,Argentina,Otro Pais,30
+90,Tucumán,M,5 a 9,Extranjera,Otro Pais,56
+90,Tucumán,M,50 a 54,Argentina,Argentina,42157
+90,Tucumán,M,50 a 54,Argentina,Otro Pais,77
+90,Tucumán,M,50 a 54,Extranjera,Otro Pais,317
+90,Tucumán,M,55 a 59,Argentina,Argentina,35508
+90,Tucumán,M,55 a 59,Argentina,Otro Pais,79
+90,Tucumán,M,55 a 59,Extranjera,Otro Pais,297
+90,Tucumán,M,60 a 64,Argentina,Argentina,32570
+90,Tucumán,M,60 a 64,Argentina,Otro Pais,50
+90,Tucumán,M,60 a 64,Extranjera,Otro Pais,227
+90,Tucumán,M,65 a 69,Argentina,Argentina,30091
+90,Tucumán,M,65 a 69,Argentina,Otro Pais,56
+90,Tucumán,M,65 a 69,Extranjera,Otro Pais,204
+90,Tucumán,M,70 a 74,Argentina,Argentina,23814
+90,Tucumán,M,70 a 74,Argentina,Otro Pais,70
+90,Tucumán,M,70 a 74,Extranjera,Otro Pais,194
+90,Tucumán,M,75 a 79,Argentina,Argentina,14120
+90,Tucumán,M,75 a 79,Argentina,Otro Pais,107
+90,Tucumán,M,75 a 79,Extranjera,Otro Pais,157
+90,Tucumán,M,80 a 84,Argentina,Argentina,7758
+90,Tucumán,M,80 a 84,Argentina,Otro Pais,68
+90,Tucumán,M,80 a 84,Extranjera,Otro Pais,80
+90,Tucumán,M,85 a 89,Argentina,Argentina,3332
+90,Tucumán,M,85 a 89,Argentina,Otro Pais,30
+90,Tucumán,M,85 a 89,Extranjera,Otro Pais,56
+90,Tucumán,M,90 a 94,Argentina,Argentina,1341
+90,Tucumán,M,90 a 94,Argentina,Otro Pais,11
+90,Tucumán,M,90 a 94,Extranjera,Otro Pais,15
+90,Tucumán,M,95 a 99,Argentina,Argentina,378
+90,Tucumán,M,95 a 99,Argentina,Otro Pais,5
+90,Tucumán,M,95 a 99,Extranjera,Otro Pais,8
+90,Tucumán,X,10 a 14,Argentina,Argentina,1
+90,Tucumán,X,15 a 19,Argentina,Argentina,3
+90,Tucumán,X,20 a 24,Argentina,Argentina,9
+90,Tucumán,X,25 a 29,Argentina,Argentina,3
+90,Tucumán,X,30 a 34,Argentina,Argentina,4
+90,Tucumán,X,35 a 39,Argentina,Argentina,6
+90,Tucumán,X,40 a 44,Argentina,Argentina,3
+90,Tucumán,X,45 a 49,Argentina,Argentina,2
+90,Tucumán,X,50 a 54,Argentina,Argentina,1
+94,Tierra del Fuego,F,0 a 4,Argentina,Argentina,4156
+94,Tierra del Fuego,F,0 a 4,Argentina,Otro Pais,5
+94,Tierra del Fuego,F,0 a 4,Extranjera,Otro Pais,16
+94,Tierra del Fuego,F,10 a 14,Argentina,Argentina,7221
+94,Tierra del Fuego,F,10 a 14,Argentina,Otro Pais,5
+94,Tierra del Fuego,F,10 a 14,Extranjera,Otro Pais,77
+94,Tierra del Fuego,F,100 y +,Argentina,Argentina,1
+94,Tierra del Fuego,F,100 y +,Argentina,Otro Pais,1
+94,Tierra del Fuego,F,100 y +,Extranjera,Otro Pais,3
+94,Tierra del Fuego,F,15 a 19,Argentina,Argentina,6980
+94,Tierra del Fuego,F,15 a 19,Argentina,Otro Pais,24
+94,Tierra del Fuego,F,15 a 19,Extranjera,Otro Pais,159
+94,Tierra del Fuego,F,20 a 24,Argentina,Argentina,6973
+94,Tierra del Fuego,F,20 a 24,Argentina,Otro Pais,28
+94,Tierra del Fuego,F,20 a 24,Extranjera,Otro Pais,223
+94,Tierra del Fuego,F,25 a 29,Argentina,Argentina,7975
+94,Tierra del Fuego,F,25 a 29,Argentina,Otro Pais,67
+94,Tierra del Fuego,F,25 a 29,Extranjera,Otro Pais,278
+94,Tierra del Fuego,F,30 a 34,Argentina,Argentina,8690
+94,Tierra del Fuego,F,30 a 34,Argentina,Otro Pais,119
+94,Tierra del Fuego,F,30 a 34,Extranjera,Otro Pais,397
+94,Tierra del Fuego,F,35 a 39,Argentina,Argentina,8039
+94,Tierra del Fuego,F,35 a 39,Argentina,Otro Pais,173
+94,Tierra del Fuego,F,35 a 39,Extranjera,Otro Pais,413
+94,Tierra del Fuego,F,40 a 44,Argentina,Argentina,6976
+94,Tierra del Fuego,F,40 a 44,Argentina,Otro Pais,241
+94,Tierra del Fuego,F,40 a 44,Extranjera,Otro Pais,407
+94,Tierra del Fuego,F,45 a 49,Argentina,Argentina,5909
+94,Tierra del Fuego,F,45 a 49,Argentina,Otro Pais,243
+94,Tierra del Fuego,F,45 a 49,Extranjera,Otro Pais,317
+94,Tierra del Fuego,F,5 a 9,Argentina,Argentina,7058
+94,Tierra del Fuego,F,5 a 9,Argentina,Otro Pais,11
+94,Tierra del Fuego,F,5 a 9,Extranjera,Otro Pais,47
+94,Tierra del Fuego,F,50 a 54,Argentina,Argentina,4559
+94,Tierra del Fuego,F,50 a 54,Argentina,Otro Pais,319
+94,Tierra del Fuego,F,50 a 54,Extranjera,Otro Pais,326
+94,Tierra del Fuego,F,55 a 59,Argentina,Argentina,3951
+94,Tierra del Fuego,F,55 a 59,Argentina,Otro Pais,372
+94,Tierra del Fuego,F,55 a 59,Extranjera,Otro Pais,363
+94,Tierra del Fuego,F,60 a 64,Argentina,Argentina,3667
+94,Tierra del Fuego,F,60 a 64,Argentina,Otro Pais,386
+94,Tierra del Fuego,F,60 a 64,Extranjera,Otro Pais,344
+94,Tierra del Fuego,F,65 a 69,Argentina,Argentina,2573
+94,Tierra del Fuego,F,65 a 69,Argentina,Otro Pais,353
+94,Tierra del Fuego,F,65 a 69,Extranjera,Otro Pais,262
+94,Tierra del Fuego,F,70 a 74,Argentina,Argentina,1525
+94,Tierra del Fuego,F,70 a 74,Argentina,Otro Pais,289
+94,Tierra del Fuego,F,70 a 74,Extranjera,Otro Pais,200
+94,Tierra del Fuego,F,75 a 79,Argentina,Argentina,753
+94,Tierra del Fuego,F,75 a 79,Argentina,Otro Pais,217
+94,Tierra del Fuego,F,75 a 79,Extranjera,Otro Pais,160
+94,Tierra del Fuego,F,80 a 84,Argentina,Argentina,400
+94,Tierra del Fuego,F,80 a 84,Argentina,Otro Pais,153
+94,Tierra del Fuego,F,80 a 84,Extranjera,Otro Pais,100
+94,Tierra del Fuego,F,85 a 89,Argentina,Argentina,237
+94,Tierra del Fuego,F,85 a 89,Argentina,Otro Pais,59
+94,Tierra del Fuego,F,85 a 89,Extranjera,Otro Pais,75
+94,Tierra del Fuego,F,90 a 94,Argentina,Argentina,77
+94,Tierra del Fuego,F,90 a 94,Argentina,Otro Pais,23
+94,Tierra del Fuego,F,90 a 94,Extranjera,Otro Pais,27
+94,Tierra del Fuego,F,95 a 99,Argentina,Argentina,25
+94,Tierra del Fuego,F,95 a 99,Argentina,Otro Pais,8
+94,Tierra del Fuego,F,95 a 99,Extranjera,Otro Pais,12
+94,Tierra del Fuego,M,0 a 4,Argentina,Argentina,4209
+94,Tierra del Fuego,M,0 a 4,Argentina,Otro Pais,4
+94,Tierra del Fuego,M,0 a 4,Extranjera,Otro Pais,11
+94,Tierra del Fuego,M,10 a 14,Argentina,Argentina,7478
+94,Tierra del Fuego,M,10 a 14,Argentina,Otro Pais,10
+94,Tierra del Fuego,M,10 a 14,Extranjera,Otro Pais,96
+94,Tierra del Fuego,M,100 y +,Argentina,Otro Pais,1
+94,Tierra del Fuego,M,15 a 19,Argentina,Argentina,7337
+94,Tierra del Fuego,M,15 a 19,Argentina,Otro Pais,22
+94,Tierra del Fuego,M,15 a 19,Extranjera,Otro Pais,131
+94,Tierra del Fuego,M,20 a 24,Argentina,Argentina,7590
+94,Tierra del Fuego,M,20 a 24,Argentina,Otro Pais,35
+94,Tierra del Fuego,M,20 a 24,Extranjera,Otro Pais,202
+94,Tierra del Fuego,M,25 a 29,Argentina,Argentina,8390
+94,Tierra del Fuego,M,25 a 29,Argentina,Otro Pais,34
+94,Tierra del Fuego,M,25 a 29,Extranjera,Otro Pais,279
+94,Tierra del Fuego,M,30 a 34,Argentina,Argentina,9050
+94,Tierra del Fuego,M,30 a 34,Argentina,Otro Pais,95
+94,Tierra del Fuego,M,30 a 34,Extranjera,Otro Pais,419
+94,Tierra del Fuego,M,35 a 39,Argentina,Argentina,8747
+94,Tierra del Fuego,M,35 a 39,Argentina,Otro Pais,131
+94,Tierra del Fuego,M,35 a 39,Extranjera,Otro Pais,494
+94,Tierra del Fuego,M,40 a 44,Argentina,Argentina,7310
+94,Tierra del Fuego,M,40 a 44,Argentina,Otro Pais,161
+94,Tierra del Fuego,M,40 a 44,Extranjera,Otro Pais,452
+94,Tierra del Fuego,M,45 a 49,Argentina,Argentina,6407
+94,Tierra del Fuego,M,45 a 49,Argentina,Otro Pais,146
+94,Tierra del Fuego,M,45 a 49,Extranjera,Otro Pais,371
+94,Tierra del Fuego,M,5 a 9,Argentina,Argentina,7183
+94,Tierra del Fuego,M,5 a 9,Argentina,Otro Pais,5
+94,Tierra del Fuego,M,5 a 9,Extranjera,Otro Pais,31
+94,Tierra del Fuego,M,50 a 54,Argentina,Argentina,4589
+94,Tierra del Fuego,M,50 a 54,Argentina,Otro Pais,213
+94,Tierra del Fuego,M,50 a 54,Extranjera,Otro Pais,325
+94,Tierra del Fuego,M,55 a 59,Argentina,Argentina,3850
+94,Tierra del Fuego,M,55 a 59,Argentina,Otro Pais,239
+94,Tierra del Fuego,M,55 a 59,Extranjera,Otro Pais,305
+94,Tierra del Fuego,M,60 a 64,Argentina,Argentina,3927
+94,Tierra del Fuego,M,60 a 64,Argentina,Otro Pais,273
+94,Tierra del Fuego,M,60 a 64,Extranjera,Otro Pais,336
+94,Tierra del Fuego,M,65 a 69,Argentina,Argentina,2649
+94,Tierra del Fuego,M,65 a 69,Argentina,Otro Pais,269
+94,Tierra del Fuego,M,65 a 69,Extranjera,Otro Pais,321
+94,Tierra del Fuego,M,70 a 74,Argentina,Argentina,1378
+94,Tierra del Fuego,M,70 a 74,Argentina,Otro Pais,268
+94,Tierra del Fuego,M,70 a 74,Extranjera,Otro Pais,242
+94,Tierra del Fuego,M,75 a 79,Argentina,Argentina,585
+94,Tierra del Fuego,M,75 a 79,Argentina,Otro Pais,178
+94,Tierra del Fuego,M,75 a 79,Extranjera,Otro Pais,173
+94,Tierra del Fuego,M,80 a 84,Argentina,Argentina,243
+94,Tierra del Fuego,M,80 a 84,Argentina,Otro Pais,89
+94,Tierra del Fuego,M,80 a 84,Extranjera,Otro Pais,92
+94,Tierra del Fuego,M,85 a 89,Argentina,Argentina,95
+94,Tierra del Fuego,M,85 a 89,Argentina,Otro Pais,51
+94,Tierra del Fuego,M,85 a 89,Extranjera,Otro Pais,46
+94,Tierra del Fuego,M,90 a 94,Argentina,Argentina,34
+94,Tierra del Fuego,M,90 a 94,Argentina,Otro Pais,13
+94,Tierra del Fuego,M,90 a 94,Extranjera,Otro Pais,16
+94,Tierra del Fuego,M,95 a 99,Argentina,Argentina,9
+94,Tierra del Fuego,M,95 a 99,Argentina,Otro Pais,3
+94,Tierra del Fuego,M,95 a 99,Extranjera,Otro Pais,4
+94,Tierra del Fuego,X,10 a 14,Argentina,Argentina,1
+94,Tierra del Fuego,X,15 a 19,Argentina,Argentina,4
+94,Tierra del Fuego,X,20 a 24,Argentina,Argentina,3
+94,Tierra del Fuego,X,25 a 29,Argentina,Argentina,4
+94,Tierra del Fuego,X,30 a 34,Argentina,Argentina,3
+94,Tierra del Fuego,X,30 a 34,Argentina,Otro Pais,1
+94,Tierra del Fuego,X,35 a 39,Argentina,Argentina,2
