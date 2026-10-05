@@ -1,0 +1,25 @@
+indice_tiempo,provincia_id,provincia_nombre,indicador,ranking,indice
+2016-12-01,6,Provincia de Buenos Aires,idh_2016_prov,16,0.84
+2016-12-01,2,Buenos Aires,idh_2016_prov,2,0.89
+2016-12-01,10,Catamarca,idh_2016_prov,12,0.84
+2016-12-01,22,Chaco,idh_2016_prov,24,0.82
+2016-12-01,26,Chubut,idh_2016_prov,3,0.86
+2016-12-01,14,Córdoba,idh_2016_prov,8,0.85
+2016-12-01,18,Corrientes,idh_2016_prov,21,0.83
+2016-12-01,30,Entre Ríos,idh_2016_prov,11,0.85
+2016-12-01,34,Formosa,idh_2016_prov,22,0.82
+2016-12-01,38,Jujuy,idh_2016_prov,17,0.83
+2016-12-01,42,La Pampa,idh_2016_prov,5,0.85
+2016-12-01,46,La Rioja,idh_2016_prov,18,0.83
+2016-12-01,50,Mendoza,idh_2016_prov,8,0.85
+2016-12-01,54,Misiones,idh_2016_prov,20,0.83
+2016-12-01,58,Neuquén,idh_2016_prov,6,0.85
+2016-12-01,62,Río Negro,idh_2016_prov,12,0.84
+2016-12-01,66,Salta,idh_2016_prov,19,0.83
+2016-12-01,70,San Juan,idh_2016_prov,14,0.84
+2016-12-01,74,San Luis,idh_2016_prov,7,0.85
+2016-12-01,78,Santa Cruz,idh_2016_prov,4,0.86
+2016-12-01,82,Santa Fe,idh_2016_prov,8,0.85
+2016-12-01,86,Santiago del Estero,idh_2016_prov,23,0.82
+2016-12-01,94,Tierra del Fuego,idh_2016_prov,1,0.89
+2016-12-01,90,Tucumán,idh_2016_prov,14,0.84
