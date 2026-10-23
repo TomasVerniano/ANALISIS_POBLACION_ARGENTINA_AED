@@ -1,0 +1,313 @@
+,provincia,anio,nacimientos
+0,Buenos Aires,2012,270808
+1,Buenos Aires,2013,277313
+2,Buenos Aires,2014,285453
+3,Buenos Aires,2015,278743
+4,Buenos Aires,2016,266064
+5,Buenos Aires,2017,257852
+6,Buenos Aires,2018,249810
+7,Buenos Aires,2019,225432
+8,Buenos Aires,2020,202735
+9,Buenos Aires,2021,182042
+10,Buenos Aires,2022,169645
+11,Buenos Aires,2023,155769
+12,Buenos Aires,2024,143742
+13,Catamarca,2012,6422
+14,Catamarca,2013,6620
+15,Catamarca,2014,7071
+16,Catamarca,2015,6865
+17,Catamarca,2016,6703
+18,Catamarca,2017,6459
+19,Catamarca,2018,6692
+20,Catamarca,2019,5706
+21,Catamarca,2020,5042
+22,Catamarca,2021,4705
+23,Catamarca,2022,4707
+24,Catamarca,2023,4142
+25,Catamarca,2024,3779
+26,Chaco,2012,22848
+27,Chaco,2013,22784
+28,Chaco,2014,25111
+29,Chaco,2015,24117
+30,Chaco,2016,22786
+31,Chaco,2017,23333
+32,Chaco,2018,23742
+33,Chaco,2019,21489
+34,Chaco,2020,19089
+35,Chaco,2021,17941
+36,Chaco,2022,17318
+37,Chaco,2023,15619
+38,Chaco,2024,12026
+39,Chubut,2012,9067
+40,Chubut,2013,9759
+41,Chubut,2014,9647
+42,Chubut,2015,9612
+43,Chubut,2016,9462
+44,Chubut,2017,8909
+45,Chubut,2018,8421
+46,Chubut,2019,7668
+47,Chubut,2020,6966
+48,Chubut,2021,6223
+49,Chubut,2022,5993
+50,Chubut,2023,5249
+51,Chubut,2024,4899
+52,Ciudad Autónoma de Buenos Aires,2012,40558
+53,Ciudad Autónoma de Buenos Aires,2013,41909
+54,Ciudad Autónoma de Buenos Aires,2014,42458
+55,Ciudad Autónoma de Buenos Aires,2015,41490
+56,Ciudad Autónoma de Buenos Aires,2016,39486
+57,Ciudad Autónoma de Buenos Aires,2017,37491
+58,Ciudad Autónoma de Buenos Aires,2018,35307
+59,Ciudad Autónoma de Buenos Aires,2019,31182
+60,Ciudad Autónoma de Buenos Aires,2020,27384
+61,Ciudad Autónoma de Buenos Aires,2021,24703
+62,Ciudad Autónoma de Buenos Aires,2022,22973
+63,Ciudad Autónoma de Buenos Aires,2023,20677
+64,Ciudad Autónoma de Buenos Aires,2024,19415
+65,Cordoba,2012,56619
+66,Cordoba,2013,57765
+67,Cordoba,2014,60222
+68,Cordoba,2015,58963
+69,Cordoba,2016,56754
+70,Cordoba,2017,55675
+71,Cordoba,2018,53917
+72,Cordoba,2019,50388
+73,Cordoba,2020,45691
+74,Cordoba,2021,43543
+75,Cordoba,2022,40486
+76,Cordoba,2023,37309
+77,Cordoba,2024,32838
+78,Corrientes,2012,19648
+79,Corrientes,2013,19550
+80,Corrientes,2014,21076
+81,Corrientes,2015,20126
+82,Corrientes,2016,19770
+83,Corrientes,2017,19825
+84,Corrientes,2018,19788
+85,Corrientes,2019,17985
+86,Corrientes,2020,16857
+87,Corrientes,2021,15756
+88,Corrientes,2022,14800
+89,Corrientes,2023,14048
+90,Corrientes,2024,12166
+91,Entre Rios,2012,22248
+92,Entre Rios,2013,22306
+93,Entre Rios,2014,23408
+94,Entre Rios,2015,22955
+95,Entre Rios,2016,22185
+96,Entre Rios,2017,21653
+97,Entre Rios,2018,20925
+98,Entre Rios,2019,18779
+99,Entre Rios,2020,17043
+100,Entre Rios,2021,16228
+101,Entre Rios,2022,14811
+102,Entre Rios,2023,13847
+103,Entre Rios,2024,12303
+104,Formosa,2012,11133
+105,Formosa,2013,11114
+106,Formosa,2014,11840
+107,Formosa,2015,11560
+108,Formosa,2016,10921
+109,Formosa,2017,11105
+110,Formosa,2018,11284
+111,Formosa,2019,9914
+112,Formosa,2020,8941
+113,Formosa,2021,8423
+114,Formosa,2022,8194
+115,Formosa,2023,7732
+116,Formosa,2024,6250
+117,Jujuy,2012,12575
+118,Jujuy,2013,12601
+119,Jujuy,2014,13662
+120,Jujuy,2015,12793
+121,Jujuy,2016,12009
+122,Jujuy,2017,11563
+123,Jujuy,2018,11613
+124,Jujuy,2019,10137
+125,Jujuy,2020,9011
+126,Jujuy,2021,8244
+127,Jujuy,2022,7625
+128,Jujuy,2023,6913
+129,Jujuy,2024,5935
+130,La Pampa,2012,5340
+131,La Pampa,2013,5609
+132,La Pampa,2014,5738
+133,La Pampa,2015,5491
+134,La Pampa,2016,5278
+135,La Pampa,2017,5055
+136,La Pampa,2018,4731
+137,La Pampa,2019,4245
+138,La Pampa,2020,3964
+139,La Pampa,2021,3665
+140,La Pampa,2022,3517
+141,La Pampa,2023,3203
+142,La Pampa,2024,3001
+143,La Rioja,2012,6375
+144,La Rioja,2013,6498
+145,La Rioja,2014,6585
+146,La Rioja,2015,6404
+147,La Rioja,2016,6100
+148,La Rioja,2017,5884
+149,La Rioja,2018,5692
+150,La Rioja,2019,5240
+151,La Rioja,2020,4762
+152,La Rioja,2021,4431
+153,La Rioja,2022,4408
+154,La Rioja,2023,4057
+155,La Rioja,2024,3462
+156,Mendoza,2012,32290
+157,Mendoza,2013,32982
+158,Mendoza,2014,35417
+159,Mendoza,2015,34145
+160,Mendoza,2016,32327
+161,Mendoza,2017,30548
+162,Mendoza,2018,29539
+163,Mendoza,2019,26608
+164,Mendoza,2020,23853
+165,Mendoza,2021,21989
+166,Mendoza,2022,20934
+167,Mendoza,2023,19694
+168,Mendoza,2024,18215
+169,Misiones,2012,24478
+170,Misiones,2013,24576
+171,Misiones,2014,26224
+172,Misiones,2015,25653
+173,Misiones,2016,24205
+174,Misiones,2017,24954
+175,Misiones,2018,24231
+176,Misiones,2019,22423
+177,Misiones,2020,20970
+178,Misiones,2021,20231
+179,Misiones,2022,18998
+180,Misiones,2023,18552
+181,Misiones,2024,15769
+182,Neuquen,2012,11265
+183,Neuquen,2013,11345
+184,Neuquen,2014,11836
+185,Neuquen,2015,11633
+186,Neuquen,2016,11254
+187,Neuquen,2017,10476
+188,Neuquen,2018,10183
+189,Neuquen,2019,9413
+190,Neuquen,2020,8285
+191,Neuquen,2021,7577
+192,Neuquen,2022,7407
+193,Neuquen,2023,6882
+194,Neuquen,2024,6493
+195,Rio Negro,2012,11488
+196,Rio Negro,2013,11767
+197,Rio Negro,2014,12231
+198,Rio Negro,2015,12314
+199,Rio Negro,2016,11781
+200,Rio Negro,2017,11222
+201,Rio Negro,2018,10528
+202,Rio Negro,2019,9659
+203,Rio Negro,2020,8821
+204,Rio Negro,2021,8237
+205,Rio Negro,2022,8004
+206,Rio Negro,2023,7219
+207,Rio Negro,2024,6427
+208,Salta,2012,26620
+209,Salta,2013,26876
+210,Salta,2014,28080
+211,Salta,2015,26885
+212,Salta,2016,25666
+213,Salta,2017,25152
+214,Salta,2018,24733
+215,Salta,2019,22349
+216,Salta,2020,20098
+217,Salta,2021,18866
+218,Salta,2022,18075
+219,Salta,2023,16157
+220,Salta,2024,13887
+221,San Juan,2012,14279
+222,San Juan,2013,14778
+223,San Juan,2014,15252
+224,San Juan,2015,14522
+225,San Juan,2016,13844
+226,San Juan,2017,13446
+227,San Juan,2018,13484
+228,San Juan,2019,12339
+229,San Juan,2020,11212
+230,San Juan,2021,10725
+231,San Juan,2022,10265
+232,San Juan,2023,9580
+233,San Juan,2024,8517
+234,San Luis,2012,7681
+235,San Luis,2013,7825
+236,San Luis,2014,7923
+237,San Luis,2015,7926
+238,San Luis,2016,7524
+239,San Luis,2017,7219
+240,San Luis,2018,7001
+241,San Luis,2019,6582
+242,San Luis,2020,6183
+243,San Luis,2021,5778
+244,San Luis,2022,5454
+245,San Luis,2023,4894
+246,San Luis,2024,4315
+247,Santa Cruz,2012,5741
+248,Santa Cruz,2013,5874
+249,Santa Cruz,2014,6075
+250,Santa Cruz,2015,6261
+251,Santa Cruz,2016,6130
+252,Santa Cruz,2017,5710
+253,Santa Cruz,2018,5038
+254,Santa Cruz,2019,4667
+255,Santa Cruz,2020,4227
+256,Santa Cruz,2021,3417
+257,Santa Cruz,2022,3569
+258,Santa Cruz,2023,3107
+259,Santa Cruz,2024,2649
+260,Santa Fe,2012,53648
+261,Santa Fe,2013,55613
+262,Santa Fe,2014,57680
+263,Santa Fe,2015,56754
+264,Santa Fe,2016,54368
+265,Santa Fe,2017,52567
+266,Santa Fe,2018,50628
+267,Santa Fe,2019,46082
+268,Santa Fe,2020,41873
+269,Santa Fe,2021,42058
+270,Santa Fe,2022,40020
+271,Santa Fe,2023,36300
+272,Santa Fe,2024,32092
+273,Santiago del Estero,2012,18484
+274,Santiago del Estero,2013,18277
+275,Santiago del Estero,2014,19948
+276,Santiago del Estero,2015,19186
+277,Santiago del Estero,2016,18350
+278,Santiago del Estero,2017,18538
+279,Santiago del Estero,2018,18762
+280,Santiago del Estero,2019,17685
+281,Santiago del Estero,2020,15443
+282,Santiago del Estero,2021,14732
+283,Santiago del Estero,2022,14452
+284,Santiago del Estero,2023,13322
+285,Santiago del Estero,2024,11832
+286,Tierra del Fuego,2012,2704
+287,Tierra del Fuego,2013,2821
+288,Tierra del Fuego,2014,2980
+289,Tierra del Fuego,2015,2929
+290,Tierra del Fuego,2016,2853
+291,Tierra del Fuego,2017,2652
+292,Tierra del Fuego,2018,2665
+293,Tierra del Fuego,2019,2340
+294,Tierra del Fuego,2020,1887
+295,Tierra del Fuego,2021,1672
+296,Tierra del Fuego,2022,1521
+297,Tierra del Fuego,2023,1411
+298,Tierra del Fuego,2024,1259
+299,Tucuman,2012,28757
+300,Tucuman,2013,29392
+301,Tucuman,2014,30892
+302,Tucuman,2015,29306
+303,Tucuman,2016,27795
+304,Tucuman,2017,26859
+305,Tucuman,2018,27379
+306,Tucuman,2019,24616
+307,Tucuman,2020,21723
+308,Tucuman,2021,21194
+309,Tucuman,2022,20030
+310,Tucuman,2023,17855
+311,Tucuman,2024,15661

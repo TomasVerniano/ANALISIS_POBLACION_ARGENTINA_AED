@@ -85,7 +85,6 @@ def cargar_datos():
 
 df_agrupado = cargar_datos()
 
-
 #barra del costado
 with st.sidebar:
     st.title('🇦🇷 Dashboard de Natalidad')
