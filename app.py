@@ -2,88 +2,23 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly_express as px
+import requests
+import numpy as np
+import base64
+import os
+
 
 #config de la pagina
-
-st.set_page_config(
-    page_title="Taza de Natalidad en la Argentina",
-    page_icon="🇦🇷",
-    layout="wide",
-    initial_sidebar_state="expanded")
-
-alt.themes.enable("dark")
-
-#markdown
-
-st.markdown(
-    """
-    <style>
-    [data-testid="block-container"] {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 1rem;
-        padding-bottom: 0rem;
-        margin-bottom: -7rem;
-    }
-
-    .stApp {
-        background: linear-gradient(#b155ff, #1e3c72 0%, #831b92 100%, #b155ff 50%);
-        background-attachment: fixed;
-        color: #ffffff !important;
-    }
-
-    div[data-testid="stVerticalBlock"] > div[dir="ltr"] > div {
-        background: rgba(255, 255, 255, 0.12) !important;
-        backdrop-filter: blur(12px) saturate(180%);
-        -webkit-backdrop-filter: blur(12px) saturate(180%);
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-        padding: 20px;
-        margin-bottom: 15px;
-    }
-
-    .stButton>button {
-        background: rgba(255, 255, 255, 0.15) !important;
-        color: white !important;
-        border: 1px solid rgba(255, 255, 255, 0.4) !important;
-        border-radius: 8px !important;
-        backdrop-filter: blur(4px);
-        transition: all 0.3s ease;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
-    }
-
-      .stTextInput>div>div>input, .stSelectbox>div>div>div {
-        background: rgba(0, 0, 0, 0.2) !important;
-        color: white !important;
-        border: 1px solid rgba(255, 255, 255, 0.2) !important;
-        border-radius: 6px !important;
-    }
-
-    h1, h2, h3, h4, h5, h6, p, label {
-        color: #ffffff !important;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-    }
-
-    </style>
-
-    """, unsafe_allow_html=True)
 
 #cargamps los datos
 @st.cache_data
 def cargar_datos():
-    df_madres = pd.read_csv('DATA\POBLACION\cantidad_de_nacimientos_edad_madre_por_anio_de_nacimiento_2012_2024.csv')
-    df_agrupado = df_madres.groupby(['provincia_nombre', 'provincia_id', 'anio'], as_index=False)['cantidad'].sum()
-    df_agrupado = df_agrupado.rename(columns={
-        'provincia_nombre': 'provincia',
-        'provincia_id': 'id_provincia',
-        'anio': 'anio',
-        'cantidad': 'nacimientos'
-    })
-    df_agrupado['codigo_provincia'] = df_agrupado['id_provincia'].astype(str)
-    return df_agrupado
+    df_madres = pd.read_csv(r'DATA_PROCESADA\POBLACION\nacimientos_provi_año.csv')
+   
+    return df_madres
 
 df_agrupado = cargar_datos()
+
 
 #barra del costado
 with st.sidebar:
@@ -97,6 +32,110 @@ with st.sidebar:
 
     lista_temas_color = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'reds', 'rainbow', 'turbo', 'viridis']
     tema_color_seleccionado = st.selectbox('Seleccione un color', lista_temas_color)
+
+#funcion para convertir imágenes locales a Base64
+
+def get_base64_img(file_path):
+   
+    if not os.path.exists(file_path):
+        return ""
+    with open(file_path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+
+# 3. Diccionario con las RUTAS LOCALES de tus imágenes
+# Cambia 'imagen1.jpg', etc., por los nombres reales de tus archivos en tu carpeta
+rutas_imagenes = {
+    2012: "BACKGROUNDS\pj.png",
+    2013: "BACKGROUNDS\pj.png",
+    2014: "BACKGROUNDS\pj.png",
+    2015: "BACKGROUNDS\pro.png",
+    2016: "BACKGROUNDS\pro.png",
+    2017: "BACKGROUNDS\pro.png",
+    2018: "BACKGROUNDS\pro.png",
+    2019: r"BACKGROUNDS\fdt.png",
+    2020: r"BACKGROUNDS\fdt.png",
+    2021: r"BACKGROUNDS\fdt.png",
+    2022: r"BACKGROUNDS\fdt.png",
+    2023: r"BACKGROUNDS\fdt.png",
+    2024: "BACKGROUNDS\lla.png"
+}
+
+# 4. Obtener la ruta del archivo y convertirlo a Base64
+
+ruta_local = rutas_imagenes[anio_seleccionado]
+base64_string = get_base64_img(ruta_local)
+
+# 5. Construir el string de CSS (solo si la imagen existe)
+if base64_string:
+    background_style = f'background-image: url("data:image/jpeg;base64,{base64_string}");'
+else:
+    # Fondo gris oscuro de respaldo por si no encuentra el archivo en el disco
+    background_style = 'background: #1e1e24;'
+
+# 6. Inyectar tu CSS con f-string (llaves duplicadas {{ }})
+custom_css = f"""
+<style>
+[data-testid="block-container"] {{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: -7rem;
+}}
+
+[data-testid="stAppViewContainer"] {{
+    {background_style}
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff !important;
+}}
+
+/* Hace que la cabecera sea transparente para que no tape la imagen */
+[data-testid="stHeader"] {{
+    background: rgba(0,0,0,0);
+}}
+
+div[data-testid="stVerticalBlock"] > div[dir="ltr"] > div {{
+    background: rgba(255, 255, 255, 0.12) !important;
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 15px;
+}}
+
+.stButton>button {{
+    background: rgba(255, 255, 255, 0.15) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+}}
+
+.stTextInput>div>div>input, .stSelectbox>div>div>div {{
+    background: rgba(0, 0, 0, 0.2) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 6px !important;
+}}
+
+h1, h2, h3, h4, h5, h6, p, label {{
+    color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}}
+</style>
+"""
+
+st.html(custom_css)
+
 
 
 #graficos
@@ -159,12 +198,12 @@ def crear_grafico_dona(valor_porcentaje, texto_etiqueta, color_tema):
         "% valor": [100, 0]
     })
         
-    grafico = alt.Chart(fuente_datos).mark_arc(innerRadius=45, cornerRadius=25).encode(
+    grafico = alt.Chart(fuente_datos).mark_arc(innerRadius=45, cornerRadius=45).encode(
         theta="% valor",
         color=alt.Color("Tema:N",
                         scale=alt.Scale(domain=[texto_etiqueta, ''], range=colores_grafico),
                         legend=None),
-    ).properties(width=130, height=130)
+    ).properties(width=130, height=130 )
         
     texto = grafico.mark_text(align='center', color="#29b5e8", font="Lato", fontSize=32, fontWeight=700, fontStyle="italic").encode(text=alt.value(f'{valor_porcentaje} %'))
     grafico_fondo = alt.Chart(fuente_datos_fondo).mark_arc(innerRadius=45, cornerRadius=20).encode(
@@ -173,7 +212,10 @@ def crear_grafico_dona(valor_porcentaje, texto_etiqueta, color_tema):
                         scale=alt.Scale(domain=[texto_etiqueta, ''], range=colores_grafico),
                         legend=None),
     ).properties(width=130, height=130)
-    return grafico_fondo + grafico + texto
+
+    grafico_final = (grafico_fondo + grafico + texto).configure_view(fill='black').configure(background='transparent')
+
+    return grafico_final
 
 #formato de los numeros
 def formatear_numero(numero):
@@ -193,7 +235,7 @@ def calcular_diferencia_nacimientos(df_entrada, anio_consulta):
     else:
         datos_anio_actual['diferencia_nacimientos'] = 0
         
-    return pd.concat([datos_anio_actual.provincia, datos_anio_actual.id_provincia, datos_anio_actual.nacimientos, datos_anio_actual.diferencia_nacimientos], axis=1).sort_values(by="diferencia_nacimientos", ascending=False)
+    return pd.concat([datos_anio_actual.provincia, datos_anio_actual.nacimientos, datos_anio_actual.diferencia_nacimientos], axis=1).sort_values(by="diferencia_nacimientos", ascending=False)
 
 
 #panel principal
@@ -281,3 +323,114 @@ with columnas[2]:
             - :orange[**Variación Anual**]: Provincias con mayor aumento/disminución de nacimientos respecto al año previo.
             - :orange[**Tendencia Provincial**]: Porcentaje de provincias con variaciones positivas o negativas.
             """) 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# MAPA PRO
+# Configuración de la página en ancho completo
+st.set_page_config(
+    page_title="Mapa de Argentina (Sin Antártida)", layout="wide"
+)
+
+st.title(
+    "🇦🇷 Mapa Coroplético de Argentina (Enfoque Continental y Tierra del Fuego)"
+)
+st.markdown(
+    "Visualización ajustada para mostrar el territorio continental y recortar el sector antártico."
+)
+
+
+# 1. Cargar el GeoJSON oficial de provincias argentinas
+@st.cache_data
+def cargar_geojson():
+  url = "https://apis.datos.gob.ar/georef/api/v2.0/provincias.geojson"
+  return requests.get(url).json()
+
+
+geojson_arg = cargar_geojson()
+
+# 2. Extraer automáticamente los nombres exactos de las 24 jurisdicciones
+nombres_provincias = [
+    feature["properties"]["nombre"] for feature in geojson_arg["features"]
+]
+
+# 3. Simulación de un DataFrame con una variable numérica continua
+np.random.seed(42)
+datos_ejemplo = {
+    "provincia": nombres_provincias,
+    "variable_continua": np.random.uniform(5.5, 98.4, size=len(nombres_provincias)),
+}
+df = pd.DataFrame(datos_ejemplo)
+
+# 4. Panel lateral para controles
+st.sidebar.header("Configuración del Mapa")
+escala_colores = st.sidebar.selectbox(
+    "Selecciona la paleta de colores",
+    ["Viridis", "Blues", "Reds", "YlGnBu", "Plasma", "Tealgrn"],
+)
+
+# 5. Creación del mapa coroplético con variable continua
+fig = px.choropleth(
+    df,
+    geojson=geojson_arg,
+    locations="provincia",
+    featureidkey="properties.nombre",
+    color="variable_continua",
+    color_continuous_scale=escala_colores,
+    range_color=[
+        df["variable_continua"].min(),
+        df["variable_continua"].max(),
+    ],
+    labels={"variable_continua": "Valor Continuo"},
+    hover_name="provincia",
+)
+
+# 6. RECORTE DE LA ANTÁRTIDA: Definimos los límites manuales de latitud y longitud
+# Esto oculta la Antártida y centra la vista perfectamente en Argentina continental + TdF
+fig.update_geos(
+    lataxis_range=[-57.0, -21.0],  # Corta desde Ushuaia/TdF hasta Jujuy
+    lonaxis_range=[-74.5, -52.5],  # Corta desde la cordillera hasta la costa este
+    visible=False,
+)
+
+fig.update_layout(
+    height=750,
+    width = 1000,
+    margin={"r": 0, "t": 30, "l": 0, "b": 0},
+    coloraxis_colorbar=dict(
+        title="Intensidad",
+        thickness=80,
+        len=0.6,
+        x=0.9,
+    ),
+)
+
+# 7. Renderizar en Streamlit
+st.plotly_chart(fig, use_container_width=True)
+
+# Vista previa de datos
+with st.expander("Ver datos tabulares asociados al mapa"):
+  st.dataframe(
+      df.sort_values(by="variable_continua", ascending=False).reset_index(
+          drop=True
+      ),
+      use_container_width=True,
+  )
