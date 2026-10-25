@@ -46,13 +46,26 @@ nombres_provincias = [
 ]
 
 
+if "ver_general" not in st.session_state:
+  st.session_state.ver_general = False
+
 #barra del costado
 with st.sidebar:
   st.title("🇦🇷 Dashboard de Natalidad")
 
-  lista_anios = list(df_agrupado.anio.unique())[::-1]
+  if not st.session_state.ver_general:
+    if st.button("📈 Ver Avance General", use_container_width=True):
+      st.session_state.ver_general = True
+      st.rerun()
 
-  anio_seleccionado = st.selectbox("Seleccione un año", lista_anios)
+    lista_anios = list(df_agrupado.anio.unique())[::-1]
+    anio_seleccionado = st.selectbox("Seleccione un año", lista_anios)
+  else:
+    if st.button("⬅️ Volver al Dashboard", use_container_width=True):
+      st.session_state.ver_general = False
+      st.rerun()
+    anio_seleccionado = df_agrupado.anio.max()
+
   df_anio_seleccionado = df_agrupado[df_agrupado.anio == anio_seleccionado]
   df_anio_ordenado = df_anio_seleccionado.sort_values(
       by="nacimientos", ascending=False
@@ -73,7 +86,6 @@ with st.sidebar:
   tema_color_seleccionado = st.selectbox(
       "Seleccione un color", lista_temas_color
   )
-
 
 
 #convertir imagen local a url
@@ -101,7 +113,12 @@ rutas_imagenes = {
     2024: "BACKGROUNDS\lla.png",
 }
 
-ruta_local = rutas_imagenes[anio_seleccionado]
+
+if st.session_state.ver_general:
+    ruta_local = r"BACKGROUNDS\general.png"  # <--- Cambia esto por la ruta de tu imagen para la vista general
+else:
+    ruta_local = rutas_imagenes[anio_seleccionado]
+
 base64_string = get_base64_img(ruta_local)
 
 if base64_string:
@@ -339,169 +356,180 @@ def calcular_diferencia_nacimientos(df_entrada, anio_consulta):
   )
 
 
-columnas = st.columns((1.5, 4.5, 2), gap="medium")
+if not st.session_state.ver_general:
+  columnas = st.columns((1.5, 4.5, 2), gap="medium")
 
-#columna0
-with columnas[0]:
-  st.markdown("#### Variación Anual")
+  #columna0
+  with columnas[0]:
+    st.markdown("#### Variación Anual")
 
-  anio_minimo = df_agrupado.anio.min()
-  df_diferencia_ordenado = calcular_diferencia_nacimientos(
-      df_agrupado, anio_seleccionado
-  )
-
-  if anio_seleccionado > anio_minimo:
-    nombre_primera_provincia = df_diferencia_ordenado.provincia.iloc[0]
-    nacimientos_primera_provincia = formatear_numero(
-        df_diferencia_ordenado.nacimientos.iloc[0]
-    )
-    variacion_primera_provincia = formatear_numero(
-        df_diferencia_ordenado.diferencia_nacimientos.iloc[0]
-    )
-  else:
-    nombre_primera_provincia = "-"
-    nacimientos_primera_provincia = "-"
-    variacion_primera_provincia = ""
-  st.metric(
-      label=nombre_primera_provincia,
-      value=nacimientos_primera_provincia,
-      delta=variacion_primera_provincia,
-  )
-
-  if anio_seleccionado > anio_minimo:
-    nombre_ultima_provincia = df_diferencia_ordenado.provincia.iloc[-1]
-    nacimientos_ultima_provincia = formatear_numero(
-        df_diferencia_ordenado.nacimientos.iloc[-1]
-    )
-    variacion_ultima_provincia = formatear_numero(
-        df_diferencia_ordenado.diferencia_nacimientos.iloc[-1]
-    )
-  else:
-    nombre_ultima_provincia = "-"
-    nacimientos_ultima_provincia = "-"
-    variacion_ultima_provincia = ""
-  st.metric(
-      label=nombre_ultima_provincia,
-      value=nacimientos_ultima_provincia,
-      delta=variacion_ultima_provincia,
-  )
-
-  st.markdown("#### Tendencia Provincial")
-
-  if anio_seleccionado > anio_minimo:
-    df_en_alza = df_diferencia_ordenado[
-        df_diferencia_ordenado.diferencia_nacimientos > 0
-    ]
-    df_a_la_baja = df_diferencia_ordenado[
-        df_diferencia_ordenado.diferencia_nacimientos < 0
-    ]
-
-    porcentaje_alza = round(
-        (len(df_en_alza) / df_diferencia_ordenado.provincia.nunique()) * 100
-    )
-    porcentaje_baja = round(
-        (len(df_a_la_baja) / df_diferencia_ordenado.provincia.nunique()) * 100
+    anio_minimo = df_agrupado.anio.min()
+    df_diferencia_ordenado = calcular_diferencia_nacimientos(
+        df_agrupado, anio_seleccionado
     )
 
-    grafico_dona_alza = crear_grafico_dona(porcentaje_alza, "En Alza", "green")
-    grafico_dona_baja = crear_grafico_dona(porcentaje_baja, "A la Baja", "red")
-  else:
-    grafico_dona_alza = crear_grafico_dona(0, "En Alza", "green")
-    grafico_dona_baja = crear_grafico_dona(0, "A la Baja", "red")
+    if anio_seleccionado > anio_minimo:
+      nombre_primera_provincia = df_diferencia_ordenado.provincia.iloc[0]
+      nacimientos_primera_provincia = formatear_numero(
+          df_diferencia_ordenado.nacimientos.iloc[0]
+      )
+      variacion_primera_provincia = formatear_numero(
+          df_diferencia_ordenado.diferencia_nacimientos.iloc[0]
+      )
+    else:
+      nombre_primera_provincia = "-"
+      nacimientos_primera_provincia = "-"
+      variacion_primera_provincia = ""
+    st.metric(
+        label=nombre_primera_provincia,
+        value=nacimientos_primera_provincia,
+        delta=variacion_primera_provincia,
+    )
 
-  columnas_tendencia = st.columns((0.2, 1, 0.2))
-  with columnas_tendencia[1]:
-    st.write("En Alza")
-    st.altair_chart(grafico_dona_alza)
-    st.write("A la Baja")
-    st.altair_chart(grafico_dona_baja)
+    if anio_seleccionado > anio_minimo:
+      nombre_ultima_provincia = df_diferencia_ordenado.provincia.iloc[-1]
+      nacimientos_ultima_provincia = formatear_numero(
+          df_diferencia_ordenado.nacimientos.iloc[-1]
+      )
+      variacion_ultima_provincia = formatear_numero(
+          df_diferencia_ordenado.diferencia_nacimientos.iloc[-1]
+      )
+    else:
+      nombre_ultima_provincia = "-"
+      nacimientos_ultima_provincia = "-"
+      variacion_ultima_provincia = ""
+    st.metric(
+        label=nombre_ultima_provincia,
+        value=nacimientos_ultima_provincia,
+        delta=variacion_ultima_provincia,
+    )
 
-with columnas[1]:
-  st.markdown("#### Total de Nacimientos por Provincia")
+    st.markdown("#### Tendencia Provincial")
 
-  grafico_barras = crear_grafico_barras(
-      df_anio_ordenado, "provincia", "nacimientos", tema_color_seleccionado
-  )
-  st.plotly_chart(grafico_barras, use_container_width=True)
+    if anio_seleccionado > anio_minimo:
+      df_en_alza = df_diferencia_ordenado[
+          df_diferencia_ordenado.diferencia_nacimientos > 0
+      ]
+      df_a_la_baja = df_diferencia_ordenado[
+          df_diferencia_ordenado.diferencia_nacimientos < 0
+      ]
 
-  st.markdown("#### Mapa de Calor Histórico")
-  mapa_calor = crear_mapa_calor(
-      df_agrupado, "anio", "provincia", "nacimientos", tema_color_seleccionado
-  )
-  st.altair_chart(mapa_calor, use_container_width=True)
+      porcentaje_alza = round(
+          (len(df_en_alza) / df_diferencia_ordenado.provincia.nunique()) * 100
+      )
+      porcentaje_baja = round(
+          (len(df_a_la_baja) / df_diferencia_ordenado.provincia.nunique()) * 100
+      )
 
-with columnas[2]:
-  st.markdown("#### Top Provincias")
+      grafico_dona_alza = crear_grafico_dona(porcentaje_alza, "En Alza", "green")
+      grafico_dona_baja = crear_grafico_dona(porcentaje_baja, "A la Baja", "red")
+    else:
+      grafico_dona_alza = crear_grafico_dona(0, "En Alza", "green")
+      grafico_dona_baja = crear_grafico_dona(0, "A la Baja", "red")
 
-  st.dataframe(
-      df_anio_ordenado,
-      column_order=("provincia", "nacimientos"),
-      hide_index=True,
-      column_config={
-          "provincia": st.column_config.TextColumn(
-              "Provincia",
-          ),
-          "nacimientos": st.column_config.ProgressColumn(
-              "Nacimientos",
-              format="%d",
-              min_value=0,
-              max_value=int(max(df_anio_ordenado.nacimientos)),
-          ),
-      },
-  )
+    columnas_tendencia = st.columns((0.2, 1, 0.2))
+    with columnas_tendencia[1]:
+      st.write("En Alza")
+      st.altair_chart(grafico_dona_alza)
+      st.write("A la Baja")
+      st.altair_chart(grafico_dona_baja)
 
-  with st.expander("Acerca de", expanded=True):
-    st.write("""
+  with columnas[1]:
+    st.markdown("#### Total de Nacimientos por Provincia")
+
+    grafico_barras = crear_grafico_barras(
+        df_anio_ordenado, "provincia", "nacimientos", tema_color_seleccionado
+    )
+    st.plotly_chart(grafico_barras, use_container_width=True)
+
+    st.markdown("#### Mapa de Calor Histórico")
+    mapa_calor = crear_mapa_calor(
+        df_agrupado, "anio", "provincia", "nacimientos", tema_color_seleccionado
+    )
+    st.altair_chart(mapa_calor, use_container_width=True)
+
+  with columnas[2]:
+    st.markdown("#### Top Provincias")
+
+    st.dataframe(
+        df_anio_ordenado,
+        column_order=("provincia", "nacimientos"),
+        hide_index=True,
+        column_config={
+            "provincia": st.column_config.TextColumn(
+                "Provincia",
+            ),
+            "nacimientos": st.column_config.ProgressColumn(
+                "Nacimientos",
+                format="%d",
+                min_value=0,
+                max_value=int(max(df_anio_ordenado.nacimientos)),
+            ),
+        },
+    )
+
+    with st.expander("Acerca de", expanded=True):
+      st.write("""
             - Datos: Estadísticas Vitales - Argentina.
             - :orange[**Variación Anual**]: Provincias con mayor aumento/disminución de nacimientos respecto al año previo.
             - :orange[**Tendencia Provincial**]: Porcentaje de provincias con variaciones positivas o negativas.
             """)
 
-st.markdown(f"🇦🇷 Mapa Coroplético de Argentina ({anio_seleccionado})")
+  st.markdown(f"🇦🇷 Mapa Coroplético de Argentina ({anio_seleccionado})")
 
-df_base_mapa = pd.DataFrame({"provincia": nombres_provincias})
-df_mapa_final = pd.merge(
-    df_base_mapa,
-    df_anio_seleccionado[["provincia", "nacimientos"]],
-    on="provincia",
-    how="left",
-)
-df_mapa_final["nacimientos"] = df_mapa_final["nacimientos"].fillna(0)
-
-col_mapa_izq, col_mapa_centro, col_mapa_der = st.columns([1, 2, 1])
-
-#el resto del mapa
-with col_mapa_centro:
-  fig = px.choropleth(
-      df_mapa_final,
-      geojson=geojson_arg,
-      locations="provincia",
-      featureidkey="properties.nombre",
-      color="nacimientos",
-      color_continuous_scale=tema_color_seleccionado,
-      range_color=[
-          df_mapa_final["nacimientos"].min(),
-          df_mapa_final["nacimientos"].max(),
-      ],
-      labels={"nacimientos": "Nacimientos"},
-      hover_name="provincia",
+  df_base_mapa = pd.DataFrame({"provincia": nombres_provincias})
+  df_mapa_final = pd.merge(
+      df_base_mapa,
+      df_anio_seleccionado[["provincia", "nacimientos"]],
+      on="provincia",
+      how="left",
   )
+  df_mapa_final["nacimientos"] = df_mapa_final["nacimientos"].fillna(0)
 
-  fig.update_geos(
-      lataxis_range=[-57.0, -21.0],
-      lonaxis_range=[-74.5, -52.5],
-      visible=False,
-  )
+  col_mapa_izq, col_mapa_centro, col_mapa_der = st.columns([1, 2, 1])
 
-  fig.update_layout(
-      height=800,
-      margin={"r": 0, "t": 30, "l": 0, "b": 0},
-      coloraxis_colorbar=dict(
-          title="Intensidad",
-          thickness=20,
-          len=0.6,
-          x=0.9,
-      ),
-  )
+  #el resto del mapa
+  with col_mapa_centro:
+    fig = px.choropleth(
+        df_mapa_final,
+        geojson=geojson_arg,
+        locations="provincia",
+        featureidkey="properties.nombre",
+        color="nacimientos",
+        color_continuous_scale=tema_color_seleccionado,
+        range_color=[
+            df_mapa_final["nacimientos"].min(),
+            df_mapa_final["nacimientos"].max(),
+        ],
+        labels={"nacimientos": "Nacimientos"},
+        hover_name="provincia",
+    )
 
-  st.plotly_chart(fig, use_container_width=True)
+    fig.update_geos(
+        lataxis_range=[-57.0, -21.0],
+        lonaxis_range=[-74.5, -52.5],
+        visible=False,
+    )
+
+    fig.update_layout(
+        height=800,
+        margin={"r": 0, "t": 30, "l": 0, "b": 0},
+        coloraxis_colorbar=dict(
+            title="Intensidad",
+            thickness=20,
+            len=0.6,
+            x=0.9,
+        ),
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
+else:
+  # ==========================================================
+  # AQUÍ PUEDES ESCRIBIR TUS GRÁFICOS DE PLOTLY O ALTAIR GENERALES
+  # ==========================================================
+  st.markdown("### 📊 Vista General de Todos los Años")
+  
+  # Ejemplo de dónde colocar tus gráficos:
+  # fig_avance = px.line(...)
+  # st.plotly_chart(fig_avance, use_container_width=True)
