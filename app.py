@@ -27,6 +27,9 @@ if "ver_general" not in st.session_state:
 if "ver_storytelling" not in st.session_state:
   st.session_state.ver_storytelling = False
 
+if "ver_causas" not in st.session_state:
+   st.session_state.ver_causas = False
+
 #cargamos el df
 @st.cache_data
 def cargar_datos():
@@ -75,8 +78,6 @@ nombres_provincias = [
 ]
 
 
-if "ver_general" not in st.session_state:
-  st.session_state.ver_general = False
 
 #temas de color
 lista_temas_color = [
@@ -142,11 +143,12 @@ df_prov = leer_csv("POBLACION", "nacimientos_provi_año.csv")
 with st.sidebar:
   st.title("🇦🇷 Dashboard de Natalidad")
 
-  #logica de la barra del costado
+  # logica de la barra del costado
   if st.session_state.ver_storytelling:
     if st.button("⬅ Volver al Dashboard", use_container_width=True):
       st.session_state.ver_storytelling = False
       st.session_state.ver_general = False
+      st.session_state.ver_causas = False
       st.rerun()
     anio_seleccionado = df_agrupado.anio.max()
     tema_color_seleccionado = "viridis"
@@ -165,12 +167,33 @@ with st.sidebar:
     if st.button("📖 Storytelling", use_container_width=True):
       st.session_state.ver_storytelling = True
       st.session_state.ver_general = False
+      st.session_state.ver_causas = False
       st.rerun()
+
+  elif st.session_state.ver_causas:
+    if st.button("⬅ Volver al Dashboard", use_container_width=True):
+      st.session_state.ver_storytelling = False
+      st.session_state.ver_general = False
+      st.session_state.ver_causas = False
+      st.rerun()
+    anio_seleccionado = df_agrupado.anio.max()
+    tema_color_seleccionado = "viridis"
+
+    st.markdown("### 📉 Políticas y natalidad")
+    st.markdown("""
+        [1 · 2014 · Implante subdérmico](#h1)  
+        [2 · 2015 · Autonomía progresiva](#h2)  
+        [3 · 2017 · Plan ENIA](#h3)  
+        [4 · 2020 · Ley 27.610](#h4)  
+        [Cómo leer estos gráficos](#lectura)
+            """)
+    st.caption("Nacimientos según la edad de la madre. Fuente: Estadísticas Vitales (DEIS), datos.gob.ar.")
 
   else:
     if st.button("Ver Avance General", use_container_width=True):
       st.session_state.ver_general = True
       st.session_state.ver_storytelling = False
+      st.session_state.ver_causas = False
       st.rerun()
 
     lista_anios = list(df_agrupado.anio.unique())[::-1]
@@ -185,9 +208,16 @@ with st.sidebar:
     if st.button("📖 Storytelling", use_container_width=True):
       st.session_state.ver_storytelling = True
       st.session_state.ver_general = False
+      st.session_state.ver_causas = False
       st.rerun()
 
-  #ocultar fondo
+    if st.button("🧩 Posibles Causas", use_container_width=True):
+      st.session_state.ver_storytelling = False
+      st.session_state.ver_general = False
+      st.session_state.ver_causas = True
+      st.rerun()
+
+  # ocultar fondo
   usar_fondo = st.toggle(
       "🖼️ Fondo ilustrado por período",
       value=True,
@@ -211,7 +241,7 @@ def get_base64_img(file_path):
 
 base64_string = ""
 if usar_fondo:
-  if st.session_state.ver_storytelling or st.session_state.ver_general:
+  if st.session_state.ver_storytelling or st.session_state.ver_general or st.session_state.ver_causas:
     ruta_local = os.path.join("BACKGROUNDS", "general.png")
   else:
     nombre_fondo = FONDOS.get(anio_seleccionado, "pj.png")
@@ -386,7 +416,7 @@ def calcular_diferencia_nacimientos(df_entrada, anio_consulta):
   return pd.concat([datos_anio_actual.provincia, datos_anio_actual.nacimientos, datos_anio_actual.diferencia_nacimientos], axis=1).sort_values(by="diferencia_nacimientos", ascending=False)
 
 
-if not st.session_state.ver_general and not st.session_state.ver_storytelling:
+if not st.session_state.ver_general and not st.session_state.ver_storytelling and not st.session_state.ver_causas:
   columnas = st.columns((1.5, 4.5, 2), gap="medium")
 
   #columna0
@@ -559,6 +589,167 @@ if not st.session_state.ver_general and not st.session_state.ver_storytelling:
     st.plotly_chart(fig, use_container_width=True)
 
 
+#caracteristicas de la pestaña d las causas
+
+BASE = Path(__file__).resolve().parent
+PROC = BASE / "DATA_PROCESADA"
+
+@st.cache_data
+def leer_csv(carpeta: str, archivo: str):
+    ruta = PROC / carpeta / archivo
+    if not ruta.exists():
+        return None
+    df = pd.read_csv(ruta)
+    df = df.loc[:, ~df.columns.astype(str).str.startswith("Unnamed")]
+    df.columns = [str(c).strip().lower() for c in df.columns]
+    return df
+
+
+def inicio_edad(txt):
+    m = re.search(r"\d+", str(txt))
+    return int(m.group()) if m else None
+
+
+def clave_prov(nombre) -> str:
+    s = unicodedata.normalize("NFKD", str(nombre)).encode("ascii", "ignore").decode().lower().strip()
+    if s.startswith("tierra del fuego"):
+        return "tierra del fuego"
+    if "ciudad" in s or "caba" in s or "capital federal" in s:
+        return "caba"
+    return s
+
+
+df_m = leer_csv("POBLACION", "madres_grupo_edad_total.csv")
+if df_m is None or not {"anio", "grupo_etario_madre", "cantidad"} <= set(df_m.columns):
+    st.error("Falta `DATA_PROCESADA/POBLACION/madres_grupo_edad_total.csv` (se genera en poblacion.ipynb).")
+    st.stop()
+
+df_m = df_m.copy()
+df_m["anio"] = df_m["anio"].astype(int)
+df_m["ini"] = df_m["grupo_etario_madre"].map(inicio_edad)
+
+por_anio = lambda mask: df_m[mask].groupby("anio")["cantidad"].sum().sort_index()
+S = pd.DataFrame({
+    "10-14": por_anio(df_m["ini"] < 15),
+    "15-19": por_anio((df_m["ini"] >= 15) & (df_m["ini"] < 20)),
+    "<20": por_anio(df_m["ini"] < 20),
+    "20+": por_anio(df_m["ini"] >= 20),
+})
+df_tot = leer_csv("POBLACION", "nacimientos_total_año.csv")
+if df_tot is not None and {"anio", "nacimientos"} <= set(df_tot.columns):
+    S["total"] = df_tot.groupby("anio")["nacimientos"].sum()
+else:
+    S["total"] = por_anio(df_m["ini"].notna() | df_m["ini"].isna())
+ANIOS = S.index.tolist()
+Y0, Y1 = ANIOS[0], ANIOS[-1]
+
+def fmt(n):
+    return f"{n:,.0f}".replace(",", ".")
+
+
+def fpct(n, dec=1, signo=True):
+    s = f"{n:+.{dec}f}" if signo else f"{n:.{dec}f}"
+    return s.replace(".", ",").replace("-", "−") + "%"
+
+
+def cambio(s, a, b):
+    return (s.loc[b] / s.loc[a] - 1) * 100
+
+
+def ritmo(s, a, b):
+    """Variación anual promedio (compuesta) entre los años a y b."""
+    return ((s.loc[b] / s.loc[a]) ** (1 / (b - a)) - 1) * 100
+
+
+def tarjeta(titulo="", cuerpo="", color="", bullets=None):
+    inner = f"<h4>{titulo}</h4>" if titulo else ""
+    inner += ("<ul>" + "".join(f"<li>{b}</li>" for b in bullets) + "</ul>") if bullets else f"<p>{cuerpo}</p>"
+    st.markdown(f'<div class="card {color}">{inner}</div>', unsafe_allow_html=True)
+
+
+def bignum(valor, etiqueta, color):
+    st.markdown(f'<div class="bignum"><div class="n" style="color:{color}">{valor}</div>'
+                f'<div class="l">{etiqueta}</div></div>', unsafe_allow_html=True)
+
+
+def nota(t):
+    st.markdown(f'<div class="note">{t}</div>', unsafe_allow_html=True)
+
+
+def estilo(fig, alto=430):
+    fig.update_layout(height=alto, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+                      font=dict(color=TEXT, family="Inter"), margin=dict(l=10, r=90, t=55, b=10),
+                      legend=dict(orientation="h", y=-0.14), title_font=dict(size=16))
+    fig.update_xaxes(gridcolor="#22345a", zeroline=False, dtick=1)
+    fig.update_yaxes(gridcolor="#22345a", zeroline=False)
+    return fig
+
+
+def mostrar(fig, key=None):
+    try:
+        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False}, key=key)
+    except TypeError:
+        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False}, key=key)
+
+
+def capitulo(anchor, kicker, titulo):
+    st.markdown(f'<div id="{anchor}"></div><div class="kicker">{kicker}</div>'
+                f'<div class="title">{titulo}</div><div class="rule"></div>', unsafe_allow_html=True)
+
+
+def grafico_hito(evento, principal, nombre_p, color_p, referencias, titulo, extra_vline=None, key=""):
+    """
+    Índice base 100 = año del hito. Muestra 3 años antes (si hay) como contexto y todo el período posterior.
+    principal: Series. referencias: lista de (Series, nombre, color).
+    Devuelve (cambio_principal, ritmo_antes, ritmo_despues).
+    """
+    x0 = max(Y0, evento - 3)
+    anios = [a for a in ANIOS if x0 <= a <= Y1]
+    f = go.Figure()
+    f.add_vrect(x0=evento, x1=Y1 + 0.5, fillcolor="rgba(59,184,166,.07)", line_width=0)
+    f.add_vline(x=evento, line_dash="dash", line_color=YELLOW, line_width=2)
+    f.add_annotation(x=evento, y=1.07, yref="paper", text=f"<b>{evento}</b>", showarrow=False,
+                     font=dict(color=YELLOW, size=13))
+    if extra_vline:
+        f.add_vline(x=extra_vline[0], line_dash="dot", line_color=MUTED, line_width=1)
+        f.add_annotation(x=extra_vline[0], y=1.07, yref="paper", text=extra_vline[1], showarrow=False,
+                         font=dict(color=MUTED, size=11))
+    for serie_, nombre, color in referencias + [(principal, nombre_p, color_p)]:
+        idx = (serie_ / serie_.loc[evento] * 100).loc[anios]
+        es_p = serie_ is principal
+        f.add_trace(go.Scatter(
+            x=idx.index, y=idx.values, mode="lines+markers", name=nombre,
+            line=dict(color=color, width=5 if es_p else 2.5, dash="solid" if es_p else "dot"),
+            marker=dict(size=9 if es_p else 5),
+            hovertemplate=nombre + " · %{x}: %{y:.1f}<extra></extra>"))
+        f.add_annotation(x=Y1, y=idx.iloc[-1], text=f"<b>{idx.iloc[-1] - 100:+.0f}%</b>".replace("-", "−"),
+                         showarrow=False, xanchor="left", xshift=8, font=dict(color=color, size=13 if es_p else 11))
+    f.add_hline(y=100, line_color="#3a4f7a", line_width=1)
+    f.update_layout(title=titulo)
+    f.update_xaxes(range=[x0 - 0.3, Y1 + 0.9])
+    f.update_yaxes(title_text=f"Índice (base 100 = {evento})")
+    mostrar(estilo(f), key=key)
+    return cambio(principal, evento, Y1), ritmo(principal, x0, evento), ritmo(principal, evento, Y1)
+
+
+def indicadores(evento, nombre_p, c_p, c_ref, nombre_ref, r_antes, r_despues):
+    a, b, c = st.columns(3)
+    with a:
+        bignum(fpct(c_p, 0), f"{nombre_p}<br>{evento} → {Y1}", CORAL)
+    with b:
+        bignum(fpct(c_ref, 0), f"{nombre_ref}<br>{evento} → {Y1}", BLUE)
+    with c:
+        bignum(f"{fpct(r_antes, 1)} → {fpct(r_despues, 1)}",
+               "ritmo anual promedio<br>antes (hasta 3 años) → después", YELLOW)
+
+
+def tabla_datos(cols, evento):
+    with st.expander("Ver los datos de este gráfico"):
+        t = S.loc[[a for a in ANIOS if a >= max(Y0, evento - 3)], cols].copy()
+        t.columns = [f"{c} (nacimientos)" for c in cols]
+        t.index.name = "Año"
+        st.dataframe(t)
+
 
 
 
@@ -568,6 +759,10 @@ if not st.session_state.ver_general and not st.session_state.ver_storytelling:
 if st.session_state.ver_storytelling:
 
     with st.sidebar:
+    
+        lista_anios = list(df_agrupado.anio.unique())[::-1]
+        anio_seleccionado = st.selectbox("Seleccione un año", lista_anios)
+    
         st.markdown("""
             <div class='indice-card'>
 
@@ -1297,9 +1492,170 @@ elif st.session_state.ver_general:
     except Exception as e:
         st.warning(f"No se pudieron cargar los archivos desde 'DATA_PROCESADA/ECONOMIA/'. Detalle: {e}")
 
-   
+#causas
 
+elif st.session_state.ver_causas:
+    # título
+    st.markdown("### 🧩 Posibles Causas")
+   
+    st.markdown(f"""
+        <div class="hero">
+        <h1>CUATRO HITOS,<br>CUATRO GRÁFICOS</h1>
+        <div class="sub">¿Qué pasó con los nacimientos después de cada medida de salud sexual y reproductiva?</div>
+        </div>
+        """, unsafe_allow_html=True)
+   
+    # estilo
+    st.markdown(f"""
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        html, body, [class*="css"] {{ font-family: 'Inter', sans-serif; }}
+        [data-testid="stAppViewContainer"] {{ background: {BG}; color: {TEXT}; }}
+        [data-testid="stHeader"] {{ background: rgba(0,0,0,0); }}
+        #MainMenu, footer {{ visibility: hidden; }}
+        .block-container {{ padding-top: 2rem; max-width: 1200px; }}
+        section[data-testid="stSidebar"] {{ background: #0B1428; border-right: 1px solid #22345a; }}
+        .hero {{ padding: 2.6rem 2.2rem; border-radius: 24px; margin-bottom: 1rem;
+        background: radial-gradient(circle at 85% 20%, #1d3a6b 0%, {BG} 62%); border: 1px solid #22345a; }}
+        .hero h1 {{ font-size: 2.5rem; font-weight: 800; line-height: 1.12; margin: 0 0 .6rem 0; color: #fff; }}
+        .hero .sub {{ font-size: 1.15rem; color: {TEAL}; font-weight: 600; }}
+        .kicker {{ color:{TEAL}; font-weight:800; letter-spacing:.12em; font-size:.85rem; margin-top:3rem; }}
+        .title {{ font-size:1.8rem; font-weight:800; color:#fff; margin:.2rem 0 .3rem 0; line-height:1.2; }}
+        .rule {{ width:60px; height:4px; background:{TEAL}; border-radius:4px; margin:.4rem 0 1rem 0; }}
+        .card {{ background:{CARD}; border-radius:18px; padding:1.1rem 1.3rem; height:100%;
+        border:1px solid #243a64; border-left:5px solid {TEAL}; }}
+        .card h4 {{ margin:0 0 .5rem 0; color:#fff; font-size:1.02rem; }}
+        .card p, .card li {{ color:#cfd9ec; font-size:.93rem; line-height:1.55; margin:0 0 .35rem 0; }}
+        .card ul {{ padding-left:1.1rem; margin:0; }}
+        .card.blue {{ border-left-color:{BLUE}; }} .card.yellow {{ border-left-color:{YELLOW}; }} .card.coral {{ border-left-color:{CORAL}; }}
+        .bignum {{ text-align:center; padding:.9rem .4rem; background:{CARD}; border:1px solid #243a64; border-radius:16px; }}
+        .bignum .n {{ font-size:2.2rem; font-weight:800; line-height:1.05; }}
+        .bignum .l {{ color:{MUTED}; margin-top:.4rem; font-size:.85rem; line-height:1.35; }}
+        .note {{ color:{MUTED}; font-size:.85rem; font-style:italic; margin:.4rem 0 .8rem 0; }}
+        .callout {{ text-align:center; font-weight:800; font-size:1.15rem; color:{YELLOW}; padding:.8rem; margin:.6rem 0; }}
+        .src {{ color:#7e90b0; font-size:.8rem; }}
+        </style>
+        """, unsafe_allow_html=True)
+   
+    # 1, 2014 implante
+    E1 = 2014
+    capitulo("h1", "1 · 2014", "El implante subdérmico y los nacimientos de madres de 15 a 19 años")
+    tarjeta("Qué pasó",
+            "El Ministerio de Salud incorporó el implante subdérmico (\"chip\") a la canasta gratuita de métodos "
+            "anticonceptivos. En 2014 se priorizó a adolescentes de 15 a 19 años sin obra social que ya habían tenido al menos "
+            "un evento obstétrico. <b>Hipótesis:</b> como método de larga duración (LARC) no depende de la adherencia diaria, "
+            "y por eso podría reducir nuevos embarazos adolescentes.", "blue")
+    st.write("")
+    c1, r1a, r1d = grafico_hito(E1, S["15-19"], "Madres de 15 a 19 años", CORAL,
+                                [(S["20+"], "Madres de 20 años o más", BLUE)],
+                                "Nacimientos de madres de 15 a 19 años (índice base 100 = 2014)", key="g1")
+    indicadores(E1, "Madres de 15 a 19", c1, cambio(S["20+"], E1, Y1), "Madres de 20 o más", r1a, r1d)
+    nota(f"En {E1} había {fmt(S.loc[E1, '15-19'])} nacimientos de madres de 15 a 19 años; en {Y1}, {fmt(S.loc[Y1, '15-19'])}. "
+        "Antes del hito la serie venía estable o subiendo; el quiebre aparece desde el año siguiente.")
+
+    # 2, 2015 autonomía progresiva
+    E2 = 2015
+    capitulo("h2", "2 · 2015", "Autonomía progresiva y Ni Una Menos: nacimientos de madres de 10 a 14 años")
+    tarjeta("Qué pasó",
+            "Entró en vigencia el nuevo Código Civil y Comercial. Su artículo 26 reconoce que desde los 13 años los adolescentes "
+            "pueden decidir por sí mismos sobre tratamientos no invasivos, lo que incluye métodos anticonceptivos de ese tipo. "
+            "El 3 de junio nació Ni Una Menos. <b>Hipótesis:</b> más autonomía para consultar y más demanda de ESI y de "
+            "consentimiento entre estudiantes secundarias.", "blue")
+    st.write("")
+    c2, r2a, r2d = grafico_hito(E2, S["10-14"], "Madres de 10 a 14 años", CORAL,
+                                [(S["15-19"], "Madres de 15 a 19 años", YELLOW), (S["20+"], "Madres de 20 años o más", BLUE)],
+                                "Nacimientos de madres de 10 a 14 años (índice base 100 = 2015)", key="g2")
+    indicadores(E2, "Madres de 10 a 14", c2, cambio(S["20+"], E2, Y1), "Madres de 20 o más", r2a, r2d)
+    nota("Tus datos agrupan las edades de a cinco años, así que no se pueden aislar las madres de 13 años en adelante: "
+        "el grupo de 10 a 14 es lo más cercano. Son cifras chicas (cientos de nacimientos por año), por eso la curva es más irregular.")
+
+    # 3, 2017 ENIA
+    E3 = 2017
+    capitulo("h3", "3 · 2017", "Plan ENIA y asesorías en las escuelas: edades de escolaridad secundaria (10 a 19 años)")
+    tarjeta("Qué pasó",
+            "Los ministerios de Salud, Educación y Desarrollo Social articularon el Plan Nacional de Prevención del Embarazo No "
+            "Intencional en la Adolescencia (ENIA). Se diseñó en 2017 y se implementó desde 2018 en 36 departamentos de 12 provincias "
+            "de mayor fecundidad adolescente, con asesorías de salud integral en escuelas secundarias (ASIE) que conectan los contenidos "
+            "de ESI con la entrega de anticonceptivos. <b>Hipótesis:</b> llevar profesionales de salud a la escuela facilita el acceso real "
+            "a los métodos.", "blue")
+    st.write("")
+    c3, r3a, r3d = grafico_hito(E3, S["<20"], "Madres menores de 20 años", CORAL,
+                                [(S["20+"], "Madres de 20 años o más", BLUE)],
+                                "Nacimientos de madres menores de 20 años (índice base 100 = 2017)", key="g3")
+    indicadores(E3, "Madres menores de 20", c3, cambio(S["20+"], E3, Y1), "Madres de 20 o más", r3a, r3d)
+    nota("Se usan los grupos de 10 a 14 y de 15 a 19 años como aproximación a las edades de la escuela secundaria. "
+        "La baja ya venía en marcha antes de 2017: el ENIA no empezó en una curva plana.")
+
+    ENIA_PROV = {"catamarca", "chaco", "corrientes", "entre rios", "formosa", "jujuy", "la rioja", "misiones",
+                "salta", "santiago del estero", "tucuman"}
+    pm = leer_csv("POBLACION", "madres_provincia_grupo_edad.csv")
+    col_prov = None if pm is None else next((c for c in ("provincia_nombre", "provincia") if c in pm.columns), None)
+    if pm is not None and col_prov and {"anio", "grupo_etario_madre", "cantidad"} <= set(pm.columns):
+        pm = pm.copy()
+        pm["ini"] = pm["grupo_etario_madre"].map(inicio_edad)
+        pm["k"] = pm[col_prov].map(clave_prov)
+        pm = pm[(pm["ini"] < 20) & (pm["k"] != "buenos aires")]
+        pm["grupo"] = pm["k"].map(lambda k: "Provincias del Plan ENIA" if k in ENIA_PROV else "Resto de las provincias")
+        g = pm.groupby(["grupo", "anio"])["cantidad"].sum().unstack(0).sort_index()
+        if {"Provincias del Plan ENIA", "Resto de las provincias"} <= set(g.columns) and E3 in g.index:
+            st.markdown("##### Comparación entre provincias")
+            f = go.Figure()
+            f.add_vrect(x0=E3, x1=Y1 + 0.5, fillcolor="rgba(59,184,166,.07)", line_width=0)
+            f.add_vline(x=E3, line_dash="dash", line_color=YELLOW, line_width=2)
+            for col, color in (("Provincias del Plan ENIA", CORAL), ("Resto de las provincias", BLUE)):
+                idx = (g[col] / g.loc[E3, col] * 100).loc[[a for a in g.index if a >= E3 - 3]]
+                f.add_trace(go.Scatter(x=idx.index, y=idx.values, mode="lines+markers", name=col,
+                                    line=dict(color=color, width=4 if color == CORAL else 2.5)))
+                f.add_annotation(x=Y1, y=idx.iloc[-1], text=f"<b>{idx.iloc[-1] - 100:+.0f}%</b>".replace("-", "−"),
+                                showarrow=False, xanchor="left", xshift=8, font=dict(color=color, size=12))
+            f.update_layout(title="Madres menores de 20 años: provincias del ENIA vs resto (índice base 100 = 2017)")
+            f.update_xaxes(range=[E3 - 3.3, Y1 + 0.9])
+            mostrar(estilo(f, 400), key="g3b")
+            nota("Se excluye Buenos Aires porque el plan solo funcionó en algunos de sus partidos. Las provincias del ENIA "
+                "partían de tasas más altas, y eso también puede hacer que su baja relativa sea mayor.")
+
+    # 4, 2020 ley 27
+    E4 = 2020
+    capitulo("h4", "4 · 2020", "Ley 27.610 (IVE/ILE): evolución de los nacimientos totales desde 2020")
+    tarjeta("Qué pasó",
+            "El Congreso sancionó la ley el 30 de diciembre de 2020; se promulgó el 14 de enero de 2021 y rige desde ese mes. "
+            "Permite la interrupción voluntaria del embarazo hasta la semana 14 inclusive. <b>Hipótesis a evaluar:</b> que la ley haya reducido nacimientos de embarazos no "
+            "intencionales que no se pudieron prevenir con anticonceptivos.", "blue")
+    st.write("")
+    c4, r4a, r4d = grafico_hito(E4, S["total"], "Nacimientos totales", CORAL,
+                                [(S["<20"], "Madres menores de 20 años", YELLOW), (S["20+"], "Madres de 20 años o más", BLUE)],
+                                "Nacimientos totales (índice base 100 = 2020)", extra_vline=(2021, "2021: la ley rige"), key="g4")
+    indicadores(E4, "Nacimientos totales", c4, cambio(S["<20"], E4, Y1), "Madres menores de 20", r4a, r4d)
+    nota("Los nacimientos de 2020 corresponden a embarazos casi todos anteriores a la ley: los primeros nacimientos de embarazos "
+        "iniciados con la ley vigente aparecen hacia fines de 2021. La baja de los nacimientos comenzó después del máximo de 2014, años antes de la ley. "
+        "Mirá el recuadro amarillo: compara el ritmo de baja de los tres años previos con el posterior.")
+
+    # como leer...
+    capitulo("lectura", "CÓMO LEER ESTOS GRÁFICOS", "Qué muestran los datos y qué no pueden probar")
+    ritmo_20 = ritmo(S["20+"], E1, Y1)
+
+    tarjeta("Lo que sí muestran", color="", bullets=[
+        f"Los nacimientos de madres de 15 a 19 años bajaron {fpct(abs(c1), 0, signo=False)} desde 2014, mucho más que los de madres de 20 o más "
+        f"({fpct(abs(cambio(S['20+'], E1, Y1)), 0, signo=False)}).",
+        "El quiebre de la serie adolescente aparece justo después de 2014: antes estaba estable o subiendo.",
+        "Los organismos oficiales y varios estudios atribuyen parte de esa baja a la anticoncepción de larga duración y al "
+        "Plan ENIA; las evaluaciones del plan reportan caídas mayores en las provincias donde funcionó.",
+    ])
+    st.write("")
+    tarjeta("Qué faltaría para afirmar causas", color="yellow", bullets=[
+        "Series por edad simple (13, 14, 15…) para aislar el efecto de la autonomía progresiva desde los 13 años.",
+        "Tasas de fecundidad (nacimientos cada 1.000 mujeres de cada edad), no solo cantidades.",
+        "Comparar provincias con y sin ENIA, antes y después, ajustando por su nivel inicial.",
+        "Datos de abortos y de uso de anticonceptivos (DNSSR) para ver qué pasó con los embarazos y no solo con los nacimientos.",
+    ])
+    st.markdown(
+        '<div class="src">Fuentes consultadas: Ministerio de Salud (DNSSR, nota técnica sobre implantes); '
+        '<a href="https://www.unicef.org/argentina/media/3396/file/Asesor%C3%ADas%20en%20salud%20integral%20en%20escuelas%20secundarias.pdf" style="color:#3BB8A6">UNICEF · Asesorías en escuelas</a> · '
+        '<a href="https://chequeado.com/el-explicador/por-que-no-se-puede-vincular-la-caida-de-la-natalidad-con-el-aborto-como-afirmo-milei-en-carajo/" style="color:#3BB8A6">Chequeado · natalidad y ley 27.610</a> · '
+        'Estadísticas Vitales (DEIS), datos.gob.ar.</div>', unsafe_allow_html=True)
+    
+else:
+   pass
     
 
-else:
-    pass
+    
