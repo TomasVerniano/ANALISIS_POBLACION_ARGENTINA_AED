@@ -170,6 +170,12 @@ with st.sidebar:
       st.session_state.ver_causas = False
       st.rerun()
 
+    if st.button("🚩 Contexto Politico", use_container_width=True):
+      st.session_state.ver_storytelling = False
+      st.session_state.ver_general = False
+      st.session_state.ver_causas = True
+      st.rerun()
+
   elif st.session_state.ver_causas:
     if st.button("⬅ Volver al Dashboard", use_container_width=True):
       st.session_state.ver_storytelling = False
@@ -211,7 +217,7 @@ with st.sidebar:
       st.session_state.ver_causas = False
       st.rerun()
 
-    if st.button("🧩 Posibles Causas", use_container_width=True):
+    if st.button("🚩 Contexto Politico", use_container_width=True):
       st.session_state.ver_storytelling = False
       st.session_state.ver_general = False
       st.session_state.ver_causas = True
@@ -263,12 +269,18 @@ else:
 
 custom_css = f"""
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+html, body, [class*="css"] {{
+    font-family: 'Inter', sans-serif !important;
+}}
+
 [data-testid="block-container"] {{
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-    margin-bottom: -7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    max-width: 1300px;
 }}
 
 [data-testid="stAppViewContainer"] {{
@@ -277,47 +289,117 @@ custom_css = f"""
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #ffffff !important;
+    color: #EAF0FA !important;
 }}
 
 [data-testid="stHeader"] {{
     background: rgba(0,0,0,0);
 }}
 
+section[data-testid="stSidebar"] {{
+    background: #0B1428 !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}}
+
+/* Contenedores Glassmorphic principales */
 div[data-testid="stVerticalBlock"] > div[dir="ltr"] > div {{
-    background: rgba(255, 255, 255, 0.12) !important;
-    backdrop-filter: blur(12px) saturate(180%);
-    -webkit-backdrop-filter: blur(12px) saturate(180%);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    background: rgba(26, 43, 74, 0.65) !important;
+    backdrop-filter: blur(14px) saturate(180%);
+    -webkit-backdrop-filter: blur(14px) saturate(180%);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     padding: 20px;
     margin-bottom: 15px;
 }}
 
+/* Botones unificados */
 .stButton>button {{
-    background: rgba(255, 255, 255, 0.15) !important;
-    color: white !important;
-    border: 1px solid rgba(255, 255, 255, 0.4) !important;
-    border-radius: 8px !important;
-    backdrop-filter: blur(4px);
-    transition: all 0.3s ease;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.12) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 10px !important;
+    backdrop-filter: blur(6px);
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }}
 
-.stTextInput>div>div>input, .stSelectbox>div>div>div {{
-    background: rgba(0, 0, 0, 0.2) !important;
-    color: white !important;
-    border: 1px solid rgba(255, 255, 255, 0.2) !important;
-    border-radius: 6px !important;
+.stButton>button:hover {{
+    background: rgba(59, 184, 166, 0.3) !important;
+    border-color: #3BB8A6 !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
 }}
+
+/* Tarjetas HTML personalizadas */
+.card {{
+    background: rgba(26, 43, 74, 0.8);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 12px 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-left: 5px solid #3BB8A6;
+    backdrop-filter: blur(10px);
+}}
+.card.blue {{ border-left-color: #3F7FC4; }}
+.card.yellow {{ border-left-color: #F5B942; }}
+.card.coral {{ border-left-color: #E8605F; }}
+
+.card h4 {{ margin: 0 0 8px 0; color: #ffffff; font-size: 1.1rem; font-weight: 700; }}
+.card p, .card li {{ color: #EAF0FA; font-size: 0.95rem; line-height: 1.5; margin: 0; }}
+
+/* Big Numbers / Métricas */
+.bignum {{
+    text-align: center;
+    padding: 18px 10px;
+    background: rgba(26, 43, 74, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}}
+.bignum .n {{ font-size: 2.5rem; font-weight: 900; line-height: 1.05; }}
+.bignum .l {{ color: #9FB0CC; margin-top: 6px; font-size: 0.88rem; line-height: 1.3; }}
+
+/* Callouts y Encabezados */
+.hero {{
+    padding: 2.5rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    background: radial-gradient(circle at 85% 20%, rgba(29, 58, 107, 0.8) 0%, rgba(15, 27, 51, 0.9) 62%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}}
+.hero h1 {{ font-size: 2.8rem; font-weight: 900; color: #F5B942; margin-bottom: 10px; text-transform: uppercase; }}
+.hero .sub {{ font-size: 1.2rem; color: #EAF0FA; font-style: italic; }}
+
+.kicker {{ color: #3BB8A6; font-weight: 800; letter-spacing: .1em; font-size: 0.85rem; margin-top: 2rem; text-transform: uppercase; }}
+.title {{ font-size: 1.8rem; font-weight: 800; color: #ffffff; margin: 0.3rem 0; }}
+.rule {{ width: 60px; height: 4px; background: #3BB8A6; border-radius: 4px; margin: 0.5rem 0 1.2rem 0; }}
+
+.callout {{
+    background: linear-gradient(135deg, rgba(59,184,166,0.25), rgba(63,127,196,0.25));
+    border-radius: 14px;
+    padding: 18px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #F5B942;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    margin: 15px 0;
+}}
+
+.note {{ color: #9FB0CC; font-size: 0.88rem; font-style: italic; margin: 8px 0; }}
+.src {{ color: #7e90b0; font-size: 0.8rem; margin-top: 5px; }}
 
 h1, h2, h3, h4, h5, h6, p, label {{
     color: #ffffff !important;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }}
 </style>
 """
+
+st.html(custom_css)
 
 st.html(custom_css)
 
@@ -589,8 +671,7 @@ if not st.session_state.ver_general and not st.session_state.ver_storytelling an
     st.plotly_chart(fig, use_container_width=True)
 
 
-#caracteristicas de la pestaña d las causas
-
+#caracteristicas de la pestaña d las contexto politico
 BASE = Path(__file__).resolve().parent
 PROC = BASE / "DATA_PROCESADA"
 
@@ -643,13 +724,6 @@ else:
 ANIOS = S.index.tolist()
 Y0, Y1 = ANIOS[0], ANIOS[-1]
 
-def fmt(n):
-    return f"{n:,.0f}".replace(",", ".")
-
-
-def fpct(n, dec=1, signo=True):
-    s = f"{n:+.{dec}f}" if signo else f"{n:.{dec}f}"
-    return s.replace(".", ",").replace("-", "−") + "%"
 
 
 def cambio(s, a, b):
@@ -751,6 +825,136 @@ def tabla_datos(cols, evento):
         st.dataframe(t)
 
 
+#herramientas para que funcione el historytelling
+BASE = Path(__file__).resolve().parent
+PROC = BASE / "DATA_PROCESADA"
+BACKGROUNDS = BASE / "BACKGROUNDS"
+
+GEOJSON_URL = "https://apis.datos.gob.ar/georef/api/v2.0/provincias.geojson"
+
+
+def clave_prov(nombre) -> str:
+    """Normaliza nombres de provincias para cruzar CSV con GeoJSON."""
+    s = unicodedata.normalize("NFKD", str(nombre)).encode("ascii", "ignore").decode().lower().strip()
+    if s.startswith("tierra del fuego"):
+        return "tierra del fuego"
+    if "ciudad" in s or "caba" in s or "capital federal" in s:
+        return "caba"
+    return s
+
+
+df_prov = leer_csv("POBLACION", "nacimientos_provi_año.csv")
+if df_prov is None or not {"provincia", "anio", "nacimientos"} <= set(df_prov.columns):
+    st.error(
+        "No encontré `DATA_PROCESADA/POBLACION/nacimientos_provi_año.csv` "
+        "(con columnas provincia, anio, nacimientos). Ejecutá antes `poblacion.ipynb` "
+        "y corré la app desde la carpeta raíz del proyecto."
+    )
+    st.stop()
+
+df_prov = df_prov.copy()
+df_prov["anio"] = pd.to_numeric(df_prov["anio"]).astype(int)
+df_prov["nacimientos"] = pd.to_numeric(df_prov["nacimientos"])
+
+suma_prov = df_prov.groupby("anio", as_index=False)["nacimientos"].sum()
+df_tot = leer_csv("POBLACION", "nacimientos_total_año.csv")
+if df_tot is not None and {"anio", "nacimientos"} <= set(df_tot.columns):
+    serie = df_tot.groupby("anio", as_index=False)["nacimientos"].sum()
+    _cmp = suma_prov.merge(serie, on="anio", suffixes=("_prov", "_tot"))
+    _d = ((_cmp["nacimientos_prov"] / _cmp["nacimientos_tot"] - 1) * 100).abs()
+    NOTA_FUENTES = (f"La serie nacional usa el archivo de totales por año. El detalle por provincia y por edad de la madre "
+                    f"proviene de otro archivo y suma entre {_d.min():.1f}% y {_d.max():.1f}% menos, por eso las cifras no coinciden exactamente.").replace(".", ",")
+else:
+    serie = suma_prov
+    NOTA_FUENTES = "Serie nacional calculada como suma de las 24 jurisdicciones."
+serie = serie.sort_values("anio").reset_index(drop=True)
+serie["var_pct"] = serie["nacimientos"].pct_change() * 100
+ANIOS = serie["anio"].tolist()
+Y0, Y1 = ANIOS[0], ANIOS[-1]
+N0 = int(serie.loc[serie.anio == Y0, "nacimientos"].iloc[0])
+N1 = int(serie.loc[serie.anio == Y1, "nacimientos"].iloc[0])
+fila_pico = serie.loc[serie["nacimientos"].idxmax()]
+YP, NP = int(fila_pico["anio"]), int(fila_pico["nacimientos"])
+CAIDA_PICO = (N1 / NP - 1) * 100            # del máximo al último año
+fila_peor = serie.loc[serie["var_pct"].idxmin()] if serie["var_pct"].notna().any() else None
+
+
+
+def fpct(n, dec=1, signo=False) -> str:
+    s = f"{n:+.{dec}f}" if signo else f"{n:.{dec}f}"
+    return s.replace(".", ",").replace("-", "−") + "%"
+
+
+def sube_baja(a, b) -> str:
+    return "bajaron" if b < a else "subieron"
+
+
+def capitulo(anchor, kicker, titulo, bajada=""):
+    html = (f'<div id="{anchor}"></div><div class="kicker">{kicker}</div>'
+            f'<div class="title">{titulo}</div><div class="rule"></div>')
+    if bajada:
+        html += f'<div class="lead">{bajada}</div>'
+    st.markdown(html, unsafe_allow_html=True)
+
+
+def bignum(valor, etiqueta, color):
+    st.markdown(f'<div class="bignum"><div class="n" style="color:{color}">{valor}</div>'
+                f'<div class="l">{etiqueta}</div></div>', unsafe_allow_html=True)
+
+
+def tarjeta(titulo="", cuerpo="", color="", bullets=None):
+    inner = f"<h4>{titulo}</h4>" if titulo else ""
+    if bullets:
+        inner += "<ul>" + "".join(f"<li>{b}</li>" for b in bullets) + "</ul>"
+    else:
+        inner += f"<p>{cuerpo}</p>"
+    st.markdown(f'<div class="card {color}">{inner}</div>', unsafe_allow_html=True)
+
+
+def callout(texto, warn=False):
+    st.markdown(f'<div class="callout {"warn" if warn else ""}">{texto}</div>', unsafe_allow_html=True)
+
+
+def nota(texto):
+    st.markdown(f'<div class="note">{texto}</div>', unsafe_allow_html=True)
+
+
+def fuente(texto):
+    st.markdown(f'<div class="src">Fuente: {texto}</div>', unsafe_allow_html=True)
+
+
+def estilo(fig: go.Figure, alto=380, leyenda=False) -> go.Figure:
+    fig.update_layout(
+        height=alto, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(color=TEXT, family="Inter"), margin=dict(l=10, r=10, t=50, b=10),
+        showlegend=leyenda, title_font=dict(size=16),
+        legend=dict(orientation="h", y=-0.15),
+    )
+    fig.update_xaxes(gridcolor="#22345a", zeroline=False)
+    fig.update_yaxes(gridcolor="#22345a", zeroline=False)
+    return fig
+
+
+def mostrar(fig, key=None):
+    """Compatible con versiones nuevas y viejas de Streamlit."""
+    try:
+        st.plotly_chart(fig, width="stretch", config={"displayModeBar": False}, key=key)
+    except TypeError:
+        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False}, key=key)
+
+
+def dona(valor, color, titulo, alto=210):
+    f = go.Figure(go.Pie(values=[valor, max(100 - valor, 0)], hole=0.72, sort=False,
+                         marker=dict(colors=[color, "#22345a"]), textinfo="none", hoverinfo="skip"))
+    f.add_annotation(text=f"<b>{fpct(valor, 0)}</b>", x=0.5, y=0.5, showarrow=False,
+                     font=dict(size=26, color=color))
+    f.update_layout(title=dict(text=titulo, x=0.5, font=dict(size=14)))
+    return estilo(f, alto)
+
+
+
+
+
 
 
 #pestañás
@@ -784,124 +988,139 @@ if st.session_state.ver_storytelling:
 
 
     st.markdown("""
-    <style>
-                
+    
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
 
-                
-                
-    /* Oculta visualmente los contenedores comunes */
-    [data-testid="block-container"]{
-        max-width: 1300px;
-        padding-top: 2rem;
-    }
+        html, body, [class*="css"] {{
+            font-family: 'Inter', sans-serif !important;
+        }}
 
-    .hero{
-        text-align:center;
-        padding:80px 40px;
-        margin-bottom:40px;
-        background:rgba(0,0,0,.35);
-        border-radius:25px;
-        backdrop-filter:blur(12px);
-        border:1px solid rgba(255,255,255,.2);
-        box-shadow:0 0 40px rgba(0,0,0,.4);
-    }
+        [data-testid="block-container"] {{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 1.5rem;
+            padding-bottom: 2rem;
+            max-width: 1300px;
+        }}
 
-    .hero h1{
-        font-size:4rem;
-        font-weight:900;
-        letter-spacing:2px;
-        color:#F5B942;
-        text-transform:uppercase;
-        margin-bottom:10px;
-    }
+        [data-testid="stAppViewContainer"] {{
+            {background_style}
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: #EAF0FA !important;
+        }}
 
-    .sub{
-        font-size:1.4rem;
-        color:#EAF0FA;
-        font-style:italic;
-    }
+        [data-testid="stHeader"] {{
+            background: rgba(0,0,0,0);
+        }}
 
-    .meta{
-        margin-top:15px;
-        color:#9FB0CC;
-    }
+        section[data-testid="stSidebar"] {{
+            background: #0B1428 !important;
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+        }}
 
-    .title{
-        font-size:2.6rem;
-        font-weight:800;
-        color:#F5B942;
-        margin-top:40px;
-        margin-bottom:10px;
-    }
+        /* Contenedores Glassmorphic principales */
+        div[data-testid="stVerticalBlock"] > div[dir="ltr"] > div {{
+            background: rgba(26, 43, 74, 0.65) !important;
+            backdrop-filter: blur(14px) saturate(180%);
+            -webkit-backdrop-filter: blur(14px) saturate(180%);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            padding: 20px;
+            margin-bottom: 15px;
+        }}
 
-    .lead{
-        font-size:1.2rem;
-        line-height:1.8;
-        color:white;
-        margin-bottom:25px;
-    }
+        /* Botones unificados */
+        .stButton>button {{
+            background: rgba(255, 255, 255, 0.12) !important;
+            color: #ffffff !important;
+            font-weight: 600 !important;
+            border: 1px solid rgba(255, 255, 255, 0.3) !important;
+            border-radius: 10px !important;
+            backdrop-filter: blur(6px);
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }}
 
-    .card{
-        background:rgba(255,255,255,.08);
-        border-left:6px solid #3BB8A6;
-        border-radius:18px;
-        padding:25px;
-        margin:15px 0;
-        backdrop-filter:blur(8px);
-        box-shadow:0 4px 20px rgba(0,0,0,.25);
-    }
+        .stButton>button:hover {{
+            background: rgba(59, 184, 166, 0.3) !important;
+            border-color: #3BB8A6 !important;
+            color: #ffffff !important;
+            transform: translateY(-1px);
+        }}
 
-    .callout{
-        background:linear-gradient(
-            135deg,
-            rgba(59,184,166,.20),
-            rgba(63,127,196,.20)
-        );
-        border-radius:18px;
-        padding:22px;
-        font-size:1.2rem;
-        font-weight:600;
-        margin:25px 0;
-        border:1px solid rgba(255,255,255,.15);
-    }
+        /* Tarjetas HTML personalizadas */
+        .card {{
+            background: rgba(26, 43, 74, 0.8);
+            border-radius: 16px;
+            padding: 20px;
+            margin: 12px 0;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-left: 5px solid #3BB8A6;
+            backdrop-filter: blur(10px);
+        }}
+        .card.blue {{ border-left-color: #3F7FC4; }}
+        .card.yellow {{ border-left-color: #F5B942; }}
+        .card.coral {{ border-left-color: #E8605F; }}
 
-    .bignum{
-        text-align:center;
-        padding:25px;
-    }
+        .card h4 {{ margin: 0 0 8px 0; color: #ffffff; font-size: 1.1rem; font-weight: 700; }}
+        .card p, .card li {{ color: #EAF0FA; font-size: 0.95rem; line-height: 1.5; margin: 0; }}
 
-    .bignum .n{
-        font-size:4rem;
-        font-weight:900;
-        line-height:1;
-    }
+        /* Big Numbers / Métricas */
+        .bignum {{
+            text-align: center;
+            padding: 18px 10px;
+            background: rgba(26, 43, 74, 0.75);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }}
+        .bignum .n {{ font-size: 2.5rem; font-weight: 900; line-height: 1.05; }}
+        .bignum .l {{ color: #9FB0CC; margin-top: 6px; font-size: 0.88rem; line-height: 1.3; }}
 
-    .bignum .l{
-        margin-top:10px;
-        font-size:1rem;
-        color:#dbe3f0;
-    }
+        /* Callouts y Encabezados */
+        .hero {{
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
+            margin-bottom: 25px;
+            text-align: center;
+            background: radial-gradient(circle at 85% 20%, rgba(29, 58, 107, 0.8) 0%, rgba(15, 27, 51, 0.9) 62%);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }}
+        .hero h1 {{ font-size: 2.8rem; font-weight: 900; color: #F5B942; margin-bottom: 10px; text-transform: uppercase; }}
+        .hero .sub {{ font-size: 1.2rem; color: #EAF0FA; font-style: italic; }}
 
-    .closing{
-        padding:70px;
-        text-align:center;
-        border-radius:25px;
-        background:rgba(0,0,0,.35);
-        backdrop-filter:blur(12px);
-    }
+        .kicker {{ color: #3BB8A6; font-weight: 800; letter-spacing: .1em; font-size: 0.85rem; margin-top: 2rem; text-transform: uppercase; }}
+        .title {{ font-size: 1.8rem; font-weight: 800; color: #ffffff; margin: 0.3rem 0; }}
+        .rule {{ width: 60px; height: 4px; background: #3BB8A6; border-radius: 4px; margin: 0.5rem 0 1.2rem 0; }}
 
-    .chip{
-        display:inline-block;
-        padding:8px 15px;
-        margin:5px;
-        border-radius:50px;
-        background:#3BB8A6;
-        color:white;
-        font-weight:700;
-    }
+        .callout {{
+            background: linear-gradient(135deg, rgba(59,184,166,0.25), rgba(63,127,196,0.25));
+            border-radius: 14px;
+            padding: 18px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #F5B942;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.2);
+            margin: 15px 0;
+        }}
 
-    </style>
-    """, unsafe_allow_html=True)
+        .note {{ color: #9FB0CC; font-size: 0.88rem; font-style: italic; margin: 8px 0; }}
+        .src {{ color: #7e90b0; font-size: 0.8rem; margin-top: 5px; }}
+
+        h1, h2, h3, h4, h5, h6, p, label {{
+            color: #ffffff !important;
+        }}
+        </style>
+        """, unsafe_allow_html=True)
+
+    
 
     def capitulo(anchor, kicker, titulo, bajada=""):
         html = (f'<div id="{anchor}"></div><div class="kicker">{kicker}</div>'
@@ -1329,6 +1548,7 @@ if st.session_state.ver_storytelling:
             ])
 
     #estructura por edades
+    with h3:
         piram = leer_csv("POBLACION", "piramide_poblacion.csv")
         if piram is None or not {"edad_quinquenal", "masculinos", "femeninos"} <= set(piram.columns):
             st.info("Falta `DATA_PROCESADA/POBLACION/piramide_poblacion.csv`.")
@@ -1413,29 +1633,38 @@ if st.session_state.ver_storytelling:
 
 elif st.session_state.ver_general:
     
-    #datos generales
-
+    #datos generaloes
     st.markdown("### 📊 Vista General de Todos los Años - Estadísticas Poblacionales")
 
     df_total_anio = df_agrupado.groupby("anio", as_index=False)["nacimientos"].sum()
     fig_total_anio = px.line(df_total_anio, x="anio", y="nacimientos", title="Evolución Total de Nacimientos en Argentina (2012-2024)", markers=True, template="plotly_dark", color_discrete_sequence=["#29b5e8"])
     fig_total_anio.update_layout(plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)", height=400)
     st.plotly_chart(fig_total_anio, use_container_width=True)
+    st.caption("Gráfico 1.1: Tendencia general de la natalidad a nivel nacional, evidenciando el punto de inflexión y posterior descenso sostenido.")
 
     fig_provincias_anio = px.line(df_agrupado, x="anio", y="nacimientos", color="provincia", title="Evolución Histórica de Nacimientos por Provincia", markers=True, template="plotly_dark", color_discrete_sequence=px.colors.qualitative.Prism)
     fig_provincias_anio.update_layout(plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)", height=700)
     st.plotly_chart(fig_provincias_anio, use_container_width=True)
+    st.caption("Gráfico 1.2: Desglose histórico plurianual por jurisdicción para contrastar la heterogeneidad territorial en los patrones de natalidad.")
+
+    #distribucion x volumen de nacimiento
+    st.markdown("### 🗺️ Distribución Relativa del Volumen de Nacimientos")
+    top_provincias_acum = df_agrupado[df_agrupado['anio'] == df_agrupado['anio'].max()].sort_values(by="nacimientos", ascending=False).head(10)
+    fig_top_bar = px.bar(top_provincias_acum, x="provincia", y="nacimientos", title=f"Provincias con Mayor Volumen de Nacimientos ({df_agrupado['anio'].max()})", template="plotly_dark", color="nacimientos", color_continuous_scale="Viridis")
+    fig_top_bar.update_layout(plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)", height=400)
+    st.plotly_chart(fig_top_bar, use_container_width=True)
+    st.caption("Gráfico 1.3: Concentración de los nacimientos en las principales jurisdicciones del país para el último período censado o registrado.")
 
     st.divider()
     st.markdown("### 💰 Análisis Económico: Inflación Anual vs. Salario Mínimo de Diciembre")
 
     try:
-        #carga de los df procesados
+        #dfs
         df_salario = pd.read_csv('DATA_PROCESADA/ECONOMIA/salario_min_desde_2012.csv')
         df_inflacion = pd.read_csv('DATA_PROCESADA/ECONOMIA/inflacion_2012_2024.csv')
         df_var_inflacion = pd.read_csv('DATA_PROCESADA/ECONOMIA/variacion_inflacion_2012_2024.csv')
 
-        #emparejamos formato anual
+        
         if 'indice_tiempo' in df_salario.columns:
             df_salario['indice_tiempo'] = pd.to_datetime(df_salario['indice_tiempo'])
             df_salario_dic = df_salario[df_salario['indice_tiempo'].dt.month == 12].copy()
@@ -1446,7 +1675,6 @@ elif st.session_state.ver_general:
             df_salario_dic['anio'] = df_salario_dic['fecha'].dt.year
 
         df_var_inflacion['anio'] = pd.to_numeric(df_var_inflacion['fecha'], errors='coerce')
-
         df_eco = pd.merge(df_salario_dic, df_var_inflacion, on='anio', how='inner')
 
         if not df_eco.empty:
@@ -1486,174 +1714,34 @@ elif st.session_state.ver_general:
             fig_eco.update_yaxes(title_text="<b>Variación Inflación (%)</b>", secondary_y=True, showgrid=False)
 
             st.plotly_chart(fig_eco, use_container_width=True)
+            st.caption("Gráfico 1.4: Evolución cruzada entre los ajustes del salario mínimo nominal de diciembre y las fluctuaciones de la variación inflacionaria interanual.")
         else:
             st.info("No se encontraron registros coincidentes para unificar los datos económicos procesados.")
 
     except Exception as e:
         st.warning(f"No se pudieron cargar los archivos desde 'DATA_PROCESADA/ECONOMIA/'. Detalle: {e}")
 
-#causas
+    #grupo etario
+    try:
+        df_madres_gral = pd.read_csv("DATA_PROCESADA/POBLACION/madres_grupo_edad_total.csv")
+        if df_madres_gral is not None and not df_madres_gral.empty:
+            st.divider()
+            st.markdown("### 👶 Composición Agregada de Nacimientos por Grupo Etario de la Madre")
+            df_pivot_edad = df_madres_gral.pivot_table(index="anio", columns="grupo_etario_madre", values="cantidad", aggfunc="sum").reset_index()
+            
+            fig_area_edad = px.area(
+                df_pivot_edad, 
+                x="anio", 
+                y=[c for c in df_pivot_edad.columns if c != "anio"], 
+                title="Evolución de Nacimientos según Grupos Etarios Maternos (Acumulado)",
+                template="plotly_dark"
+            )
+            fig_area_edad.update_layout(plot_bgcolor="rgba(0, 0, 0, 0)", paper_bgcolor="rgba(0, 0, 0, 0)", height=450)
+            st.plotly_chart(fig_area_edad, use_container_width=True)
+            st.caption("Gráfico 1.5: Distribución en áreas apiladas que muestra el peso relativo de cada franja etaria de las madres en la caída global de los nacimientos.")
+    except Exception:
+        pass
 
-elif st.session_state.ver_causas:
-    # título
-    st.markdown("### 🧩 Posibles Causas")
-   
-    st.markdown(f"""
-        <div class="hero">
-        <h1>CUATRO HITOS,<br>CUATRO GRÁFICOS</h1>
-        <div class="sub">¿Qué pasó con los nacimientos después de cada medida de salud sexual y reproductiva?</div>
-        </div>
-        """, unsafe_allow_html=True)
-   
-    # estilo
-    st.markdown(f"""
-        <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
-        html, body, [class*="css"] {{ font-family: 'Inter', sans-serif; }}
-        [data-testid="stAppViewContainer"] {{ background: {BG}; color: {TEXT}; }}
-        [data-testid="stHeader"] {{ background: rgba(0,0,0,0); }}
-        #MainMenu, footer {{ visibility: hidden; }}
-        .block-container {{ padding-top: 2rem; max-width: 1200px; }}
-        section[data-testid="stSidebar"] {{ background: #0B1428; border-right: 1px solid #22345a; }}
-        .hero {{ padding: 2.6rem 2.2rem; border-radius: 24px; margin-bottom: 1rem;
-        background: radial-gradient(circle at 85% 20%, #1d3a6b 0%, {BG} 62%); border: 1px solid #22345a; }}
-        .hero h1 {{ font-size: 2.5rem; font-weight: 800; line-height: 1.12; margin: 0 0 .6rem 0; color: #fff; }}
-        .hero .sub {{ font-size: 1.15rem; color: {TEAL}; font-weight: 600; }}
-        .kicker {{ color:{TEAL}; font-weight:800; letter-spacing:.12em; font-size:.85rem; margin-top:3rem; }}
-        .title {{ font-size:1.8rem; font-weight:800; color:#fff; margin:.2rem 0 .3rem 0; line-height:1.2; }}
-        .rule {{ width:60px; height:4px; background:{TEAL}; border-radius:4px; margin:.4rem 0 1rem 0; }}
-        .card {{ background:{CARD}; border-radius:18px; padding:1.1rem 1.3rem; height:100%;
-        border:1px solid #243a64; border-left:5px solid {TEAL}; }}
-        .card h4 {{ margin:0 0 .5rem 0; color:#fff; font-size:1.02rem; }}
-        .card p, .card li {{ color:#cfd9ec; font-size:.93rem; line-height:1.55; margin:0 0 .35rem 0; }}
-        .card ul {{ padding-left:1.1rem; margin:0; }}
-        .card.blue {{ border-left-color:{BLUE}; }} .card.yellow {{ border-left-color:{YELLOW}; }} .card.coral {{ border-left-color:{CORAL}; }}
-        .bignum {{ text-align:center; padding:.9rem .4rem; background:{CARD}; border:1px solid #243a64; border-radius:16px; }}
-        .bignum .n {{ font-size:2.2rem; font-weight:800; line-height:1.05; }}
-        .bignum .l {{ color:{MUTED}; margin-top:.4rem; font-size:.85rem; line-height:1.35; }}
-        .note {{ color:{MUTED}; font-size:.85rem; font-style:italic; margin:.4rem 0 .8rem 0; }}
-        .callout {{ text-align:center; font-weight:800; font-size:1.15rem; color:{YELLOW}; padding:.8rem; margin:.6rem 0; }}
-        .src {{ color:#7e90b0; font-size:.8rem; }}
-        </style>
-        """, unsafe_allow_html=True)
-   
-    # 1, 2014 implante
-    E1 = 2014
-    capitulo("h1", "1 · 2014", "El implante subdérmico y los nacimientos de madres de 15 a 19 años")
-    tarjeta("Qué pasó",
-            "El Ministerio de Salud incorporó el implante subdérmico (\"chip\") a la canasta gratuita de métodos "
-            "anticonceptivos. En 2014 se priorizó a adolescentes de 15 a 19 años sin obra social que ya habían tenido al menos "
-            "un evento obstétrico. <b>Hipótesis:</b> como método de larga duración (LARC) no depende de la adherencia diaria, "
-            "y por eso podría reducir nuevos embarazos adolescentes.", "blue")
-    st.write("")
-    c1, r1a, r1d = grafico_hito(E1, S["15-19"], "Madres de 15 a 19 años", CORAL,
-                                [(S["20+"], "Madres de 20 años o más", BLUE)],
-                                "Nacimientos de madres de 15 a 19 años (índice base 100 = 2014)", key="g1")
-    indicadores(E1, "Madres de 15 a 19", c1, cambio(S["20+"], E1, Y1), "Madres de 20 o más", r1a, r1d)
-    nota(f"En {E1} había {fmt(S.loc[E1, '15-19'])} nacimientos de madres de 15 a 19 años; en {Y1}, {fmt(S.loc[Y1, '15-19'])}. "
-        "Antes del hito la serie venía estable o subiendo; el quiebre aparece desde el año siguiente.")
-
-    # 2, 2015 autonomía progresiva
-    E2 = 2015
-    capitulo("h2", "2 · 2015", "Autonomía progresiva y Ni Una Menos: nacimientos de madres de 10 a 14 años")
-    tarjeta("Qué pasó",
-            "Entró en vigencia el nuevo Código Civil y Comercial. Su artículo 26 reconoce que desde los 13 años los adolescentes "
-            "pueden decidir por sí mismos sobre tratamientos no invasivos, lo que incluye métodos anticonceptivos de ese tipo. "
-            "El 3 de junio nació Ni Una Menos. <b>Hipótesis:</b> más autonomía para consultar y más demanda de ESI y de "
-            "consentimiento entre estudiantes secundarias.", "blue")
-    st.write("")
-    c2, r2a, r2d = grafico_hito(E2, S["10-14"], "Madres de 10 a 14 años", CORAL,
-                                [(S["15-19"], "Madres de 15 a 19 años", YELLOW), (S["20+"], "Madres de 20 años o más", BLUE)],
-                                "Nacimientos de madres de 10 a 14 años (índice base 100 = 2015)", key="g2")
-    indicadores(E2, "Madres de 10 a 14", c2, cambio(S["20+"], E2, Y1), "Madres de 20 o más", r2a, r2d)
-    nota("Tus datos agrupan las edades de a cinco años, así que no se pueden aislar las madres de 13 años en adelante: "
-        "el grupo de 10 a 14 es lo más cercano. Son cifras chicas (cientos de nacimientos por año), por eso la curva es más irregular.")
-
-    # 3, 2017 ENIA
-    E3 = 2017
-    capitulo("h3", "3 · 2017", "Plan ENIA y asesorías en las escuelas: edades de escolaridad secundaria (10 a 19 años)")
-    tarjeta("Qué pasó",
-            "Los ministerios de Salud, Educación y Desarrollo Social articularon el Plan Nacional de Prevención del Embarazo No "
-            "Intencional en la Adolescencia (ENIA). Se diseñó en 2017 y se implementó desde 2018 en 36 departamentos de 12 provincias "
-            "de mayor fecundidad adolescente, con asesorías de salud integral en escuelas secundarias (ASIE) que conectan los contenidos "
-            "de ESI con la entrega de anticonceptivos. <b>Hipótesis:</b> llevar profesionales de salud a la escuela facilita el acceso real "
-            "a los métodos.", "blue")
-    st.write("")
-    c3, r3a, r3d = grafico_hito(E3, S["<20"], "Madres menores de 20 años", CORAL,
-                                [(S["20+"], "Madres de 20 años o más", BLUE)],
-                                "Nacimientos de madres menores de 20 años (índice base 100 = 2017)", key="g3")
-    indicadores(E3, "Madres menores de 20", c3, cambio(S["20+"], E3, Y1), "Madres de 20 o más", r3a, r3d)
-    nota("Se usan los grupos de 10 a 14 y de 15 a 19 años como aproximación a las edades de la escuela secundaria. "
-        "La baja ya venía en marcha antes de 2017: el ENIA no empezó en una curva plana.")
-
-    ENIA_PROV = {"catamarca", "chaco", "corrientes", "entre rios", "formosa", "jujuy", "la rioja", "misiones",
-                "salta", "santiago del estero", "tucuman"}
-    pm = leer_csv("POBLACION", "madres_provincia_grupo_edad.csv")
-    col_prov = None if pm is None else next((c for c in ("provincia_nombre", "provincia") if c in pm.columns), None)
-    if pm is not None and col_prov and {"anio", "grupo_etario_madre", "cantidad"} <= set(pm.columns):
-        pm = pm.copy()
-        pm["ini"] = pm["grupo_etario_madre"].map(inicio_edad)
-        pm["k"] = pm[col_prov].map(clave_prov)
-        pm = pm[(pm["ini"] < 20) & (pm["k"] != "buenos aires")]
-        pm["grupo"] = pm["k"].map(lambda k: "Provincias del Plan ENIA" if k in ENIA_PROV else "Resto de las provincias")
-        g = pm.groupby(["grupo", "anio"])["cantidad"].sum().unstack(0).sort_index()
-        if {"Provincias del Plan ENIA", "Resto de las provincias"} <= set(g.columns) and E3 in g.index:
-            st.markdown("##### Comparación entre provincias")
-            f = go.Figure()
-            f.add_vrect(x0=E3, x1=Y1 + 0.5, fillcolor="rgba(59,184,166,.07)", line_width=0)
-            f.add_vline(x=E3, line_dash="dash", line_color=YELLOW, line_width=2)
-            for col, color in (("Provincias del Plan ENIA", CORAL), ("Resto de las provincias", BLUE)):
-                idx = (g[col] / g.loc[E3, col] * 100).loc[[a for a in g.index if a >= E3 - 3]]
-                f.add_trace(go.Scatter(x=idx.index, y=idx.values, mode="lines+markers", name=col,
-                                    line=dict(color=color, width=4 if color == CORAL else 2.5)))
-                f.add_annotation(x=Y1, y=idx.iloc[-1], text=f"<b>{idx.iloc[-1] - 100:+.0f}%</b>".replace("-", "−"),
-                                showarrow=False, xanchor="left", xshift=8, font=dict(color=color, size=12))
-            f.update_layout(title="Madres menores de 20 años: provincias del ENIA vs resto (índice base 100 = 2017)")
-            f.update_xaxes(range=[E3 - 3.3, Y1 + 0.9])
-            mostrar(estilo(f, 400), key="g3b")
-            nota("Se excluye Buenos Aires porque el plan solo funcionó en algunos de sus partidos. Las provincias del ENIA "
-                "partían de tasas más altas, y eso también puede hacer que su baja relativa sea mayor.")
-
-    # 4, 2020 ley 27
-    E4 = 2020
-    capitulo("h4", "4 · 2020", "Ley 27.610 (IVE/ILE): evolución de los nacimientos totales desde 2020")
-    tarjeta("Qué pasó",
-            "El Congreso sancionó la ley el 30 de diciembre de 2020; se promulgó el 14 de enero de 2021 y rige desde ese mes. "
-            "Permite la interrupción voluntaria del embarazo hasta la semana 14 inclusive. <b>Hipótesis a evaluar:</b> que la ley haya reducido nacimientos de embarazos no "
-            "intencionales que no se pudieron prevenir con anticonceptivos.", "blue")
-    st.write("")
-    c4, r4a, r4d = grafico_hito(E4, S["total"], "Nacimientos totales", CORAL,
-                                [(S["<20"], "Madres menores de 20 años", YELLOW), (S["20+"], "Madres de 20 años o más", BLUE)],
-                                "Nacimientos totales (índice base 100 = 2020)", extra_vline=(2021, "2021: la ley rige"), key="g4")
-    indicadores(E4, "Nacimientos totales", c4, cambio(S["<20"], E4, Y1), "Madres menores de 20", r4a, r4d)
-    nota("Los nacimientos de 2020 corresponden a embarazos casi todos anteriores a la ley: los primeros nacimientos de embarazos "
-        "iniciados con la ley vigente aparecen hacia fines de 2021. La baja de los nacimientos comenzó después del máximo de 2014, años antes de la ley. "
-        "Mirá el recuadro amarillo: compara el ritmo de baja de los tres años previos con el posterior.")
-
-    # como leer...
-    capitulo("lectura", "CÓMO LEER ESTOS GRÁFICOS", "Qué muestran los datos y qué no pueden probar")
-    ritmo_20 = ritmo(S["20+"], E1, Y1)
-
-    tarjeta("Lo que sí muestran", color="", bullets=[
-        f"Los nacimientos de madres de 15 a 19 años bajaron {fpct(abs(c1), 0, signo=False)} desde 2014, mucho más que los de madres de 20 o más "
-        f"({fpct(abs(cambio(S['20+'], E1, Y1)), 0, signo=False)}).",
-        "El quiebre de la serie adolescente aparece justo después de 2014: antes estaba estable o subiendo.",
-        "Los organismos oficiales y varios estudios atribuyen parte de esa baja a la anticoncepción de larga duración y al "
-        "Plan ENIA; las evaluaciones del plan reportan caídas mayores en las provincias donde funcionó.",
-    ])
-    st.write("")
-    tarjeta("Qué faltaría para afirmar causas", color="yellow", bullets=[
-        "Series por edad simple (13, 14, 15…) para aislar el efecto de la autonomía progresiva desde los 13 años.",
-        "Tasas de fecundidad (nacimientos cada 1.000 mujeres de cada edad), no solo cantidades.",
-        "Comparar provincias con y sin ENIA, antes y después, ajustando por su nivel inicial.",
-        "Datos de abortos y de uso de anticonceptivos (DNSSR) para ver qué pasó con los embarazos y no solo con los nacimientos.",
-    ])
-    st.markdown(
-        '<div class="src">Fuentes consultadas: Ministerio de Salud (DNSSR, nota técnica sobre implantes); '
-        '<a href="https://www.unicef.org/argentina/media/3396/file/Asesor%C3%ADas%20en%20salud%20integral%20en%20escuelas%20secundarias.pdf" style="color:#3BB8A6">UNICEF · Asesorías en escuelas</a> · '
-        '<a href="https://chequeado.com/el-explicador/por-que-no-se-puede-vincular-la-caida-de-la-natalidad-con-el-aborto-como-afirmo-milei-en-carajo/" style="color:#3BB8A6">Chequeado · natalidad y ley 27.610</a> · '
-        'Estadísticas Vitales (DEIS), datos.gob.ar.</div>', unsafe_allow_html=True)
-    
 else:
    pass
     
