@@ -141,7 +141,8 @@ df_prov = leer_csv("POBLACION", "nacimientos_provi_año.csv")
 
 #barra del costado
 with st.sidebar:
-  st.title("🇦🇷 Dashboard de Natalidad")
+  with st.title("D.🍩.N.A"):
+    st.title("D.🍩.N.A", text_alignment="center")   
 
   # logica de la barra del costado
   if st.session_state.ver_storytelling:
@@ -190,7 +191,7 @@ with st.sidebar:
         [1 · 2014 · Implante subdérmico](#h1)  
         [2 · 2015 · Autonomía progresiva](#h2)  
         [3 · 2017 · Plan ENIA](#h3)  
-        [4 · 2020 · Ley 27.610](#h4)  
+        [4 · 2020 · Ley 27.610](#h4)   
         [Cómo leer estos gráficos](#lectura)
             """)
     st.caption("Nacimientos según la edad de la madre. Fuente: Estadísticas Vitales (DEIS), datos.gob.ar.")
