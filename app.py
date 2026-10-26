@@ -825,6 +825,8 @@ def tabla_datos(cols, evento):
         st.dataframe(t)
 
 
+
+
 #herramientas para que funcione el historytelling
 BASE = Path(__file__).resolve().parent
 PROC = BASE / "DATA_PROCESADA"
@@ -1630,6 +1632,219 @@ if st.session_state.ver_storytelling:
     )
     st.caption("Datos: datos.gob.ar · DEIS · RENAPER · INDEC.")
 
+elif st.session_state.ver_causas:
+
+    # =====================================================================
+    # CONTEXTO POLÍTICO · cuatro hitos de salud sexual y reproductiva
+    # Usa: S (nacimientos por edad de la madre), grafico_hito, indicadores,
+    # tabla_datos, capitulo, tarjeta, callout, nota, fuente, fpct, cambio, ritmo.
+    # =====================================================================
+
+    # grafico_hito() lee ANIOS, Y0 e Y1 como globales. Acá los alineamos con S
+    # (nacimientos por edad de la madre) para que los índices coincidan.
+    ANIOS = S.index.tolist()
+    Y0, Y1 = ANIOS[0], ANIOS[-1]
+
+    # estilo() propio de esta vista: con leyenda (si no, no se sabe qué línea es cuál)
+    # y con margen derecho para que entren las etiquetas de % al final de cada línea.
+    def estilo(fig, alto=430, leyenda=True):
+        fig.update_layout(
+            height=alto, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+            font=dict(color=TEXT, family="Inter"), margin=dict(l=10, r=90, t=60, b=10),
+            showlegend=leyenda, legend=dict(orientation="h", y=-0.15), title_font=dict(size=16),
+        )
+        fig.update_xaxes(gridcolor="#22345a", zeroline=False, dtick=1)
+        fig.update_yaxes(gridcolor="#22345a", zeroline=False)
+        return fig
+
+    # Estilos que usan las clases de esta vista y que no estaban definidos en el CSS general
+    st.markdown("""
+    <style>
+    .lead { color:#9FB0CC; font-size:1.05rem; margin:-0.4rem 0 1rem 0; }
+    .hero .meta { color:#9FB0CC; margin-top:10px; font-size:.95rem; }
+    .callout.warn { background: linear-gradient(135deg, rgba(232,96,95,.25), rgba(245,185,66,.2)); }
+    </style>
+    """, unsafe_allow_html=True)
+
+    resumen = []   # acumula los resultados de cada hito para la tabla final
+
+    def hito(anchor, kicker, titulo, bajada, evento, col_p, nombre_p, refs,
+             hechos, cautela, fuente_txt, titulo_grafico, extra_vline=None):
+        """
+        Dibuja un hito completo: encabezado con ancla, qué pasó, gráfico base 100,
+        tres indicadores, lectura y fuente.
+        refs: lista de (columna de S, nombre, color). La primera es la de comparación principal.
+        """
+        capitulo(anchor, kicker, titulo, bajada)
+        tarjeta("Qué pasó", color="blue", bullets=hechos)
+
+        # Si el año del hito no tiene datos antes o después, no se puede armar el gráfico
+        if evento not in S.index or evento <= Y0 or evento >= Y1:
+            st.info(f"No hay datos suficientes antes y después de {evento} para este gráfico.")
+            return
+
+        principal = S[col_p]
+        referencias = [(S[c], n, col) for c, n, col in refs]
+
+        c_p, r_antes, r_despues = grafico_hito(
+            evento, principal, nombre_p, CORAL, referencias, titulo_grafico,
+            extra_vline=extra_vline, key=f"hito_{anchor}",
+        )
+        c_ref = cambio(referencias[0][0], evento, Y1)
+        indicadores(evento, nombre_p, c_p, c_ref, referencias[0][1], r_antes, r_despues)
+
+        callout(
+            f"{nombre_p}: {fpct(c_p, 0, signo=True)} entre {evento} y {Y1}. "
+            f"{referencias[0][1]}: {fpct(c_ref, 0, signo=True)}."
+        )
+        nota(cautela)
+        tabla_datos([col_p] + [c for c, _, _ in refs], evento)
+        fuente(fuente_txt)
+
+        resumen.append({
+            "Hito": f"{evento} · {kicker.split('·')[-1].strip()}",
+            "Serie principal": nombre_p,
+            "Cambio desde el hito": f"{fpct(c_p, 0, signo=True)} ({evento} → {Y1})",
+            "Ritmo anual antes": fpct(r_antes, 1, signo=True),
+            "Ritmo anual después": fpct(r_despues, 1, signo=True),
+            "Comparación": f"{referencias[0][1]}: {fpct(c_ref, 0, signo=True)}",
+        })
+
+    # ------------------------------ portada ------------------------------
+    st.markdown('<div id="inicio"></div>', unsafe_allow_html=True)
+    st.markdown(
+        f"""
+        <div class="hero">
+        <h1>POLÍTICAS PÚBLICAS<br>Y NATALIDAD</h1>
+        <div class="sub">Cuatro hitos de salud sexual y reproductiva vistos a través de los nacimientos registrados</div>
+        <div class="meta">Nacimientos según la edad de la madre · {Y0}–{Y1}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    callout("Qué se muestra: cómo evolucionaron los nacimientos de cada grupo de edad de la madre antes y después de cada hito.")
+    nota("Es una lectura descriptiva: que dos cosas ocurran en el mismo período no prueba que una cause la otra. "
+         "Al final está la sección «Cómo leer estos gráficos».")
+    st.caption("Fuente de los nacimientos: Estadísticas Vitales (DEIS · Ministerio de Salud), datos.gob.ar.")
+
+    # ------------------------------ hito 1 · 2014 ------------------------------
+    hito(
+        "h1", "01 · 2014 · IMPLANTE SUBDÉRMICO",
+        "Un anticonceptivo de larga duración entra a la canasta pública",
+        "El foco inicial fueron las adolescentes de 15 a 19 años.",
+        2014, "15-19", "Madres de 15 a 19 años",
+        [("20+", "Madres de 20 años o más", BLUE)],
+        hechos=[
+            "En 2014 el Ministerio de Salud de la Nación incorporó el implante subdérmico a la canasta de anticonceptivos "
+            "gratuitos del Programa Nacional de Salud Sexual y Procreación Responsable (vigente desde 2003).",
+            "Se priorizó a adolescentes de 15 a 19 años, sin obra social ni prepaga, que hubieran tenido un evento obstétrico "
+            "en los 12 meses previos.",
+            "Es un método reversible de larga duración (protege alrededor de 3 años). Según datos del Ministerio de Salud "
+            "difundidos por Télam, su distribución en el sistema público creció más de 1.500 % en los años siguientes.",
+        ],
+        cautela="La política se enfocó en un grupo acotado y creció de forma gradual, así que su efecto no aparece de golpe en un año puntual. "
+                "Además, al mismo tiempo cambiaron otros factores (acceso a servicios, educación, economía).",
+        fuente_txt="Ministerio de Salud de la Nación, Dirección Nacional de Salud Sexual y Reproductiva (Nota técnica 5); "
+                   "Rustoyburu y Mateo (2020), CONICET; Estadísticas Vitales (DEIS).",
+        titulo_grafico="Nacimientos de madres de 15 a 19 años vs. madres de 20 o más (índice, base 100 = 2014)",
+    )
+
+    # ------------------------------ hito 2 · 2015 ------------------------------
+    hito(
+        "h2", "02 · 2015 · AUTONOMÍA PROGRESIVA",
+        "Los y las adolescentes pueden decidir sobre su propio cuerpo según su edad",
+        "El nuevo Código Civil y Comercial cambió quién puede consentir qué.",
+        2015, "<20", "Madres menores de 20 años",
+        [("20+", "Madres de 20 años o más", BLUE)],
+        hechos=[
+            "El 1 de agosto de 2015 entró en vigencia el nuevo Código Civil y Comercial de la Nación.",
+            "Su artículo 26 incorpora la autonomía progresiva: la capacidad de decidir sobre el cuidado del propio cuerpo "
+            "se amplía con la edad y la madurez.",
+            "De 13 a 16 años se presume autonomía para tratamientos no invasivos; desde los 16 años, el o la adolescente "
+            "es considerado adulto para las decisiones sobre su cuerpo. Especialistas y el Ministerio de Salud interpretan "
+            "que los anticonceptivos y preservativos están entre los actos que no requieren acompañamiento.",
+            "La Resolución 65/2015 del Ministerio de Salud sirvió de marco interpretativo para la salud sexual y reproductiva.",
+        ],
+        cautela="Es un cambio normativo, no un programa con presupuesto propio: su impacto depende de cómo se aplicó en cada servicio de salud. "
+                "Se muestra junto con la línea punteada de 2014 porque ambos hitos están muy cerca en el tiempo y no se pueden separar con estos datos.",
+        fuente_txt="Código Civil y Comercial de la Nación (arts. 25 y 26); Ministerio de Salud, Resolución 65/2015; "
+                   "Kemelmajer de Carlucci, Herrera, Lamm y Fernández (reglas de aplicación del art. 26).",
+        titulo_grafico="Nacimientos de madres menores de 20 años vs. madres de 20 o más (índice, base 100 = 2015)",
+        extra_vline=(2014, "Implante"),
+    )
+
+    # ------------------------------ hito 3 · 2017 ------------------------------
+    hito(
+        "h3", "03 · 2017 · PLAN ENIA",
+        "Una política nacional dedicada al embarazo no intencional en la adolescencia",
+        "Articuló salud, educación y desarrollo social.",
+        2017, "<20", "Madres menores de 20 años",
+        [("20+", "Madres de 20 años o más", BLUE)],
+        hechos=[
+            "En agosto de 2017 se creó el Plan Nacional de Prevención y Reducción del Embarazo No Intencional en la "
+            "Adolescencia (Plan ENIA), por la Resolución 1790/2017 del Ministerio de Desarrollo Social.",
+            "Fue diseñado en conjunto por los ministerios de Salud, Desarrollo Social y Educación.",
+            "Entre sus herramientas estuvieron las asesorías en salud integral en escuelas secundarias y el acceso a "
+            "métodos anticonceptivos gratuitos. Se implementó en territorio desde 2018 en 12 provincias.",
+            "En 2020 pasó a la órbita del Ministerio de Salud de la Nación.",
+        ],
+        cautela="El plan se aplicó en 12 provincias y el gráfico muestra el total del país, por lo que el efecto local queda diluido. "
+                "En 2024 se anunció un rediseño del plan y el gráfico no separa esas etapas. "
+                "También coinciden otras políticas (como el implante) y la pandemia desde 2020.",
+        fuente_txt="Ministerio de Salud de la Nación (convenios de adhesión al Plan ENIA); UNICEF Argentina; "
+                   "Consejo Consultivo del Plan ENIA (abril de 2024); Estadísticas Vitales (DEIS).",
+        titulo_grafico="Nacimientos de madres menores de 20 años vs. madres de 20 o más (índice, base 100 = 2017)",
+        extra_vline=(2018, "Inicio territorial"),
+    )
+
+    # ------------------------------ hito 4 · 2020 ------------------------------
+    hito(
+        "h4", "04 · 2020 · LEY 27.610",
+        "Ley de Acceso a la Interrupción Voluntaria del Embarazo",
+        "Sancionada a fines de 2020; en vigencia desde enero de 2021.",
+        2020, "total", "Nacimientos totales",
+        [("<20", "Madres menores de 20 años", BLUE)],
+        hechos=[
+            "La Ley 27.610 fue sancionada el 30 de diciembre de 2020, promulgada el 14 de enero de 2021 "
+            "(publicada en el Boletín Oficial el 15) y entró en vigencia el 24 de enero de 2021.",
+            "Regula el acceso a la interrupción voluntaria del embarazo hasta la semana 14 de gestación inclusive "
+            "y a la atención postaborto.",
+        ],
+        cautela="Este proyecto no incluye datos de interrupciones del embarazo, por lo que no permite medir el efecto directo de la ley. "
+                "Además 2020 coincide con la pandemia de COVID-19, que alteró los nacimientos y los registros. "
+                "Con pocos años posteriores a la ley, cualquier comparación es preliminar.",
+        fuente_txt="Ley 27.610 (Boletín Oficial, 15/01/2021); Ministerio de Salud de la Nación, Dirección Nacional de Salud "
+                   "Sexual y Reproductiva (Nota técnica 3); Estadísticas Vitales (DEIS).",
+        titulo_grafico="Nacimientos totales vs. madres menores de 20 años (índice, base 100 = 2020)",
+        extra_vline=(2021, "Vigencia"),
+    )
+
+    # ------------------------------ cómo leer ------------------------------
+    capitulo(
+        "lectura", "CÓMO LEER ESTOS GRÁFICOS", "Qué significan el índice y los números",
+        "Todos los gráficos de esta sección se leen igual.",
+    )
+    tarjeta("Guía rápida", bullets=[
+        "<b>Índice base 100:</b> el valor del año del hito vale 100. Si una línea termina en 70, esa serie bajó 30 % desde ese año.",
+        "<b>Línea vertical amarilla:</b> el año del hito. La zona sombreada es el período posterior. "
+        "La línea punteada gris, cuando aparece, marca otro hecho cercano.",
+        "<b>Línea gruesa coral:</b> la serie que se analiza. Las líneas punteadas son las de comparación.",
+        "<b>Ritmo anual promedio:</b> variación anual compuesta. «Antes» usa hasta 3 años previos al hito, "
+        "así que es una referencia corta y sensible a un solo año atípico.",
+        "<b>Qué no se puede concluir:</b> los gráficos muestran asociación en el tiempo. Hay otros factores actuando a la vez "
+        "(economía, educación, cambios culturales, la pandemia) y los datos son nacionales, no por provincia.",
+    ])
+    tarjeta("Sobre los datos", color="yellow", bullets=[
+        "Las series son nacimientos registrados, agrupados por la edad de la madre. "
+        "Los grupos «10-14» y «15-19» se suman para «menores de 20».",
+        "Los últimos años de las estadísticas vitales pueden estar sujetos a ajustes por demoras en el registro.",
+    ])
+
+    if resumen:
+        with st.expander("Ver el resumen comparado de los cuatro hitos"):
+            st.dataframe(pd.DataFrame(resumen), hide_index=True, use_container_width=True)
+
+    st.caption("Datos: Estadísticas Vitales (DEIS) · Ministerio de Salud de la Nación · datos.gob.ar.")
 
 elif st.session_state.ver_general:
     
