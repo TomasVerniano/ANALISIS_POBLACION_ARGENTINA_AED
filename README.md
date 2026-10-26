@@ -6,6 +6,13 @@ Permite consultar la evolución de nacimientos por provincia, analizar tendencia
 
 ---
 
+#  Participantes 
+* **Tomas Verniano
+* **Bautista Limer
+* **Leonel Encina
+* **Dylan Velazquez Wooley
+
+
 ## 📊 Características Principales
 
 * **Métricas de Variación Anual:** Identificación de las provincias con mayor aumento o disminución de nacimientos en comparación con el año anterior.
