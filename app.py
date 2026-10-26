@@ -14,7 +14,7 @@ import streamlit as st
 from pathlib import Path
 
 #ttulo
-st.set_page_config(page_title="Dashboard de Natalidad", page_icon="🫃", layout="wide")
+st.set_page_config(page_title="Dashboard Orientado a la Natalidad en Argentina", page_icon="🍩", layout="wide")
 
 #paletas
 BG, CARD, TEXT, MUTED = "#0F1B33", "#1A2B4A", "#EAF0FA", "#9FB0CC"
